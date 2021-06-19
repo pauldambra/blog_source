@@ -70,7 +70,7 @@ Progress! Kind of :
 The property 'Id' cannot be used as a key property on the entity 'HugeNumbers.Proton' because the property type is not a valid key type. Only scalar types, string and byte[] are supported key types.
 ```
 
-A negative result is still a result. So this is definitely progress! The [scalar types in SQL](http://my.safaribooksonline.com/book/databases/sql/9781449319724/2dot-types-and-domains/id2749129) include [numeric](http://msdn.microsoft.com/en-us/library/ms187746.aspx) which can hold 38 digits. Huzzah! And answers the question of how to represent the ID in the database.
+A negative result is still a result. So this is definitely progress! The [scalar types in SQL](https://docs.microsoft.com/en-us/sql/t-sql/data-types/decimal-and-numeric-transact-sql?view=sql-server-ver15) include [numeric](http://msdn.microsoft.com/en-us/library/ms187746.aspx) which can hold 38 digits. Huzzah! And answers the question of how to represent the ID in the database.
 
 #### So can we have a numeric ID in EF?!
 

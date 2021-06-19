@@ -55,7 +55,7 @@ paginate:
       {% if page == paginator.page %}
         <strong>{{ page }}</strong>
       {% elsif page == 1 %}
-        <a href="{{ '/index.html' | prepend: '/weeknotes' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+        <a href="{{ '/weeknotes' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
       {% else %}
         <a href="{{ site.paginate_path | prepend: '/weeknotes' | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
       {% endif %}

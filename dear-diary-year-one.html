@@ -22,7 +22,7 @@ It's not very accessible because the entries are images so that I can fit them i
   {% for diary_entry in diary_entries %}
 
       <h2>{{diary_entry.title}}</h2>
-      <img src="{{diary_entry.picture}}">
+      <img src="{{diary_entry.picture}}" alt="an image from my diary from before I switched to text based entries served as images">
 
   {% endfor %}
 

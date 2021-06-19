@@ -10,11 +10,11 @@ tags: [learning, react, js, series]
 
 #### part one because I've got a feeling this is a topic about which I'll be able to bang on.
 
-[React JS](http://facebook.github.io/react/index.html) was made by Facebook to be the V in MVC. In other words it only deals with the UI. It's sold as being fast - both for performance and development. A definitely contentious part of React is that it mushes JS and HTML together... More specifically you put HTML _inside_ the JS not vice versa.
+[React JS](http://facebook.github.io/react/index.html) was made by Facebook to be the V in MVC. In other words, it only deals with the UI. It's sold as being fast - both for performance and development. A contentious part of React is that it mushes JS and HTML together... More specifically, you put HTML _inside_ the JS and not vice versa.
 
 <!--more-->
 
-I've played with it [very briefly while prototyping an Imgur comment generator](https://pauldambra.github.io/commenturion/) and saw a talk on it recently at [MancJS](http://mancjs.com/#react). 
+I've played with it [very briefly while prototyping an Imgur comment generator](https://pauldambra.github.io/commenturion/) and saw a talk on it recently at MancJS. 
 
 So I already had a few thoughts:
 
@@ -26,17 +26,17 @@ So I already had a few thoughts:
 
 # Why
 
-We're using Angular in an application at work and without doubt it's allowed us to move fast but I do feel like there's a lot more of the typing to make things happen. And I still don't get directives even after several half-hearted attempts to understand them.
+We're using Angular in an application at work and, it's allowed us to move fast but, I do feel like there's a lot more of the typing to make things happen. And I still don't get directives even after several half-hearted attempts to understand them.
 
 It seems like the cool-kids hold the position we should ditch everything for React. And both my toe-dipped-in-the-water and the talk I saw suggested there was something worth investigating. So I thought I'd use my #holidaycode time to investigate.
 
 # What
 
-Most of my front-end work for the last eight months and most for the foreseeable future is data-visualisation heavy so that's what I wanted to riff on.
+Most of my front-end work for the last eight months and most for the foreseeable future is data-visualisation heavy so, that's what I wanted to riff on.
 <!--alex ignore gross --->
 I grabbed some data on the gender pay gap in the UK from the [Annual Survey of Hours and Earnings, 2014 Provisional Results.](http://www.ons.gov.uk/ons/dcp171778_385428.pdf) And decided to use a simplified version of [the source for Figure 8](http://www.ons.gov.uk/ons/rel/ashe/annual-survey-of-hours-and-earnings/2014-provisional-results/chd-8-gpg.xls). Showing the gender pay gap for median gross hourly earnings (excluding overtime), UK, April 1997 to 2014
 <!--alex ignore daughters-sons --->
-Now to represent as a table and a chart so a good starting point. Plus I've got three daughters so it's a subject close to my heart.
+Now to represent as a table and a chart so a good starting point. Plus I've got three daughters so, it's a subject close to my heart.
 
 # How
 
@@ -278,7 +278,7 @@ Not passed in. Not immutable. It's the, erm, well, the state.
 
 So in addition to a `render` function we add a [`getInitialState` function](http://facebook.github.io/react/docs/component-specs.html#getinitialstate). This provides the initial state of the component. It should be idempotent - i.e. no matter how many times the component is created, all other things being equal, the initial state is the same. 
 
-I've spotted a "problem" with this... In the docs it is described as an [antipattern to assign a foo property to foo state](http://facebook.github.io/react/tips/props-in-getInitialState-as-anti-pattern.html). You can do it but instead you should have an intialFoo property that is assigned to the foo state. That change of calling out that the link between the two is that the property is the initial value and shouldn't be mutated within the component's state seems important to being in the React mindset.
+I've spotted a "problem" with this... In the docs it is described as an [antipattern to assign a foo property to foo state](https://web.archive.org/web/20151123203904/http://facebook.github.io/react/tips/props-in-getInitialState-as-anti-pattern.html). You can do it but instead you should have an intialFoo property that is assigned to the foo state. That change of calling out that the link between the two is that the property is the initial value and shouldn't be mutated within the component's state seems important to being in the React mindset.
 
 Anyhoo, having decided that a user would be able to click on the Year column header and that interaction would sort the column and that the Year header would have a visual affordance to show the data is sortable and in which direction it currently is. This means that the initial state is the direction of the sort and the sorted data.
 

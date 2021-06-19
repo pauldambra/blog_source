@@ -36,6 +36,4 @@ So we could add a toggle that allows people to tell us what they want to do - as
 
 ![Mockup](http://2.bp.blogspot.com/-gvBeHDi7SwQ/UUlufgumOJI/AAAAAAAACyg/RPcrpOyQ3Qo/s1600/rad-search-two.png)
 
-I worry that there's more to parse on this screen but also I wonder if it makes the fact that you can search by address more discoverable.
-
-Or something else or <a href="http://cdn.crushable.com/files/2012/05/whatthewhat.gif" target="_blank">what-the-what</a> and then.... oh no! <a href="http://en.wikipedia.org/wiki/Analysis_paralysis">ANALYSIS PARALYSIS</a>!!!111!!!1!!!
+I worry that there's more to parse on this screen but also, I wonder if it makes the fact that you can search by address more discoverable.

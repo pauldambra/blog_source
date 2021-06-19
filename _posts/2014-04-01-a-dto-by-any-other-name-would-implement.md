@@ -18,7 +18,7 @@ I've been thinking about what people call the objects they pass around and wheth
 <!--alex ignore he-she --->
 The most common is DTO or Data Transfer Object. [Fowler has a definition](http://martinfowler.com/eaaCatalog/dataTransferObject.html) "An object that carries data between processes in order to reduce the number of method calls." He extends this clarifying it should be an object that can be serialised.
 
-[This out-of-date article from Microsoft](http://msdn.microsoft.com/en-us/library/ms978717.aspx) also defines this as an object that is used to reduce the number of calls to a remote interface in a distributed system. I suppose  [Android's Intent](http://developer.android.com/reference/android/content/Intent.html) are an example of serializable objects that communicate between processes without using the web - although I don't know enough Android to be sure about that.
+[This out-of-date article from Microsoft](http://msdn.microsoft.com/en-us/library/ms978717.aspx) also defines this as an object that is used to reduce the number of calls to a remote interface in a distributed system. I suppose  [Android's Intent](https://developer.android.com/reference/android/content/Intent) are an example of serializable objects that communicate between processes without using the web - although I don't know enough Android to be sure about that.
 
 However, in [this MSDN article](http://msdn.microsoft.com/en-us/magazine/ee236638.aspx#id0080022) DTOs are defined specifically as objects with properties but no methods used to isolate presentation from the domain - what Fowler calls "localDTO".
 

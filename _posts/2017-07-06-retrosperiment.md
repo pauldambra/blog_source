@@ -8,7 +8,7 @@ category: "agile"
 tags: [agile, xp, retrospective]
 ---
 
-([originally posted on the code computerlove blog](https://lean.codecomputerlove.com/a-retrosperiment/))
+(originally posted on the code computerlove blog. At the now dead link: https://lean.codecomputerlove.com/a-retrosperiment/)
 
 # Experimenting with a "new" retro format
 

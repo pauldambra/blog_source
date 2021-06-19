@@ -132,5 +132,6 @@ I should be able to set my `.alexrc` file to contain
 
 but that doesn't seem to work. I'll try to make time to see if it's me or I can raise a PR to fix it. The `verify.sh` script has the `--diff` flag so I'll only see the warning locally anyway and it won't clutter CI output.
 
-`Idiot` is a word I use less and less since it's so easy to replace. And on reading the paragraph it was in seven-years-later me thinks it doesn't add anything to the post at all... so I remove it entirely. Whether or not `idiot` is OK to use the prompt allows me to reconsider a superflous paragraph.
+`Idiot` is a word I use less and less since it takes little effort to replace. On reading the paragraph it was in seven years later it doesn't add anything to the post at all. So I remove it entirely. Whether or not `idiot` is OK to use the prompt allows me to reconsider a superfluous paragraph.
 
+Update 2021: This has been in my drafts for four years. I am going to publish it without editing
