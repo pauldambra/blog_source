@@ -59,7 +59,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         personal_token: ${{ secrets.blog_repo_access }}
-        external_repository: pauldambra/pauldambra.github.io.git
+        external_repository: pauldambra/pauldambra.github.io
         publish_branch: master  # default: gh-pages
         publish_dir: ./_site
         force_orphan: true
