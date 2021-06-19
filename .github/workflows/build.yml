@@ -56,14 +56,16 @@ jobs:
     - name: build site
       run: bundle exec jekyll build --trace
     - name: deploy
-      run: |
-        cd _site
-        git diff
-        git add -A
-        git config --global user.name "Github Actions CI"
-        git config --global user.email paul.dambra+github@actions.com
-        git commit -m "${GITHUB_RUN_NUMBER} auto-pushed to github"
-        git push https://${{ secrets.blog_repo_access }}@github.com/pauldambra/pauldambra.github.io.git master:master --force
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        deploy_key: ${{ secrets.blog_repo_access }}
+        external_repository: pauldambra/pauldambra.github.io.git
+        publish_branch: master  # default: gh-pages
+        publish_dir: ./_site
+        force_orphan: true
+        user_name: 'Github Actions CI'
+        user_email: 'paul.dambra+github@actions.com'
+        commit_message: "${GITHUB_RUN_NUMBER} auto-pushed to github"
     - name: test html # has to come after deploy so new links are valid
       run: bundle exec ruby ./htmltest.rb
 
