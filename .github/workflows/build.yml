@@ -58,7 +58,7 @@ jobs:
     - name: deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-        deploy_key: ${{ secrets.blog_repo_access }}
+        personal_token: ${{ secrets.blog_repo_access }}
         external_repository: pauldambra/pauldambra.github.io.git
         publish_branch: master  # default: gh-pages
         publish_dir: ./_site
