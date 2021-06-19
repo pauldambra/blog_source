@@ -65,7 +65,7 @@ jobs:
         force_orphan: true
         user_name: 'Github Actions CI'
         user_email: 'paul.dambra+github@actions.com'
-        commit_message: "${{GITHUB_RUN_NUMBER}} auto-pushed to github"
+        commit_message: "${{env.GITHUB_RUN_NUMBER}} auto-pushed to github"
     - name: test html # has to come after deploy so new links are valid
       run: bundle exec ruby ./htmltest.rb
 
