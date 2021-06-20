@@ -79,7 +79,8 @@ There is very little cost to modifying your language (replacing "guys" with "eve
 
 Alex is run using this command: `npx alex _posts --why`
 
-`--why` tries to output a source for the warning
+* `_posts` tells alex which directory to start in
+* `--why` tries to output a source for the warning
 
 <!--alex ignore heshe--> 
 ## he-she rule
@@ -127,7 +128,9 @@ I can set my `.alexrc` file to contain
 }
 ```
 
-`Idiot` is a word I use less and less since it takes little effort to replace. On reading the paragraph it was in so many years after writing it doesn't add anything to the post at all. So I remove it entirely. 
+Or to rephrase the sentence. There's always another way to make yourself clear.
+
+I use words like `Idiot` less and less since it takes little effort to replace them. On reading the paragraph it was in so many years after writing it doesn't add anything to the post at all. So I remove the entire paragraph. 
 
 # And so...
 
