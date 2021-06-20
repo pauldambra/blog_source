@@ -24,27 +24,27 @@ One of the benefits of generating a site as a static artefact (here using [Jekyl
 
 A previous post in this series looked at testing the generated HTML for technical correctness... Things like if the HTML is well-formed or that links go to real destinations.
 
-This post describes testing the _meaning_ of the text in the generated HTML
+This post describes testing the _meaning_ of the text in the generated HTML. Checking spelling, and keeping myself honest in my attempt to use more inclusive language.
 
 <!--more-->
 
 # Test the markdown itself
 
-This first is straight-forward. Since the html is generated from markdown is that markdown valid. 
+Since the HTML is generated from markdown. Is that markdown valid?
 
 ```
 node_modules/.bin/remark . --use lint --frail
 ```
 
-[Remark](https://github.com/wooorm/remark) is a tool that allows the use of more than one plugin for proccessing markdown.
+[Remark](https://github.com/wooorm/remark) is a tool that allows the use of more than one plugin for processing markdown.
 
-Here the `--use lint` adds the linting plugin and `--frail` set it to exit with a non-zero code on warnings as well as errors.
+Here the `--use lint` adds the linting plugin. `--frail` set it to exit with a non-zero code on warnings as well as errors.
 
-In CI this is very much dotting the is and crossing the ts because the markdown has been used to generate HTML. And that HTML has been tested but locally this is really useful. There are still old posts I grabbed from Blogger that are very messy HTML. Periodically I'll switch one to MarkDown and this helps catch errors fast.
+This doesn't help test the meaning. But, it does help ensure that other errors that are found are located in the meaning and not in a typo. There are still old posts I grabbed from Blogger that are very messy HTML. Periodically I'll switch one to MarkDown and this helps catch errors fast.
 
 # Even better - test the spelling in the markdown
 
-After _yet another_ occassion where I proof-read a post, published it, read it, and immediately saw a spelling mistake I'd missed it was time to automate the solution.
+After _yet another_ occasion where I proofread a post, published it, read it, and immediately saw a spelling mistake. It was time to automate the solution.
 
 ```
   node_modules/.bin/mdspell _posts/**.md \
@@ -54,7 +54,7 @@ After _yet another_ occassion where I proof-read a post, published it, read it, 
     --report
 ```
 
-[MarkDown spellcheck](https://github.com/lukeapage/node-markdown-spellcheck) is a tool for doing just that.
+[MarkDown spellcheck](https://github.com/lukeapage/node-markdown-spellcheck) is a tool for doing exactly that.
 
 Here it 
 
@@ -63,28 +63,25 @@ Here it
  * ignores numbers and acronyms
  * and is set to run in `report` mode
 
-The tool has a `report` mode which just outputs spelling errors and then exits with a non-zero code. And an `interactive` mode which pauses on each potential mistake allowing you to choose to ignore, add to dictionary, or correct.
+The tool has a `report` mode which outputs spelling errors and then exits with a non-zero code. And an `interactive` mode that pauses on each potential mistake allowing you to choose to ignore, add to a dictionary, or to correct.
 
 ![example interactive spelling output](/interactive-spelling.png)
 
 The interactive spelling mode can be pretty slow at checking the dictionary. There is [an open issue about this](https://github.com/lukeapage/node-markdown-spellcheck/issues/33).
 
-As you train this tool it populates a `.spelling` file so that you don't have to keep teaching it the domain-specific language you use. [Mines already hundreds of lines long](https://github.com/pauldambra/blog_source/blob/c71413210bde13f195e4b4adac28caa74f35761a/.spelling).
+As you train this tool, it populates a `.spelling` file so that you don't have to keep teaching it the domain-specific language you use. [Mine's already hundreds of lines long](https://github.com/pauldambra/blog_source/blob/c71413210bde13f195e4b4adac28caa74f35761a/.spelling).
 
-# Testing the meaning...
-
-This is, as you might expect, less clear-cut. And... it isn't really meaning - that's just the clickbait title to draw you in.
+# Testing for inconsiderate language...
 
 [Alex](http://alexjs.com/) is a tool for catching inconsiderate or insensitive language.
 
-Their is very little cost to modifying your language (replacing "guys" with "everyone" or "his" with "their") and compared to the cost of excluding even one person I consider it a worthwhile thing to try to improve.
+There is very little cost to modifying your language (replacing "guys" with "everyone" or "his" with "their"). And compared to the cost of excluding even one person, I consider it a worthwhile thing to try to improve.
 
-Alex has a very simple call: `node_modules/.bin/alex _posts --diff --why`
+Alex is run using this command: `npx alex _posts --why`
 
-Here the `--diff` checks if it is running on Travis and then only checks lines that have changed so you can ignore a warning once and not worry about it next time.
+`--why` tries to output a source for the warning
 
-And `--why` tries to output a source for the warning
-
+<!--alex ignore heshe--> 
 ## he-she rule
 
 ```
@@ -92,9 +89,9 @@ _posts/2014-06-01-promises-part-2.md
   197:160-197:162  warning  `he` may be insensitive, use `they`, `it` instead            he-she          retext-equality
 ```
 
-Here I am referring to a man so I could just ignore this warning. Or spend the (literal) second to convert that reference to `they` and the sentence is still grammatically correct.
+In that text I am referring to a man. So, I _could_ ignore the warning. By adding an HTML comment to the markDown `<!--alex ignore he-she-->`. In each case replacing `he-she` with the reported rule in the output.
 
-Context is k̶i̶n̶g̶ key so just because Alex warns that a use of gender pronoun might be insensitive you needn't change it. But it's good to consider it!
+Or spend the (literal) second to convert that reference to `they`.
 
 ## A file with more errors
 
@@ -110,17 +107,17 @@ Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
 
 Here's another example of the importance of context but also the unthinking use of language.
 
-I wrote that post seven years ago... I don't think I'd use that voice any more but I'm ok with `bitchin'` in the context it was in.
+I wrote that post in 2010. I don't use that voice any more. But, I'm ok with `bitchin'` in the context it was used in. But it isn't about what I'm ok with. I don't know the reader and can rephrase without it. 
 
-Next `failed is profane in some cases`... in this post it's talking about software failing to send emails. Someone is welcome to enlighten me but I'm good with that too.
+Next `failed is profane in some cases`... in this post it's talking about software failing to send emails. I think it's ok. But I can also see how to rephrase the sentence. This is about trying to include as many people as possible. It takes seconds to rephrase the sentence.
 
-Then a warning about "Oh God it's awful" - and there I'm talking about software I wrote :/
+Then a warning about "Oh God it's awful" - and there I'm talking about software I wrote :/ If you've worked with me, you may recognise the feeling :p
 
-I feel relatively strongly that blasphemy isn't a thing to worry about. I'm not going to go out of my way to blaspheme (although I don't normally capitalise God) but I think the idiom in English of saying "oh god it's awful" is common enough.
+I feel relatively strongly that blasphemy is allowed. We should have freedom _from_ religion as well as freedom _of_ religion. I also feel strongly that I don't go out of my way to blaspheme.
 
-And in fact I don't want Alex to warn me about the word 'god'
+So I might choose to set Alex not to warn me about the word 'god'
 
-I should be able to set my `.alexrc` file to contain
+I can set my `.alexrc` file to contain
 
 ```
 {
@@ -130,8 +127,10 @@ I should be able to set my `.alexrc` file to contain
 }
 ```
 
-but that doesn't seem to work. I'll try to make time to see if it's me or I can raise a PR to fix it. The `verify.sh` script has the `--diff` flag so I'll only see the warning locally anyway and it won't clutter CI output.
+`Idiot` is a word I use less and less since it takes little effort to replace. On reading the paragraph it was in so many years after writing it doesn't add anything to the post at all. So I remove it entirely. 
 
-`Idiot` is a word I use less and less since it takes little effort to replace. On reading the paragraph it was in seven years later it doesn't add anything to the post at all. So I remove it entirely. Whether or not `idiot` is OK to use the prompt allows me to reconsider a superfluous paragraph.
+# And so...
 
-Update 2021: This has been in my drafts for four years. I am going to publish it without editing
+These are small changes that help make writing more accessible. I am an imperfect human and find great value in automation that helps me avoid mistakes.
+
+Update 2021: This has been in my drafts for four years. I am going to publish it with minimal editing in the interest of progress over perfection
