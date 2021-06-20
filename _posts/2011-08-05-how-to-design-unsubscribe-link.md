@@ -28,9 +28,9 @@ Except someone malicious could
 ```
  and unsubscribe every member. 
 
-No it isn't that likely since this is for a climbing organisation but then you'd be surprised how many smart alec programmers also climb!
+No, it isn't that likely since this is for a climbing organisation but, it's an avoidable risk!
 
-Alright we don't need to make it into
+Alright, we don't need to make it into
 
 `http://unsubscribe.somewhere.co.uk/{encrypted_something}`
 
@@ -40,7 +40,7 @@ I think that would be overkill so let's
 
 That way although you could sit and guess the email addresses of members to unsubscribe them at least it is harder and the urls are readable
 
-Except the [HTTP RFC](http://t.co/xH5nYHf) says that a GET request should be idempotent.
+Except the [HTTP RFC](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html) says that a GET request should be idempotent.
 
 ![not sure if meme is appropriate or you should feel bad](http://1.bp.blogspot.com/-uEF-Zso3K5M/Tju1K8hAhrI/AAAAAAAAAVk/Vi_WggM_FEY/s1600/1095675-futurama_fry_looking_squint_super.jpg)
 
@@ -58,7 +58,7 @@ I'm a google fanboy so [what do they say](https://mail.google.com/support/bin/an
 > 
 > 1) A prominent link in the body of an email leading users to a page confirming his or her unsubscription (no input from the user, other than confirmation, should be required).<br />2) By replying to your email with an unsubscribe request.
 
-So I think that we're going to shufty this all around a bit.
+So I think that we're going to shufty this all-around a bit.
 
 Two types of mailings = two types of link
 

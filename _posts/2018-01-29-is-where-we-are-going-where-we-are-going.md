@@ -15,7 +15,7 @@ A way of measuring the progress being made by a software team. Not all teams use
 <!--more-->
 
 > Velocity is the number of story points completed by a team in an iteration.
-[scrum alliance 2014](https://www.scrumalliance.org/community/articles/2014/february/velocity)
+[scrum alliance 2014](https://web.archive.org/web/20170926190909/https://www.scrumalliance.org/community/articles/2014/february/velocity)
 <!--alex ignore simple --->
 > define velocity as simply a measure of how fast a team is going
 [mountain goat software 2014](https://www.mountaingoatsoftware.com/blog/know-exactly-what-velocity-means-to-your-scrum-team)

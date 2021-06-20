@@ -8,7 +8,7 @@ category: "serverless"
 tags: ["serverless", "experience-report"]
 ---
 
-At [Manchester Java Unconference 2019](https://mcrjava.github.io/jmanc/) I attended a discussion on "Cloud Native Functions". It turned out nobody in the group had used "cloud native" but I've been working with teams using serviceful systems.
+At the 2019 Manchester Java Unconference I attended a discussion on "Cloud Native Functions". It turned out nobody in the group had used "cloud native" but I've been working with teams using serviceful systems.
 
 I have a bad habit of talking more than I should but, despite my best efforts, the group expressed interest in hearing what teams at Co-op Digital had learned in the last ten months or so of working with serviceful systems in AWS.
 
@@ -36,7 +36,7 @@ These are compute environments that let someone deploy a function that will run 
 
 AWS, Azure, and Google Cloud Platform all have a FaaS offering. There are systems like kubeless that let you run infrastructure (or rent it from someone else) and run your own FaaS environment on top of that.
 
-[CNCF has a landscape view](https://landscape.cncf.io/format=serverless&fullscreen=yes&zoom=150) at time of writing that has 58 serverless products on it.
+[CNCF has a landscape view](https://landscape.cncf.io/serverless?fullscreen=yes&zoom=150) at time of writing that has 58 serverless products on it.
 
 If I only convince you of one thing in this post I want it to be this: none of the items in the "installable platform" section are Serverless. Doesn't mean they aren't potentially valuable to someone but...
 

@@ -10,9 +10,9 @@ tags: ["dry", "solid", "refactoring", "kotlin"]
 
 # DRY or WET?
 
-DRY, in software developement, stands for Don't Repeat Yourself. This is often taken to mean remove any duplication of lines of code. Take [this article](https://www.codementor.io/joshuaaroke/dry-code-vs-wet-code-89xjwv11w) from the [front page of Google results](https://www.google.co.uk/search?q=software+dry&oq=software+dry). Or on [this page](http://programmer.97things.oreilly.com/wiki/index.php/Don't_Repeat_Yourself) that says "Every line of code that goes into an application must be maintained, and is a potential source of future bugs. Duplication needlessly bloats the codebase"
+DRY, in software development, stands for Don't Repeat Yourself. This is often taken to mean remove any duplication of lines of code. See the anti-example [in the wiki page](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) comparing to WET code - which stands for Write Everything Twice. This reinforces the idea that this is about the amount you type. 
 
-Often this is compared to WET code - which stands for Write Everything Twice. Reinforcing the idea that this is about the amount you type. Below we're going to look at what the impact of removing duplication of lines of code does to some software, hopefully demonstrate that it isn't desirable as an absolute rule, and show what the better way might be.
+Below we're going to look at what the impact of removing duplication of lines of code does to some software, hopefully demonstrate that it isn't desirable as an absolute rule, and show what the better way might be.
 
 <!--more-->
 
