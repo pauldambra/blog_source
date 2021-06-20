@@ -24,7 +24,7 @@ It turns out that the DB schema that the data is ultimately sourced from has the
 
 I've never really used Oracle so I had to dig around to discover that [a NUMBER(38) field can hold 99999999999999999999999999999999999999x10<sup>125</sup> as its maximum value](http://docs.oracle.com/cd/B19306_01/server.102/b14237/limits001.htm)
 
-OK, that's a big number. Let's put it into context - [the ESA estimates there are something like 10<sup>22</sup>&nbsp;to 10<sup>24&nbsp;</sup>&nbsp;stars in the known universe](http://www.esa.int/Our_Activities/Space_Science/Herschel/How_many_stars_are_there_in_the_Universe)
+OK, that's a big number. Let's put it into context - [the ESA estimates there are something like 10<sup>22</sup>&nbsp;to 10<sup>24&nbsp;</sup>&nbsp;stars in the known universe](https://www.esa.int/Our_Activities/Space_Science/Herschel/How_many_stars_are_there_in_the_Universe)
 
 These IDs are used in the MS SQL DB Schema that we're importing into so I can't ignore the possibility of an ID coming in with this massive value. So there're three distinct problems here...
 
