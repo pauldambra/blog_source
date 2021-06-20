@@ -22,7 +22,7 @@ A way of measuring the progress being made by a software team. Not all teams use
 
 In fact both of those articles go on to expand on the physical metaphor...
 
-> How do you measure your velocity while driving? (Imagine the speedometer is broken.) You've been driving for the last two hours, you've gone 160 kilometers, so you know your average velocity is 80 km per hour. [scrum alliance 2014](https://www.scrumalliance.org/community/articles/2014/february/velocity)
+> How do you measure your velocity while driving? (Imagine the speedometer is broken.) You've been driving for the last two hours, you've gone 160 kilometers, so you know your average velocity is 80 km per hour. [scrum alliance 2014](https://web.archive.org/web/20170926190909/https://www.scrumalliance.org/community/articles/2014/february/velocity)
 
 # A little physics
 
@@ -108,7 +108,7 @@ Since we're generally operating under imperfect conditions. Trying to figure out
 
 ![a picture of the peak in foggy conditions](/images/foggy-day.jpg)
 
-A friend was for a while a member of mountain rescue (who are incidentally incredible - [you should give them money](http://www.kmrt.org.uk/fundraising/other-ways-to-give/)). They once described to me how they navigate when they have very low visibility.
+A friend was for a while a member of mountain rescue (who are incidentally incredible - [you should give them money](https://donate.justgiving.com/donation-amount?uri=aHR0cHM6Ly9kb25hdGUtYXBpLmp1c3RnaXZpbmcuY29tL2FwaS9kb25hdGlvbnMvNzk5ZTk3YzlhMDFiNGRkMGJhNzEwNTdjMWIxODgyZjg=)). They once described to me how they navigate when they have very low visibility.
 
 ![a lost Lego hiker](/images/lost.jpg)
 

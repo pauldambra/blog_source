@@ -9,7 +9,7 @@ category: hardware
 tags: [review, problem-solving]
 ---
 
-I've got [a mini 5101](http://h20000.www2.hp.com/bizsupport/TechSupport/Home.jsp?lang=en&cc=us&prodTypeId=321957&prodSeriesId=3973865&lang=en&cc=us). A little HP netbook that I lurve. It runs Windows 7 and Ubuntu 10.04 with aplomb.
+I've got [a mini 5101](https://support.hp.com/gb-en/document/c01846437). A little HP netbook that I lurve. It runs Windows 7 and Ubuntu 10.04 with aplomb.
 
 <!--more-->
 

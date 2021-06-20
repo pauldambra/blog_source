@@ -17,6 +17,14 @@ options = {
   check_opengraph: true,
   check_html: true,
   file_ignore: ['/.git/'],
+  url_ignore: [
+    'https://codepen.io/pauldambra/pen/gIseG/', 
+    'https://codepen.io/pauldambra', 
+    'https://codepen.io',
+    'https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html',
+    'https://developer.android.com/reference/android/content/Intent',
+    'https://www.googletagmanager.com/gtag/js?id=UA-49969634-1'
+  ],
   parallel: { in_processes: 6 }
 }
 HTMLProofer.check_directory("./_site", options).run
