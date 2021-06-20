@@ -65,7 +65,7 @@ Here it
 
 The tool has a `report` mode which outputs spelling errors and then exits with a non-zero code. And an `interactive` mode that pauses on each potential mistake allowing you to choose to ignore, add to a dictionary, or to correct.
 
-![example interactive spelling output](/interactive-spelling.png)
+![example interactive spelling output](/images/interactive-spelling.png)
 
 The interactive spelling mode can be pretty slow at checking the dictionary. There is [an open issue about this](https://github.com/lukeapage/node-markdown-spellcheck/issues/33).
 
