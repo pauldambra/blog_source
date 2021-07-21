@@ -75,7 +75,7 @@ The team should work with the Principal Engineer and the Product Manager. To det
 
 ### And you should switch between those two modes
 
-Sometimes you start what you think is a quick task. And discover it isn't. You should stop, write ti down and treat it as a separate piece of work.
+Sometimes you start what you think is a quick task. And discover it isn't. You should stop, write it down and treat it as a separate piece of work.
 
 # The four things we call technical debt
 
