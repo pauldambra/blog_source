@@ -3,7 +3,7 @@ title: "Tech Debts"
 layout: "post"
 permalink: "/2021/07/tech-debts.html"
 date: "2021-07-21 08:00:00"
-description: "There are four kinds of tech debt"
+description: "There are four things we call tech debt"
 category: "semantics"
 tags: ["meaning", "pedantry"]
 ---
