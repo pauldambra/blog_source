@@ -81,13 +81,14 @@ Sometimes you start what you think is a quick task. And discover it isn't. You s
 
 # 1. Mess
 
+<!--alex ignore ball-->
 [Foote and Yoder propose that all architectures become a big ball of mud.](http://www.laputan.org/mud/) It's a great paper. I suggest that software always ends up looking like the home of a hoarder.
 
 ![a picture of a hoarders room, very messy, with piles of things](/images/tech-debts/Hoarding_living_room.jpeg)
 
 ## What is it?
 
-[People solve problems by adding things far more than they do by removing them.](https://www.sciencealert.com/here-s-why-our-brains-always-want-to-solve-problems-by-adding-not-taking-away) That's what hoarders do. Nobody set out to create the room in the image. They just kept adding things that they thought were useful. The hoarder is used to it. This is their normal. Anyone new to the hoarder's home can't imagine how they can live there.
+[People solve problems by adding things far more than they do by removing them.](https://www.sciencealert.com/here-s-why-our-brains-always-want-to-solve-problems-by-adding-not-taking-away) That's what hoarders do. Nobody set out to create the room in the image. They kept adding things that they thought were useful. The hoarder is used to it. It becomes their normal. Anyone new to the hoarder's home can't imagine how they can live there.
 
 At some point, the software industry started calling this technical debt. It isn't. It's mess. The only response to mess. Is to accept it is inevitable and to tidy up at a faster rate than we add mess.
 
@@ -129,9 +130,9 @@ What I had thought was a great coat, was actually a smelly coat. It served me we
 
 ## What is it?
 
-We are always growing and learning. Decisions we make that we are proud of over time becomes decisions we wish we hadn't made. Sometimes it is easy to change the decision. Other times it is hard.
+We are always growing and learning. Decisions we make that we are proud of eventually become decisions we wish we hadn't made. Sometimes it is <!--alex ignore easy--> easy to change the decision. Other times it is hard.
 
-It is very easy for this to be treated as concrete ("Monoliths are bad now") when it is actually preference ("We would like to use Webpack that we don't understand instead of Gulp that we don't understand")
+It is tempting for this to be treated as concrete ("Monoliths are bad now") when it is often preference ("We would like to use Webpack that we don't understand instead of Gulp that we don't understand")
 
 ## How do we react?
 
@@ -147,7 +148,7 @@ In this specific case:
 - if the interface is too large,
 - we use our brains and our IDE tools to break it into smaller interfaces
 
-As these are in the moment changes we don't even tell people we're doing it. It's just part of the work
+As these are in the moment changes we don't even tell people we're doing it. It's a part of the work
 
 ### 2) clearing the slate
 
