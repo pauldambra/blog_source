@@ -175,7 +175,7 @@ Equally, watch out for *never* replacing decisions you've outgrown. There's a lo
 
 # 3. Things someone else did that I do not like
 
-[Jessica Kerr talks about "downhill invention, uphill analysis"](https://www.youtube.com/watch?v=Lp-Xqj8wSMg). Explaining that it is easier to think about how to replace a system than it is to think about how it works. And, so, we naturally tend to think that systems we inherit are bad, and the ones that we replace them with are good
+[Jessica Kerr talks about "downhill invention, uphill analysis"](https://www.youtube.com/watch?v=Lp-Xqj8wSMg) from [Vehicles by Valentino Braitenberg](https://mitpress.mit.edu/books/vehicles). Explaining that it is easier to think about how to replace a system than it is to think about how it works. And, so, we naturally tend to think that systems we inherit are bad, and the ones that we replace them with are good
 
 ![the different styles of the same thing meme, one thing drawn in multiple styles](/images/tech-debts/actual_different_styles_meme_by_zeurel-d38c306.png)
 
