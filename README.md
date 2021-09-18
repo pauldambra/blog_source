@@ -1,12 +1,12 @@
 My super-good awesome-fun blog
 
-Uses github pages flavour of Jekyll with guard and live-reload added in for local dev
+Uses Github actions for CI so that I can use Jekyll and plugins.
+
+Livereload is built-in to Jekyll 3.7+ so no longer uses guard
 
 ## to run:
 
-`BUNDLE_ENV=dev bundle install && BUNDLE_ENV=dev bundle exec guard`
-
-NB gems necessary for running locally wih guard are only installed when `BUNDLE_ENV='dev`
+`bundle install && jekyll serve --livereload`
 
 ## Manual Spell checking runs
 

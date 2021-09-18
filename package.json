@@ -9,6 +9,9 @@
   },
   "author": "pauldambra <pauldambra@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "serve": "jekyll serve --livereload"
+  },
   "devDependencies": {
     "alex": "^9.1.0",
     "html-minifier": "^4.0.0",
