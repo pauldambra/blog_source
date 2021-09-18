@@ -8,7 +8,7 @@ category: "life events"
 tags: ["changing jobs", "co-op"]
 ---
 
-I've just finished at the Co-op after four years. I was feeling emotional and wrote some "wise words". I thought I'd record them here. In the future, when I'm reminiscing, they can transport me back to this feeling.
+I've finished at the Co-op after four years. I was feeling emotional and wrote some "wise words". I thought I'd record them here. In the future, when I'm reminiscing, they can transport me back to this feeling.
 
 <!--more-->
 
