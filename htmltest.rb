@@ -23,7 +23,8 @@ options = {
     'https://codepen.io',
     'https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html',
     'https://developer.android.com/reference/android/content/Intent',
-    'https://www.googletagmanager.com/gtag/js?id=UA-49969634-1'
+    'https://www.googletagmanager.com/gtag/js?id=UA-49969634-1',
+    'https://www.esa.int/Our_Activities/Space_Science/Herschel/How_many_stars_are_there_in_the_Universe'
   ],
   parallel: { in_processes: 6 }
 }
