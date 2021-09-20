@@ -155,7 +155,7 @@ var PayRow = React.createClass({
 });
 ```
 
-[`createClass`](http://facebook.github.io/react/docs/top-level-api.html#react.createclass) is a helper to construct an instance of a component class for you. That class has a render function which returns HTML.
+[`createClass`](https://web.archive.org/web/20150706092850/http://facebook.github.io/react/docs/top-level-api.html#react.createclass) is a helper to construct an instance of a component class for you. That class has a render function which returns HTML.
 
 Call JS, get HTML. Looks funky but is straightforward.
 <!--alex ignore spit --->
@@ -276,7 +276,7 @@ Passed in to the component when you create it. Should be immutable (this is JS s
 
 Not passed in. Not immutable. It's the, erm, well, the state.
 
-So in addition to a `render` function we add a [`getInitialState` function](http://facebook.github.io/react/docs/component-specs.html#getinitialstate). This provides the initial state of the component. It should be idempotent - i.e. no matter how many times the component is created, all other things being equal, the initial state is the same. 
+So in addition to a `render` function we add a [`getInitialState` function](https://web.archive.org/web/20150706092850/http://facebook.github.io/react/docs/component-specs.html#getinitialstate). This provides the initial state of the component. It should be idempotent - i.e. no matter how many times the component is created, all other things being equal, the initial state is the same. 
 
 I've spotted a "problem" with this... In the docs it is described as an [antipattern to assign a foo property to foo state](https://web.archive.org/web/20151123203904/http://facebook.github.io/react/tips/props-in-getInitialState-as-anti-pattern.html). You can do it but instead you should have an intialFoo property that is assigned to the foo state. That change of calling out that the link between the two is that the property is the initial value and shouldn't be mutated within the component's state seems important to being in the React mindset.
 

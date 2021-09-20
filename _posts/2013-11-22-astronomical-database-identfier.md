@@ -88,7 +88,7 @@ Decimal has the largest precision of the .Net value types and ["only" offers 28-
 
 ### Is this peculiar to Entity Framework?
 
-[The NHibernate docs](http://www.nhforge.org/doc/nh/en/#mapping-declaration-id) say 
+[The NHibernate docs](https://nhibernate.info/doc/nhibernate-reference/mapping.html) say 
 
 > Any integral property type is thus supported.
 

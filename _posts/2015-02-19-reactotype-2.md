@@ -195,7 +195,7 @@ handleLatestChange: function(event) {
 }
 ```
 
-Here when an event is received the function calls [`setState`](http://facebook.github.io/react/docs/component-api.html#setstate) on the React component. This merges the object provided as the first argument with the component's current state. 
+Here when an event is received the function calls [`setState`](https://web.archive.org/web/20150706092850/http://facebook.github.io/react/docs/component-api.html#setstate) on the React component. This merges the object provided as the first argument with the component's current state. 
 
 Since that update doesn't necessarily occur immediately the method takes a callback which runs after the update completes.
 
@@ -230,7 +230,7 @@ componentWillMount: function() {
 
 Postal's subscribe helper takes an object with the same properties as publish. Here for messages posted to a given channel and topic it will call the provided callback.
 
-The [`componentWillMount`](http://facebook.github.io/react/docs/component-specs.html#mounting-componentwillmount) method of the React component is called once before initial rendering so it is perfect for this setup.
+The [`componentWillMount`](https://web.archive.org/web/20150706092850/http://facebook.github.io/react/docs/component-specs.html#mounting-componentwillmount) method of the React component is called once before initial rendering so it is perfect for this setup.
 
 # Messy Pay Table Reacting to Filtering
 
