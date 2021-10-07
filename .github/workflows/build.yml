@@ -21,7 +21,7 @@ jobs:
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - uses: actions/setup-node@v2-beta
       with:
-        node-version: '12'
+        node-version: '14'
     - uses: marceloprado/has-changed-path@v1
       id: changed-images
       with:
