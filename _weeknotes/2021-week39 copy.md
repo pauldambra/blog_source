@@ -1,0 +1,21 @@
+---
+title: "2021 Week 40"
+layout: "weeknote"
+permalink: "/weeknotes/2021/40.html"
+card_image: "/weeknotes/2021/40.png"
+date: "2021-10-09 08:00:00"
+category: weeknotes
+tags: [WeekNotes, DearDiary, WorkingOutLoud]
+---
+
+## 2021 Week 40
+
+🎬 week three in new job <br/>
+🤔 practiced honesty in 1-2-1, meant I got supported *and* challenged, good result <br/>
+🧠 still slower than I'd like to be, but learning <br/>
+🔢 used property based testing to try to solve a problem <br/>
+🤯 asked for the rule around some spending -> "just do what you think is in company's best interest" #Trust
+💖 had nice feedback <br/>
+👨‍🦲 got a new webcam because old one was too low resolution. Can now see how bald I am :'(
+✅ had fun <br/>
+
