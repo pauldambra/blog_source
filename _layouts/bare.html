@@ -74,5 +74,18 @@
     <script src="/register-service-worker.js"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Khula" rel="stylesheet">
+
+    <script>
+      document.addEventListener('scroll', debounce(() => {
+      if(document.documentElement.scrollHeight === window.pageYOffset + window.innerHeight) {
+        console.log('at bottom')
+        analytics.track('Article Completed', {
+          title: '{{ page.title }}',
+        });
+      }
+    }, 500))
+
+    function debounce(e,t=300){let u;return(...i)=>{clearTimeout(u),u=setTimeout(()=>{e.apply(this,i)},t)}}
+    </script>
   </body>
 </html>
