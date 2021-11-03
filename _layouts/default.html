@@ -105,6 +105,15 @@
       document.addEventListener('scroll', debounce(() => {
       if(document.documentElement.scrollHeight === window.pageYOffset + window.innerHeight) {
         console.log('at bottom')
+
+        analytics.identify("97980cfea0067", {
+          name: "Testy McTester",
+          email: "test@example.com",
+          exploring: ["segment", "posthog"]
+        });
+
+        posthog.identify('Testy McTester', {'$set': {'email': 'test@example.com'}})
+
         analytics.track('Article Completed', {
           title: '{{ page.title }}',
         });
