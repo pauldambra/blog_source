@@ -56,7 +56,7 @@ Here one application receives the command `ChangeAddress`. It acts on it. That a
 
 Another application (or the same one in a different code path) has the responsibility for querying the system. It lets people view a list of addresses but the work of reading an address for display is much simpler (generally) than the work of accepting, validating, transforming, and storing the address on the command side.
 
-CQRS is a _big_ topic. [Fowler's description](https://martinfowler.com/bliki/CQRS.html) is a good starting point. And [Rob Ashton has a good article](http://codeofrob.com/entries/cqrs-is-too-complicated.html) showing varying levels of complexity of CQRS approaches
+CQRS is a _big_ topic. [Fowler's description](https://martinfowler.com/bliki/CQRS.html) is a good starting point. And [Rob Ashton has a good article](https://web.archive.org/web/20210307160236/http://codeofrob.com/entries/cqrs-is-too-complicated.html) showing varying levels of complexity of CQRS approaches
 
 ![CQRS system diagram](/images/events/cqrs.jpg)
 
