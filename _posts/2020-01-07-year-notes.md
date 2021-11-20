@@ -76,7 +76,7 @@ I also have a 140+ day streak on duolingo learning Italian. Non c'è un serpente
 
 # Go-live is marketing
 
-In 2016 I went to watch [James Jeffries talk at the leanmanc usergroup](https://www.meetup.com/leanmanc/events/234035422/) and the other speaker, [Andy Mayer](https://twitter.com/andymayer), said something along the lines of "because you're releasing to production and learning constantly go live should be driven by marketing".
+In 2016 I went to watch [James Jeffries talk at the leanmanc usergroup](https://web.archive.org/web/20160919013216/https://www.meetup.com/leanmanc/events/234035422/) and the other speaker, [Andy Mayer](https://twitter.com/andymayer), said something along the lines of "because you're releasing to production and learning constantly go live should be driven by marketing".
 
 We've seen the value in that approach over and over in 2019. 
 
