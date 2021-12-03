@@ -20,6 +20,11 @@ OK, four months since part four. I got a puppy and have written the code for thi
 
 ![the puppy attacking a shoe](/images/puppy.gif)
 
+<video autoplay loop muted playsinline>
+  <source src="/images/puppy.webm" type="video/webm">
+  <source src="/images/puppy.mp4" type="video/mp4">
+</video>
+
 # Getting ready to make some HTML
 
 Now that the API lets clients propose destinations to the visit plannr the home page for the service can be built. It's going to show the most recently updated destinations.
