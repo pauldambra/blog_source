@@ -18,8 +18,6 @@ tags: ["serverless", "series", "events", "eventdriven", "read model"]
 
 OK, four months since part four. I got a puppy and have written the code for this part of the series in 2 minute blocks after sleepless nights. Not a productive way to do things!
 
-![the puppy attacking a shoe](/images/puppy.gif)
-
 <video autoplay loop muted playsinline>
   <source src="/images/puppy.webm" type="video/webm">
   <source src="/images/puppy.mp4" type="video/mp4">
