@@ -68,4 +68,13 @@ jobs:
         commit_message: "${{env.GITHUB_RUN_ID}} auto-pushed to github"
     - name: test html # has to come after deploy so new links are valid
       run: bundle exec ruby ./htmltest.rb
+    - name: Audit URLs using Lighthouse
+      uses: treosh/lighthouse-ci-action@v8
+      with:
+          urls: |
+            https://pauldambra.dev
+            https://pauldambra.dev/2021/07/tech-debts.html
+          budgetPath: ./budget.json # test performance budgets
+          uploadArtifacts: true # save results as an action artifacts
+          temporaryPublicStorage: true # upload lighthouse report to the temporary
 
