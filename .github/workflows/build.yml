@@ -27,7 +27,7 @@ jobs:
       with:
         paths: images/**/*.*
     - name: setup dependencies
-      run: sudo apt-get install libjpeg-progs optipng fonts-noto-color-emoji
+      run: sudo apt-get install libjpeg-progs optipng fonts-noto-color-emoji imagemagick
     - name: pre build
       run: npm ci
     - name: image optimisation
