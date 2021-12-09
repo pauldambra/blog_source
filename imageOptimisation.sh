@@ -3,8 +3,8 @@
 set -u
 
 echo "setting max width for images"
-magick mogrify -path ./images -resize 1000> -quality 80  *.jpg
-magick mogrify -path ./images -resize 1000> -quality 80  *.png
+magick mogrify -path ./images -resize 1000\> -quality 80  *.jpg
+magick mogrify -path ./images -resize 1000\> -quality 80  *.png
 
 
 echo "optimising jpegs"
