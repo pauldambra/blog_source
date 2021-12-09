@@ -14,8 +14,9 @@ for d in $(find ./images -type d)
 do
     pushd $d
     echo "setting max width for images in $d"
-    if [ "$(ls -A | grep -i \\.jpg\$)" ]; then magick mogrify -resize 1000x712\> -quality 80 *.jpg; fi
-    if [ "$(ls -A | grep -i \\.png\$)" ]; then magick mogrify -resize 1000x712\> -quality 80 *.png; fi
+    # don't use magick command from imagemagick 7 as Ubuntu 20 comes with imagemagick 6
+    if [ "$(ls -A | grep -i \\.jpg\$)" ]; then mogrify -resize 1000x712\> -quality 80 *.jpg; fi
+    if [ "$(ls -A | grep -i \\.png\$)" ]; then mogrify -resize 1000x712\> -quality 80 *.png; fi
     popd
 done
 
