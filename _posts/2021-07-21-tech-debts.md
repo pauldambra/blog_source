@@ -227,11 +227,11 @@ Avoid saying technical debt. Instead, say what you mean.
 
 Subsequently:
 
-### Any technical improvement that can be done in the course of your work, should be done.
+## Any technical improvement that can be done in the course of your work, should be done.
 
 We don't budget time for writing tests or searching StackOverflow. Many small changes will have a large cumulative impact without needing others working in or with the team to wait.
 
-### Any technical improvement that can't be done in the course of work should be described, proposed, and measured.
+## Any technical improvement that can't be done in the course of work should be described, proposed, and measured.
 
 Anything else is often "something the team wants to do". See categories 2 and 3. They should be described and capture the impact of doing or of not doing that work. They can then be prioritised, and reported on. In other words it is treated the same as a request from outside of the team.
 
