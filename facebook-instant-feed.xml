@@ -28,7 +28,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
 			  <meta property="op:markup_version" content="v1.0">
 
 			  <!-- The URL of the web version of your article --> 
-			  <link rel="canonical" href="{{ page_url }}">
+			  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 			  
 			  <!-- The style to be used for this article --> 
 			  <meta property="fb:article_style" content="myarticlestyle">

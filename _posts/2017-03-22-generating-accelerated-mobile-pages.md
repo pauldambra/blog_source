@@ -56,7 +56,7 @@ There are several parts here:
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <link rel="canonical" href="{{ page.canonical_url | prepend: site.url }}" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Khula" rel="stylesheet">
     <style amp-custom>
