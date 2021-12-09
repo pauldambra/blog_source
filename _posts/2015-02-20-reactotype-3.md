@@ -357,4 +357,4 @@ And..
 
 # Ta-da
 
-![passing tests](/images/tada.png)
+![passing tests](/images/tada.png){:loading="lazy"}

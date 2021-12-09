@@ -51,7 +51,7 @@ cut short for brevity as there are nearly 300 phrases now... Using an object ini
 
 So I highlighted all the rows of initialisation and what did I see?
 
-![what did i see?](http://1.bp.blogspot.com/_u8J81ttOSD8/TL8LrjgRXsI/AAAAAAAAAL4/U86PBLyzzZM/s400/ResharperToAddCall.jpg)
+![what did i see?](http://1.bp.blogspot.com/_u8J81ttOSD8/TL8LrjgRXsI/AAAAAAAAAL4/U86PBLyzzZM/s400/ResharperToAddCall.jpg){:loading="lazy"}
 
 Resharper's context menu lets me switch the object initialiser out to a series of .Add() calls. I could quickly find the duplicates and then switch back to an object initialiser. Yay!
 

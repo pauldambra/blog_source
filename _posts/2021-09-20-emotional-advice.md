@@ -31,5 +31,5 @@ I've finished at the Co-op after four years. I was feeling emotional and wrote s
 * as long as you are being kind to yourself, you are allowed to hold yourself to a higher standard (but be kind first!)
 * Nolite te Bastardes Carborundorum
 
-![a gif of all the photos I took at work over four years](/images/coop.gif)
+![a gif of all the photos I took at work over four years](/images/coop.gif){:loading="lazy"}
 

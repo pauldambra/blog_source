@@ -16,15 +16,15 @@ The code can be found on [GitHub](https://github.com/pauldambra/omniclopse)
 
 In the last post I wasn't happy with the visual affordance that a page element is editable.
 
-![editable sections for anonymous users](/images/affordance-loggedout.png)
+![editable sections for anonymous users](/images/affordance-loggedout.png){:loading="lazy"}
 
-![editable sections for anonymous users](/images/affordance-loggedin.png)
+![editable sections for anonymous users](/images/affordance-loggedin.png){:loading="lazy"}
 
 <!--more-->
 
 I also wasn't happy that the page elements shifted around as alerts were added to the screen.
 
-![editing the page](/images/editing.gif)
+![editing the page](/images/editing.gif){:loading="lazy"}
 
 # So...
 
@@ -47,7 +47,7 @@ The indicator that an element is editable has to be on the element itself otherw
 
 By using CSS3 keyframes we can cock-a-snoot at older browsers (without breaking them) and get the desired behaviour.
 
-![Pulsing editor indicator](/images/pulse.gif)
+![Pulsing editor indicator](/images/pulse.gif){:loading="lazy"}
 
 ```scss 
 @mixin editorAffordance($size, $pos, $glow) {

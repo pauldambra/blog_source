@@ -227,19 +227,19 @@ I hope it’s not egotistical to say that I know I contributed to that and feel 
 This is the second full year I've had a dog since I was a teenager. Best decision in a long time. As much work as having a baby but it adds joy to life.
 
 ### dog on new years day 2019
-  ![dog on new years day 2019](/images/dog-2019-01-01.jpg)
+  ![dog on new years day 2019](/images/dog-2019-01-01.jpg){:loading="lazy"}
 
 ### dog on new years day 2020
-  ![dog on new years day 2020](/images/dog-2020-01-01.jpg)
+  ![dog on new years day 2020](/images/dog-2020-01-01.jpg){:loading="lazy"}
 
 ### dog on new years day 2021
-  ![dog on new years day 2021](/images/dog-2021-01-01.jpg)
+  ![dog on new years day 2021](/images/dog-2021-01-01.jpg){:loading="lazy"}
 
 Note that in all three photos the dog is soaking wet.
 
 # Kids
 
-![a homemade cardboard sculpture of a house](/images/crafts.jpg)
+![a homemade cardboard sculpture of a house](/images/crafts.jpg){:loading="lazy"}
 
 All three kids have said they don't want to be on social media so I won't mention much here. I continue to be amazed that my bad influence isn't reducing the kids well-rounded, excitement at the world.
 

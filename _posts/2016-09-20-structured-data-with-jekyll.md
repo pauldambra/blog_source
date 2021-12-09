@@ -255,7 +255,7 @@ so...
 
 I've submitted the site for crawling since adding structured data and Google has so far picked up the home page and four of the articles.
 
-![structured data crawled by Google](/images/structured-data-crawled.png)
+![structured data crawled by Google](/images/structured-data-crawled.png){:loading="lazy"}
 <!--alex ignore obvious --->
 Several days on and there's no obvious change in how my site places in search rankings or how Google displays it but... 
 

@@ -44,7 +44,7 @@ OK, so we can actually import the number into memory... that's a start
 
 Let's fire up an EF project, create an entity model with a BigInteger ID, and add a DbSet for that model to a DbContext:
 
-![huge numbers code](http://4.bp.blogspot.com/-PgeRsO_R89w/Uo-zpg99w-I/AAAAAAAAJTk/8CyZmhvxdCw/s640/HugeNumbers.PNG)
+![huge numbers code](http://4.bp.blogspot.com/-PgeRsO_R89w/Uo-zpg99w-I/AAAAAAAAJTk/8CyZmhvxdCw/s640/HugeNumbers.PNG){:loading="lazy"}
 
 Having an integral type ID at this point and running Enable-Migrations from the console would work without complaint but with BigInteger as the Id an exception is thrown...
 
@@ -62,7 +62,7 @@ Adding the [Key] data attribute doesn't help.
 
 How about fangling the ModelBuilder directly?
 
-![huge numbers more code](http://1.bp.blogspot.com/-Sy-WWyCcbWg/Uo-1qZFYLQI/AAAAAAAAJTw/kaI76AZC15s/s1600/proton2.PNG)
+![huge numbers more code](http://1.bp.blogspot.com/-Sy-WWyCcbWg/Uo-1qZFYLQI/AAAAAAAAJTw/kaI76AZC15s/s1600/proton2.PNG){:loading="lazy"}
 
 Progress! Kind of :
 
@@ -76,11 +76,11 @@ A negative result is still a result. So this is definitely progress! The [scalar
 
 So long as we can define a value type key we can have numeric in the DB. Ta da!
 
-![huge numbers even more code](http://2.bp.blogspot.com/-5kh5vIIvp0w/Uo-7LImoKqI/AAAAAAAAJUA/i4OdUD5Coxo/s1600/Capture3.PNG)
+![huge numbers even more code](http://2.bp.blogspot.com/-5kh5vIIvp0w/Uo-7LImoKqI/AAAAAAAAJUA/i4OdUD5Coxo/s1600/Capture3.PNG){:loading="lazy"}
 
 We can enable migrations and then generate one:
 
-![huge numbers even more code](http://1.bp.blogspot.com/-KelcMu1mi6w/Uo-7cv3auqI/AAAAAAAAJUI/lVSpjAvszNU/s1600/Capture4.PNG)
+![huge numbers even more code](http://1.bp.blogspot.com/-KelcMu1mi6w/Uo-7cv3auqI/AAAAAAAAJUI/lVSpjAvszNU/s1600/Capture4.PNG){:loading="lazy"}
 
 Wrong :
 

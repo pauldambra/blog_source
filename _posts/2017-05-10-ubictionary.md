@@ -14,7 +14,7 @@ I've spent a great first day at [Agile Manchester 2017](http://agilemanchester.n
 
 <!--more-->
 <!--alex ignore dick --->
-![slide from of Anna Dick and Co-Op Digital](/images/common-language.jpg)
+![slide from of Anna Dick and Co-Op Digital](/images/common-language.jpg){:loading="lazy"}
 
 George Washington was the first to say that "the hardest problem in computer science is naming things and cache invalidation" (citation needed). 
 

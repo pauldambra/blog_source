@@ -24,7 +24,7 @@ Frustrating and inefficient for a god of business whose time is so important - n
 
 But the interwebs tell me that you can set up SSH so you don't need a password. They also tell me in a vaguely confusing manner... my resolve now is to add another vaguely confusing explanation to the interwebs.
 
-![confusing explanation](http://1.bp.blogspot.com/-ogY-p6dRbUs/TaLFdgeiXlI/AAAAAAAAANY/zIbVsfwaGzQ/s1600/floor_one.png)
+![confusing explanation](http://1.bp.blogspot.com/-ogY-p6dRbUs/TaLFdgeiXlI/AAAAAAAAANY/zIbVsfwaGzQ/s1600/floor_one.png){:loading="lazy"}
 
 The task is to set my client.local machine to be able to SSH onto server.remote without any passwords changing hands.
 
@@ -54,7 +54,7 @@ First things first ssh onto server.remote as the user you want to use in future 
 
 on your Windows clinet.local fire up puttygen.exe and hit generate. As a bit of fun you are asked to wiggle your mouse in order to provide randomness (I wonder if this is placebo)
 
-![putty key generator](http://4.bp.blogspot.com/-XCmyhromqcY/TaL4vMTP3uI/AAAAAAAAAOo/pcakvSyDlIU/s1600/generating.png)
+![putty key generator](http://4.bp.blogspot.com/-XCmyhromqcY/TaL4vMTP3uI/AAAAAAAAAOo/pcakvSyDlIU/s1600/generating.png){:loading="lazy"}
 
 Once this is generated you'll see a box marked "Public key for pasting into authorized_keys file". Can you guess what that's for?
 
@@ -65,11 +65,11 @@ Then
 
 Now we need to configure PuTTy. So open PuTTy and either load a profile or start a new one. First we scroll down in the tree view to Connection > Data and put in the username we want to connect as...
 
-![putty config](http://1.bp.blogspot.com/-oYtOIQEPgV0/TaL3d9ld-dI/AAAAAAAAAOY/lt6Ugaf9E0A/s1600/auto-username.png)
+![putty config](http://1.bp.blogspot.com/-oYtOIQEPgV0/TaL3d9ld-dI/AAAAAAAAAOY/lt6Ugaf9E0A/s1600/auto-username.png){:loading="lazy"}
 
 Then you move to Connection > SSH > Auth and enter the private key file that puttygen created...
 
-![putty config](http://2.bp.blogspot.com/-mGRlfc_0eTc/TaL3rW1MmOI/AAAAAAAAAOg/yXxVcK29u1s/s1600/identity-file.png)
+![putty config](http://2.bp.blogspot.com/-mGRlfc_0eTc/TaL3rW1MmOI/AAAAAAAAAOg/yXxVcK29u1s/s1600/identity-file.png){:loading="lazy"}
 
 Now save this profile so you can fire up the connection in future and away you go...
 

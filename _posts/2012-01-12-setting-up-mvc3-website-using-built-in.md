@@ -80,13 +80,13 @@ Now start a debug session for the web app. Click logon. Click Register. Fill in 
 
 You can see the new SQL CE database and have a look at the schema. The Memberships and Users tables have a new row. The new user. 
 
-![ssms screenshots](http://4.bp.blogspot.com/-w1VYrhrRydw/Tw7Aak9b3tI/AAAAAAAAAWw/dQllCHJ7Qjo/s1600/new-sdf-file.PNG)
+![ssms screenshots](http://4.bp.blogspot.com/-w1VYrhrRydw/Tw7Aak9b3tI/AAAAAAAAAWw/dQllCHJ7Qjo/s1600/new-sdf-file.PNG){:loading="lazy"}
 
-![ssms screenshots](http://2.bp.blogspot.com/-y4bJjVXY8js/Tw7AcoHn8lI/AAAAAAAAAW4/hnLZO6ShvaQ/s1600/schema.PNG)
+![ssms screenshots](http://2.bp.blogspot.com/-y4bJjVXY8js/Tw7AcoHn8lI/AAAAAAAAAW4/hnLZO6ShvaQ/s1600/schema.PNG){:loading="lazy"}
 
-![ssms screenshots](http://2.bp.blogspot.com/-tkP3-E66KgQ/Tw7Ad9z8n1I/AAAAAAAAAXA/Vcu-JkjCZrc/s1600/memberships.PNG)
+![ssms screenshots](http://2.bp.blogspot.com/-tkP3-E66KgQ/Tw7Ad9z8n1I/AAAAAAAAAXA/Vcu-JkjCZrc/s1600/memberships.PNG){:loading="lazy"}
 
-![ssms screenshots](http://1.bp.blogspot.com/-Q83_Po9kXN4/Tw7AfVHsCcI/AAAAAAAAAXI/AvdnqwrMTvA/s1600/users-table.PNG)
+![ssms screenshots](http://1.bp.blogspot.com/-Q83_Po9kXN4/Tw7AfVHsCcI/AAAAAAAAAXI/AvdnqwrMTvA/s1600/users-table.PNG){:loading="lazy"}
 
 Hurrah - all the information you'll ever need is collected.
 
@@ -195,11 +195,11 @@ public ActionResult Register(RegisterModel model)
 
 Now we can go back to the Register page
 
-![register page](http://2.bp.blogspot.com/-TZWnNTSKRvY/Tw7HgUSY_jI/AAAAAAAAAXQ/zFssEVG51_4/s1600/new+registration+form+bit.PNG)
+![register page](http://2.bp.blogspot.com/-TZWnNTSKRvY/Tw7HgUSY_jI/AAAAAAAAAXQ/zFssEVG51_4/s1600/new+registration+form+bit.PNG){:loading="lazy"}
 
 Register and then have a look in the profile table.
 
-![profile table](http://4.bp.blogspot.com/-oKVRwA7UVxM/Tw7Hnkm1AfI/AAAAAAAAAXY/hHvXOXRF3ug/s1600/persistedproperty.PNG)
+![profile table](http://4.bp.blogspot.com/-oKVRwA7UVxM/Tw7Hnkm1AfI/AAAAAAAAAXY/hHvXOXRF3ug/s1600/persistedproperty.PNG){:loading="lazy"}
 
 Ta da!
 

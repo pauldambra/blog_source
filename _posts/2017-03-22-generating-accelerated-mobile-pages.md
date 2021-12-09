@@ -251,7 +251,7 @@ You can
 
 # Google Webmaster tools
 
-![Webmaster tools AMP pages](/images/AMP-webmaster.png)
+![Webmaster tools AMP pages](/images/AMP-webmaster.png){:loading="lazy"}
 
 Google webmaster tools are also, slowly, picking up that the AMP pages are present. Highlighting warnings and errors and linking out to the validator.
 

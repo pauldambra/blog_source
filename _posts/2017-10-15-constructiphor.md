@@ -14,7 +14,7 @@ tags: [metaphors, software]
 
 > I've never really got on with construction metaphors for software. The cost of mistakes and rework is high in construction
 
-![the toot itself](/images/toot.jpeg)
+![the toot itself](/images/toot.jpeg){:loading="lazy"}
 
 This isn't saying that Software isn't putting things together but rather I've seen people justify not 'being agile' by using construction metaphors.
 
@@ -52,7 +52,7 @@ So, we don't have to agree up front what we're doing?
 
 In the context of the 70s pricing planning was cheap. But planning is now comparatively expensive.
 
-![seen at https://twitter.com/ojuncu/status/913688587576778752](/images/agilecam.jpg)
+![seen at https://twitter.com/ojuncu/status/913688587576778752](/images/agilecam.jpg){:loading="lazy"}
 
 That's all the confirmation bias I need :)
 

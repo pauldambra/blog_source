@@ -100,7 +100,7 @@ Which would allow running all of the nightwatch tests against different operatin
 
 ## Viewing results
 
-![Results from the tests are displayed in the console](/images/run-nightwatch.png)
+![Results from the tests are displayed in the console](/images/run-nightwatch.png){:loading="lazy"}
 
 ## Some more realistic tests for the home page
 

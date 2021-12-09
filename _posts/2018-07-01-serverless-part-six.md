@@ -24,7 +24,7 @@ In part 5 the code was written to make sure that whenever a destination changes 
 
 # Where were we?
 
-![a sequence diagram of the system so far](/images/events/6/current-sequence.jpg)
+![a sequence diagram of the system so far](/images/events/6/current-sequence.jpg){:loading="lazy"}
 
 The system so far allows an API call to propose a destination someone might want to visit. When that `ProposeDestination` command is received after a little validation a `DestinationProposed` event might be saved to DynamoDB. A lambda is subscribed and when that event is raised validates the location of the destination - you can't visit somewhere that isn't anywhere after all. That lambda saves either a `geolocationValidationSucceeded` or `geolocationValidationFailed` event to DynamoDB.
 
@@ -46,7 +46,7 @@ Generally speaking you can say either ReadModel or Projection. Some people disti
 
 This set of changes puts the system in a position to be able to serve a HTML home page that shows the most recently changed destinations. Get the champagne on ice this start-up is heading to exit.
 
-![the new sequence diagram](/images/events/6/new-sequence.jpg)
+![the new sequence diagram](/images/events/6/new-sequence.jpg){:loading="lazy"}
 
 This change adds two new lambdas (or subscribers, or consumers).
 
@@ -171,7 +171,7 @@ This is a service that allows you to store plain text or encrypted config. Used 
 
 The handler then uses the timestamp and the event to make a unique(ish) id for the invalidation and shapes the correct call to CloudFront to invalidate the cache.
 
-![a gif demoing API calls being translated to HTML](/images/events/6/live-demo.gif)
+![a gif demoing API calls being translated to HTML](/images/events/6/live-demo.gif){:loading="lazy"}
 
 # What made this a fast change?
 
@@ -208,7 +208,7 @@ This seems to be an unavoidable effect of how CloudFormation works partly becaus
 
 My colleagues were particularly helpful
 
-![advice on twitter to not use cloudformation](/images/events/6/helpful-advice.png)
+![advice on twitter to not use cloudformation](/images/events/6/helpful-advice.png){:loading="lazy"}
 
 The best solution (we could think of) was to put the ID into parameter store from the cloudformation template to break the circular dependency.
 <!--alex ignore nuts --->
@@ -246,7 +246,7 @@ I think this is confusing but it's good to know.
 
 There was a lot of CloudFormation stack creation and deletion as a result of all of this. So I was very disappointed to see that it had pushed my monthly bill up gigantically.
 
-![the aws bill for 6 cents](/images/events/6/bill.png)
+![the aws bill for 6 cents](/images/events/6/bill.png){:loading="lazy"}
 
 This might seem like a silly point but creating a similarly resilient application with a serverful architecture would probably be
 

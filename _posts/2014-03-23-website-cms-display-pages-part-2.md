@@ -20,7 +20,7 @@ When people visit the site they should understand straight away how they're supp
 
 A logo, a navigation bar, a large carousel or image area, some content in columns below, and a footer.
 
-![A random image from Google images search for 'company website' (not an endorsement](http://fc06.deviantart.net/fs70/f/2011/136/f/4/cargo_company_website_layout__by_rizmax-d3ghbws.jpg))
+![A random image from Google images search for 'company website' (not an endorsement](http://fc06.deviantart.net/fs70/f/2011/136/f/4/cargo_company_website_layout__by_rizmax-d3ghbws.jpg)){:loading="lazy"}
 
 There are relatively few company websites that step away from this basic design. And this site for (the hopefully fake) 'Omniclopse' isn't going to stray from this format.
 
@@ -44,7 +44,7 @@ At the terminal: `bower install bootstrap -Sa`
 
 Which downloads bootstrap into the project and adds the dependency to the Bower file.
 
-![bower screenshot](http://2.bp.blogspot.com/-baCBB1wk9v4/UydeKDfveOI/AAAAAAAANTI/biw5I8wKUGE/s1600/Screenshot+2014-03-17+20.41.27.png)
+![bower screenshot](http://2.bp.blogspot.com/-baCBB1wk9v4/UydeKDfveOI/AAAAAAAANTI/biw5I8wKUGE/s1600/Screenshot+2014-03-17+20.41.27.png){:loading="lazy"}
 
 Bower, by default, adds everything into a bower_components directory so we tell Express about that in the Express app config:
 
@@ -78,7 +78,7 @@ exports.app = app;
 
 This requires two layout files be added to the site:
 
-![layouts file tree](http://3.bp.blogspot.com/-lLif2FbDonw/Uyd6VGPgoTI/AAAAAAAANTY/7oLoCCYcqKg/s1600/Screenshot+2014-03-17+22.41.59.png)
+![layouts file tree](http://3.bp.blogspot.com/-lLif2FbDonw/Uyd6VGPgoTI/AAAAAAAANTY/7oLoCCYcqKg/s1600/Screenshot+2014-03-17+22.41.59.png){:loading="lazy"}
 
 Here main.handlebars is the default base layout and home.handlebars is rendered by the method that responds to the root route.
 
@@ -125,13 +125,13 @@ Typing gulp into the terminal now leaves a task running which watches for change
 
 For the imaginary company we're making a site for we can [generate a colour palette](http://colorschemedesigner.com/)
 
-![Yes, I am NOT a designer](http://1.bp.blogspot.com/-BUSdRfoR_fc/UytGol1Ni5I/AAAAAAAAPMc/pqoQv7RgnbY/s1600/Screenshot+2014-03-20+19.44.18.png)
+![Yes, I am NOT a designer](http://1.bp.blogspot.com/-BUSdRfoR_fc/UytGol1Ni5I/AAAAAAAAPMc/pqoQv7RgnbY/s1600/Screenshot+2014-03-20+19.44.18.png){:loading="lazy"}
 
 # The Page
 
 and after a bit of fangling to build out the (admittedly ugly) page:
 
-![screenshot of the built page](http://3.bp.blogspot.com/-52O3oytmg_E/Uy7SVJgQ-JI/AAAAAAAAPg4/jNbYLNIcXI8/s1600/home-one.png)
+![screenshot of the built page](http://3.bp.blogspot.com/-52O3oytmg_E/Uy7SVJgQ-JI/AAAAAAAAPg4/jNbYLNIcXI8/s1600/home-one.png){:loading="lazy"}
 
 The code for this page can be found [tagged on github](https://github.com/pauldambra/omniclopse/tree/v0.1) and at this point there's nothing groundbreaking (nor should there be). You can visit the site [here on Heroku](http://omniclopse-v0-1.herokuapp.com/).
 

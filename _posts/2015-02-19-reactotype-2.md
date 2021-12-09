@@ -30,7 +30,7 @@ So, having squeezed the table to make space for a column for filter controls I n
 1. Add the filter controls
 2. Make them affect the table
 
-![screenshot of the web page](/images/reactotype_screenshot.png)
+![screenshot of the web page](/images/reactotype_screenshot.png){:loading="lazy"}
 
 # Adding the filter controls
 
@@ -309,7 +309,7 @@ Now all the `filterData` and `sortData` methods need to do is update state and t
 <!--alex ignore hook --->
 The point here is how useful it was to use postal.js to hook these two components together. I _lurve_ this!
 
-![demo of the web page](/images/reactotype.gif)
+![demo of the web page](/images/reactotype.gif){:loading="lazy"}
 
 # Next Up
 

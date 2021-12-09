@@ -28,7 +28,7 @@ Later that day my subconscious prompted me to realise that, since Github pages w
 <!--alex ignore hooks --->
 [Travis](https://travis-ci.org/) is an online continuous integration system that hooks very neatly into Github. It's free for open source projects and adds build status to commits. It can be set to automatically build pull requests and adds output to those PRs so that people can see if it is safe to merge a request without building it locally themselves
 
-![Travis integrates with Github](/images/integrates-with-github.png)
+![Travis integrates with Github](/images/integrates-with-github.png){:loading="lazy"}
 
 Travis is configured by placing a YAML file in the root of the project. You can place commands directly into the config file but I prefer to put those commands in a script file - that way you can run them locally to confirm the steps _should_ work before pushing the YAML file to Github for Travis to detect.
 
@@ -97,7 +97,7 @@ The only 'complicated' bit here is the DEPLOY_BLOG_TOKEN environment variable th
 
 Personal access tokens act in-place of passwords for github resources. You can limit what permissions those tokens have. Generating different tokens for different uses so you can delete them if you suspect they have been compromised.
 
-![personal access token setup screen](/images/personal-access-tokens.png)
+![personal access token setup screen](/images/personal-access-tokens.png){:loading="lazy"}
 
 Since they act like passwords you should be very careful with them... 
 Travis allows you to encrypt variables before adding them to the .travis.yml file so that secure information doesn't need to be committed into the repository or stored in plain text by the CI system.
@@ -170,6 +170,6 @@ Then the script ensures that the commit is identified and has a message that can
 
 # Finally
 
-![travis build history](/images/travis.png)
+![travis build history](/images/travis.png){:loading="lazy"}
 
 This process turned out to be straightforward and Travis is a joy to work with. Next up it's time to add some plugins to the site so that an AMP version can be published

@@ -26,7 +26,7 @@ The problem I have is that sometimes the name of the thing *is* the name of a pl
 
 The question is do I catch only that scenario - as in this first set of mockups...
 
-![Mockup](http://2.bp.blogspot.com/-h1Xm0j1c0wQ/UUlrqBaznwI/AAAAAAAACyQ/TK1bmf7zZUk/s1600/rad+app+search.png)
+![Mockup](http://2.bp.blogspot.com/-h1Xm0j1c0wQ/UUlrqBaznwI/AAAAAAAACyQ/TK1bmf7zZUk/s1600/rad+app+search.png){:loading="lazy"}
 
 I like this because the intention is pretty clear and the UI doesn't contain elements to muddy the intention unless we're already in a situation where we might need to make additional decisions.
 
@@ -34,6 +34,6 @@ But if there's a use-case or an incorrect result state that we haven't accounted
 
 So we could add a toggle that allows people to tell us what they want to do - as in this set...
 
-![Mockup](http://2.bp.blogspot.com/-gvBeHDi7SwQ/UUlufgumOJI/AAAAAAAACyg/RPcrpOyQ3Qo/s1600/rad-search-two.png)
+![Mockup](http://2.bp.blogspot.com/-gvBeHDi7SwQ/UUlufgumOJI/AAAAAAAACyg/RPcrpOyQ3Qo/s1600/rad-search-two.png){:loading="lazy"}
 
 I worry that there's more to parse on this screen but also, I wonder if it makes the fact that you can search by address more discoverable.

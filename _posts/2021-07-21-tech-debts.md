@@ -25,7 +25,7 @@ And the XP Rule
 
 # Owning software is like having a garden
 
-![/images/tech-debts/tree.jpg](/images/tech-debts/tree.jpg)
+![/images/tech-debts/tree.jpg](/images/tech-debts/tree.jpg){:loading="lazy"}
 
 In managing a garden, you need to
 
@@ -84,7 +84,7 @@ Sometimes you start what you think is a quick task. And discover it isn't. You s
 <!--alex ignore ball-->
 [Foote and Yoder propose that all architectures become a big ball of mud.](http://www.laputan.org/mud/) It's a great paper. I suggest that software always ends up looking like the home of a hoarder.
 
-![a picture of a hoarders room, very messy, with piles of things](/images/tech-debts/Hoarding_living_room.jpeg)
+![a picture of a hoarders room, very messy, with piles of things](/images/tech-debts/Hoarding_living_room.jpeg){:loading="lazy"}
 
 ## What is it?
 
@@ -126,7 +126,7 @@ I loved that coat. A genuine first world war camel hair trench coat. It kept me 
 
 What I had thought was a great coat, was actually a smelly coat. It served me well until I realised it stank.
 
-![a very old picture of a very young me wearing an original world war one camelhair coat](/images/tech-debts/bad_history.jpeg)
+![a very old picture of a very young me wearing an original world war one camelhair coat](/images/tech-debts/bad_history.jpeg){:loading="lazy"}
 
 ## What is it?
 
@@ -177,7 +177,7 @@ Equally, watch out for *never* replacing decisions you've outgrown. There's a lo
 
 [Jessica Kerr talks about "downhill invention, uphill analysis"](https://www.youtube.com/watch?v=Lp-Xqj8wSMg) from [Vehicles by Valentino Braitenberg](https://mitpress.mit.edu/books/vehicles). Explaining that it is easier to think about how to replace a system than it is to think about how it works. And, so, we naturally tend to think that systems we inherit are bad, and the ones that we replace them with are good
 
-![the different styles of the same thing meme, one thing drawn in multiple styles](/images/tech-debts/actual_different_styles_meme_by_zeurel-d38c306.png)
+![the different styles of the same thing meme, one thing drawn in multiple styles](/images/tech-debts/actual_different_styles_meme_by_zeurel-d38c306.png){:loading="lazy"}
 
 ## What is it?
 
@@ -201,7 +201,7 @@ Also watch out for justifications based on something being best or current pract
 
 Tech debt has been short hand for so long now that everyone means a different thing but thinks they agree. It may be better to talk about whether we are keeping scope and delaying implementation or reducing scope and managing consequences.
 
-![several credit cards and a bill behind them](/images/tech-debts/credit-card-1104961_1280.webp)
+![several credit cards and a bill behind them](/images/tech-debts/credit-card-1104961_1280.webp){:loading="lazy"}
 
 ## What is it?
 

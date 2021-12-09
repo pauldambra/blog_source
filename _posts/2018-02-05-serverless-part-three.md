@@ -26,13 +26,13 @@ To start the API Gateway and Lambda example from [part two](/2018/02/serverless-
 
 This starts lambda in Docker and shows what endpoints are mounted:
 
-![the start-api command console output](/images/events/start-api.png)
+![the start-api command console output](/images/events/start-api.png){:loading="lazy"}
 
 You can then POST to the endpoint `curl -H "Content-Type: application/json" -X POST -d '{"geolocation":"xyz", "name":"test"}' http://127.0.0.1:3000/destination`
 
 Which outputs the same information as you would see in cloudwatch logs:
 
-![the api console output](/images/events/api-console-output.png)
+![the api console output](/images/events/api-console-output.png){:loading="lazy"}
 
 # DynamoDB
 

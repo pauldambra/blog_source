@@ -50,7 +50,7 @@ I've really valued the focus on reflection. Particularly around trying to find a
 <!--alex ignore easy --->
 At the moment they're really in google docs. Cos I can make them on the train home. I need to find a train-friendly way to be able to write and publish them easily without relying on a walled garden.
 
-![weeknotes image](/images/weeknotes.png)
+![weeknotes image](/images/weeknotes.png){:loading="lazy"}
 
 # Being part of a big organisation
 
@@ -115,14 +115,14 @@ I'll also give up shaming myself for not cycling 27km to work and aim to go for 
 This is the first full year I've had a dog since I was a teenager. Best decision in a long time. As much work as having a baby but it adds joy to life.
 
 ### dog on new years day 2019
-  ![dog on new years day 2019](/images/dog-2019-01-01.jpg)
+  ![dog on new years day 2019](/images/dog-2019-01-01.jpg){:loading="lazy"}
 
 ### dog on new years day 2020
-  ![dog on new years day 2020](/images/dog-2020-01-01.jpg)
+  ![dog on new years day 2020](/images/dog-2020-01-01.jpg){:loading="lazy"}
 <!--alex ignore kids --->
 # Kids
 <!--alex ignore death --->
-![god of death](/images/god-of-death.png)
+![god of death](/images/god-of-death.png){:loading="lazy"}
 <!--alex ignore kids --->
 All three kids have said they don't want to be on social media so I won't mention much here. Watching them growing into sensible, curious, wonderful, talented nerds despite my terrible parenting is the most incredible thing.
 

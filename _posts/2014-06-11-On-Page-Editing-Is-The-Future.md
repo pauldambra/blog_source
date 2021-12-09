@@ -241,9 +241,9 @@ An addMessage function shows a bootstrap alert to keep the user informed of what
 # Visual Affordance
 I found this a pretty hard design decision. I'm not sure I'm happy it really calls out what is happening to a user and I think I'll grab a designer the next time I'm next to one and ask their opinion but...
 
-![editable sections for anonymous users](/images/affordance-loggedout.png)
+![editable sections for anonymous users](/images/affordance-loggedout.png){:loading="lazy"}
 
-![editable sections for anonymous users](/images/affordance-loggedin.png)
+![editable sections for anonymous users](/images/affordance-loggedin.png){:loading="lazy"}
 
 ```scss 
 @mixin editorPencil($size) {
@@ -277,4 +277,4 @@ The page content is jumping about as alert messages are added and that's not OK 
 
 But this was really fun to add and it needed very little code to do so.
 
-![editing the page](/images/editing.gif)
+![editing the page](/images/editing.gif){:loading="lazy"}

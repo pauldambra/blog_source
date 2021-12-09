@@ -12,7 +12,7 @@ Twice recently I've hit the same problem with two different mobile phone vendor'
 
 <!--more-->
 
-![using a dash in an input](http://1.bp.blogspot.com/-5j1jDK3JAss/TfIK0Q-_reI/AAAAAAAAAO0/LyikHIbRnj0/s1600/idiots.png)
+![using a dash in an input](http://1.bp.blogspot.com/-5j1jDK3JAss/TfIK0Q-_reI/AAAAAAAAAO0/LyikHIbRnj0/s1600/idiots.png){:loading="lazy"}
 
  nor is it odd to use a dash.
 

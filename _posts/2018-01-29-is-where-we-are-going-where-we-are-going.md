@@ -61,7 +61,7 @@ Do we care? Should we care?
 
 # High speed with no progress
 
-![some toddlers demonstrating you can have speed without progress](/images/kids.gif)
+![some toddlers demonstrating you can have speed without progress](/images/kids.gif){:loading="lazy"}
 
 So logically you can have a high speed system with low progress. And you can have a low speed system with high progress.
 
@@ -71,7 +71,7 @@ Take two cyclists and start them at the same place with some desired destination
 
 Mix in a closer to reality metaphor. Make it a journey of many legs and the likelihood that the randomly directed cyclist will ever reach the destination approaches zero pretty quickly. The other cyclist could be travelling at any speed but is guaranteed to get to the destination.
 
-![1 step forward and 1 step back means 0 progress](/images/zero-velocity.png)
+![1 step forward and 1 step back means 0 progress](/images/zero-velocity.png){:loading="lazy"}
 
 # So, what
 
@@ -102,15 +102,15 @@ So, ok, direction is important.
 
 Because the landscape you're building software in probably doesn't look like this:
 
-![a picture of the peak district with great visibility](/images/sunny-day.jpg)
+![a picture of the peak district with great visibility](/images/sunny-day.jpg){:loading="lazy"}
 
 Since we're generally operating under imperfect conditions. Trying to figure out where we are is more like being in the fog:
 
-![a picture of the peak in foggy conditions](/images/foggy-day.jpg)
+![a picture of the peak in foggy conditions](/images/foggy-day.jpg){:loading="lazy"}
 
 A friend was for a while a member of mountain rescue (who are incidentally incredible - [you should give them money](https://donate.justgiving.com/donation-amount?uri=aHR0cHM6Ly9kb25hdGUtYXBpLmp1c3RnaXZpbmcuY29tL2FwaS9kb25hdGlvbnMvNzk5ZTk3YzlhMDFiNGRkMGJhNzEwNTdjMWIxODgyZjg=)). They once described to me how they navigate when they have very low visibility.
 
-![a lost Lego hiker](/images/lost.jpg)
+![a lost Lego hiker](/images/lost.jpg){:loading="lazy"}
 
 In pairs:
 

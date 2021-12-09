@@ -48,7 +48,7 @@ Boil it down to this: there is no installation, configuration, or maintenance of
 
 In most cases your team (or worse a different team in your organisation) will provision, manage, patch, security scan, and deploy servers either physical or virtual. Unless you sell the compute those servers represent then you don't make money only by running those servers.
 
-![what you do and don't manage in a serverless system](/images/serverless-maintenance.png)
+![what you do and don't manage in a serverless system](/images/serverless-maintenance.png){:loading="lazy"}
 
 In this image we can see that adding containers or kubernetes might make your systems "Serverless" to a traditional development team, one that has no access to or responsibility for infrastructure. But it increases the amount of infrastructure to provision, patch, and scan for vulnerabilities for your organisation. It _increases_ the amount of things to manage that don't directly add value.
 
@@ -138,7 +138,7 @@ S3 and dynamo are our highest serverless cost. Lambda is effectively free still 
 
 DynamoDB was rising in cost. We discovered this was because we were setting tables to fixed provisioned capacities. In order to fix a performance issue we set Dynamo to "on demand" i.e. serverless mode. Not only did that fix our performance problems but also reduced cost by about 80%. The moral of the tale here is you get forensic visibility into the cost of what you're running. But you have to make sure you're using a service like cloudability and are checking what you're spending.
 
-![https://twitter.com/pauldambra/status/1180157778419179523](/images/dynamo-cheap-perf.png)
+![https://twitter.com/pauldambra/status/1180157778419179523](/images/dynamo-cheap-perf.png){:loading="lazy"}
 
 You have to make sure you are looking at the cost profile of the services... AWS Cognito is cheap as chips, AWS Cognito with Advanced Security suuuuupeeerrrrrr expensive. 
 
