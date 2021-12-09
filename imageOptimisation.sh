@@ -3,9 +3,10 @@
 set -u
 
 echo "setting max width for images"
-magick mogrify -path ./images -resize 1000\> -quality 80  *.jpg
-magick mogrify -path ./images -resize 1000\> -quality 80  *.png
-
+pushd ./images
+magick mogrify -resize 1000x712\> -quality 80 *.jpg
+magick mogrify -resize 1000x712\> -quality 80 *.png
+popd
 
 echo "optimising jpegs"
 find ./images -name "*.jpg" -type f -exec jpegtran -copy none -optimize -progressive -perfect -outfile {} {} \;
