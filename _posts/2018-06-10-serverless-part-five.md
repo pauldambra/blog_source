@@ -72,33 +72,33 @@ A wonderful thing about read models (in an eventsourced system at least) is that
 
 ## Work an example
 
-![without any events](/images/events/5/1-no-event.jpg){:loading="lazy"}
+![without any events](/images/1-no-event.jpg){:loading="lazy"}
 
 Let's imagine an eventsourced ecommerce application with no events. Sales and fulfilment teams need to know how much money we've made, how many orders we've taken, and what products have been sold.
 
 We've deployed 3 separate applications that are subscribed to the empty event stream.
 
-![after one event](/images/events/5/2-one-event.jpg){:loading="lazy"}
+![after one event](/images/2-one-event.jpg){:loading="lazy"}
 
 Big day - the first sale! myshop.com writes an event to the stream that we've sold a t-shirt. The sales, order count, and products sold read models update and any UI or report being generated using them can update accordingly.
 
-![after many events](/images/events/5/3-many-events.jpg){:loading="lazy"}
+![after many events](/images/3-many-events.jpg){:loading="lazy"}
 
 Many days and events have passed and after the most recent cancelled order the fulfilment team let you know that it's really hard for them to figure out what's happening when an order is cancelled. They'd like a view to help them manage cancellations.
 
-![when the new read model is deployed](/images/events/5/4-new-readmodel.jpg){:loading="lazy"}
+![when the new read model is deployed](/images/4-new-readmodel.jpg){:loading="lazy"}
 
 So a new read model is built and deployed to track order cancellations. The existing read models are all up-to-date on event 300. When the new application starts its read model isn't showing any cancelled orders and it has read 0 events.
 
 (important to note that no other applications had to change at all to support this!)
 
-![when the new read model is caught up](/images/events/5/5-caught-up.jpg){:loading="lazy"}
+![when the new read model is caught up](/images/5-caught-up.jpg){:loading="lazy"}
 <!--alex ignore period --->
 The new application reads through the event stream until it has caught up. There's a period of time where it is reading through the event stream and performing any calculations or running any logic where it isn't caught up with the other read models or with the write side of the applications.
 
 This is 'eventual consistency'. An event sourced system embraces the benefits of not trying to force all the parts of the application to stay exactly in sync with each other all the time.
 
-![adding a graph database read model](/images/events/5/6-graph.jpg){:loading="lazy"}
+![adding a graph database read model](/images/6-graph.jpg){:loading="lazy"}
 
 As the website gets more popular storing the products sold in an array is limiting what business intelligence the sales team can gather. You can add a consumer that stores products sold in a graph database.
 

@@ -38,13 +38,13 @@ In systems that are not event driven **the events are still there** only they ar
 
 One system registers with another. That system raises an event: `PersonChangedAddress`. If the "subscriber" cares it takes some action. In a system where events are notifications they might carry no information. So the subscriber still needs to call an API or in some other way load the information it needs to take an action.
 
-![event notifications system diagram](/images/events/event-notification.jpg){:loading="lazy"}
+![event notifications system diagram](/images/event-notification.jpg){:loading="lazy"}
 
  2) Event Carried State Transfer (should obvs be "Event Assisted State Transfer" or E.A.S.T.)
 
 One system registers with another. That system raises an event: `PersonChangedAddress` and includes at least the new address and the identifier for the person. The subscriber now has all the information it needs to respond to the event.
 
-![event carried system diagram](/images/events/east.jpg){:loading="lazy"}
+![event carried system diagram](/images/east.jpg){:loading="lazy"}
 
  3) [Command Query Responsibility Segregation (CQRS)](#cqrs)
 
@@ -58,7 +58,7 @@ Another application (or the same one in a different code path) has the responsib
 
 CQRS is a _big_ topic. [Fowler's description](https://martinfowler.com/bliki/CQRS.html) is a good starting point. And [Rob Ashton has a good article](https://web.archive.org/web/20210307160236/http://codeofrob.com/entries/cqrs-is-too-complicated.html) showing varying levels of complexity of CQRS approaches
 
-![CQRS system diagram](/images/events/cqrs.jpg){:loading="lazy"}
+![CQRS system diagram](/images/cqrs.jpg){:loading="lazy"}
 
  4) EventSourcing
 
@@ -82,11 +82,11 @@ An application can now read all three of those events to generate the state of t
 
 Or it could read all of the events of type `PersonChangedAddress` and generate a list of all addresses in the system.
 
-![event sourcing system diagram](/images/events/event-sourced.jpg){:loading="lazy"}
+![event sourcing system diagram](/images/event-sourced.jpg){:loading="lazy"}
 
 The event-driven approach has a number of benefits. Most strikingly flexibility to changes in business logic, the ability to audit what has happened, and composability. Imagine we need to report on stock and accounts changes - we don't even need to change any deployed module.
 
-![building on an event driven system diagram](/images/events/event-composed.jpg){:loading="lazy"}
+![building on an event driven system diagram](/images/event-composed.jpg){:loading="lazy"}
 
 This additive approach means that every application that only reads from the stream can never add defects to existing applications!
 
@@ -108,7 +108,7 @@ Storage, database, queues, and more can be provided in such a way that they are 
 
 So that last system diagram could be rewritten:
 
-![serverless event driven system diagram](/images/events/serverless.jpg){:loading="lazy"}
+![serverless event driven system diagram](/images/serverless.jpg){:loading="lazy"}
 
 Globally distributed, resilient, highly available, scalable, event-driven system. And somebody else manages all the pieces while you fill it with code.
 
@@ -124,15 +124,15 @@ So let's make that.
 
 ## Level 1: System Context Diagram
 
-![the first level of a c4 diagram](/images/events/c4/1.jpg){:loading="lazy"}
+![the first level of a c4 diagram](/images/1.jpg){:loading="lazy"}
 
 ## Level 2: Container Diagram
 
-![the second level of a c4 diagram](/images/events/c4/2.jpg){:loading="lazy"}
+![the second level of a c4 diagram](/images/2.jpg){:loading="lazy"}
 
 ## Level 3: Component Diagram
 
-![the third level of a c4 diagram](/images/events/c4/3.jpg){:loading="lazy"}
+![the third level of a c4 diagram](/images/3.jpg){:loading="lazy"}
 
 (check out [Simon Brown's C4 diagrams](https://c4model.com/) - they're 💯)
 

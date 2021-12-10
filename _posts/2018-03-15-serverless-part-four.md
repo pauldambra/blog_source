@@ -16,7 +16,7 @@ tags: ["serverless", "series", "events", "eventdriven"]
 
 In this post we start to see how we can build a stream of events that lets us create state. We'll do this by adding an event subscrber that waits until a user proposes a destination to visit and validates the location they've provided.
 
-![the slice being built in this article](/images/events/c4/second-slice-4.jpg){:loading="lazy"}
+![the slice being built in this article](/images/second-slice-4.jpg){:loading="lazy"}
 
 <!--more-->
 
@@ -28,7 +28,7 @@ Subscribing and reacting to events demonstrates one of the benefits mentioned in
 <!--alex ignore kids --->
 In part three we added a command handler that could write `ProposedDestination` events. Here a user is saying they think there is a place that parents would like to take their kids. The application accepts this to smooth their experience (and capture any proposal) and then responds to that event by checking the provided details before listing the new destination.
 
-![the event flow](/images/events/part-four-flow.jpg){:loading="lazy"}
+![the event flow](/images/part-four-flow.jpg){:loading="lazy"}
 
 So:
 <!--alex ignore failure --->
@@ -282,7 +282,7 @@ This let the change above be test-driven. Running the test showed it failing bef
 
 Running `deploy.sh` and pushing a test API event in results in a DynamoDB table with the expected two events.
 
-![two events in a dynamodb table](/images/events/2-events-written.png){:loading="lazy"}
+![two events in a dynamodb table](/images/2-events-written.png){:loading="lazy"}
 
 ```json
 {

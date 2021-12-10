@@ -24,7 +24,7 @@ That feels like a meaningful slice.
 
 # The moving pieces
 
-![the second level of a c4 diagram](/images/events/c4/first-slice-2.jpg){:loading="lazy"}
+![the second level of a c4 diagram](/images/first-slice-2.jpg){:loading="lazy"}
 
 ## Infrastructure as Code
 
@@ -206,7 +206,7 @@ sam deploy --template-file ./packaged.yaml \
 
 Running that creates everything necessary in AWS. Looking at the created stack there are more pieces created than needed to be specified.
 
-![the created resources](/images/events/stack.png){:loading="lazy"}
+![the created resources](/images/stack.png){:loading="lazy"}
 
 This includes the IAM roles to allow these resources to talk to each other. These at least in part result from the config line: `Policies: AmazonDynamoDBFullAccess` applied to the lambda function.
 
@@ -214,19 +214,19 @@ This is _much more_ access than we need. But in the interest of not getting dive
 
 The wider than necessary access can be seen in the lambda console which lists out the resources the function can access and the policy that makes that access possible.
 
-![the lambda console and its permissions](/images/events/lambda-console.png){:loading="lazy"}
+![the lambda console and its permissions](/images/lambda-console.png){:loading="lazy"}
 
 The API Gateway console shows the new endpoint
 
-![the api gateway console](/images/events/api-gateway.png){:loading="lazy"}
+![the api gateway console](/images/api-gateway.png){:loading="lazy"}
 
 The endpoint can be tested right in the console:
 
-![testing the api](/images/events/testing-api-1.png){:loading="lazy"}
+![testing the api](/images/testing-api-1.png){:loading="lazy"}
 
 and the results are logged in the page
 
-![the api test results](/images/events/testing-api-result-2.png){:loading="lazy"}
+![the api test results](/images/testing-api-result-2.png){:loading="lazy"}
 
 And finally, the cloudwatch logs show the output from running the lambda.
 
@@ -286,7 +286,7 @@ In fact, increasing the RAM actually increases the underlying compute, network, 
 
 # DynamoDB
 
-![The table viewed in the AWS console](/images/events/dynamo-console.png){:loading="lazy"}
+![The table viewed in the AWS console](/images/dynamo-console.png){:loading="lazy"}
 
 The table has been created and is ready to be used. The config we've used doesn't actually setup the table for autoscaling. But we'll loop back around and tidy that up later. It's another detail that doesn't need nailing right now.
 

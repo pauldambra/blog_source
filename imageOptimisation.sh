@@ -12,18 +12,17 @@ popd () {
 
 # from https://www.smashingmagazine.com/2015/06/efficient-image-resizing-with-imagemagick/
 smartresize() {
+    # don't use magick command from imagemagick 7 as Ubuntu 20 comes with imagemagick 6
    mogrify -filter Triangle -define filter:support=2 -thumbnail 1000x712\> -unsharp 0.25x0.08+8.3+0.045 -dither None -posterize 136 -quality 82 -define jpeg:fancy-upsampling=off -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -define png:exclude-chunk=all -interlace none -colorspace sRGB *.$1
+   mogrify -path 300 -filter Triangle -define filter:support=2 -resize 300\> -unsharp 0.25x0.08+8.3+0.045 -dither None -posterize 136 -quality 82 -define jpeg:fancy-upsampling=off -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -define png:exclude-chunk=all -interlace none -colorspace sRGB *.$1
+   mogrify -path 480 -filter Triangle -define filter:support=2 -resize 480\> -unsharp 0.25x0.08+8.3+0.045 -dither None -posterize 136 -quality 82 -define jpeg:fancy-upsampling=off -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -define png:exclude-chunk=all -interlace none -colorspace sRGB *.$1
 }
 
-for d in $(find ./images -type d)
-do
-    pushd $d
-    echo "setting max width for images in $d"
-    # don't use magick command from imagemagick 7 as Ubuntu 20 comes with imagemagick 6
-    if [ "$(ls -A | grep -i \\.jpg\$)" ]; then smartresize "jpg"; fi
-    if [ "$(ls -A | grep -i \\.png\$)" ]; then smartresize "png"; fi
-    popd
-done
+pushd "images"
+if [ "$(ls -A | grep -i \\.jpg\$)" ]; then smartresize "jpg"; fi
+if [ "$(ls -A | grep -i \\.png\$)" ]; then smartresize "png"; fi
+popd
+
 
 echo "optimising jpegs"
 find ./images -name "*.jpg" -type f -exec jpegtran -copy none -optimize -progressive -perfect -outfile {} {} \;
