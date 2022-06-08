@@ -26,7 +26,7 @@ paginate:
 </script>
 
 {% for post in paginator.posts %}
-    <div class="post-item">
+    <div class="post-item" id="id{{ forloop.index }}">
         <div class="excerpt">
             <a href="{{ post.url }}">
                 <h1>{{ post.title }}</h1>
