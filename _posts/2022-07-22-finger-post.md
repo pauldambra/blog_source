@@ -21,7 +21,7 @@ Having changed problem domain, work environment, stack, and programming language
 
 In ASP .Net I was a sign post for [feature folders](https://maestros.io/structure-by-type-vs-feature). In [flaccid scrum](https://martinfowler.com/bliki/FlaccidScrum.html) teams for less planning and more measuring.  In BLOBs (boring line of business applications) for an event-driven core. But having changed environment so completely some days I feel like a weather-vane.
 
-Using the discussion below... What are you a sign-post for?
+What are things you are a signpost for? Or what are the things about which you are a weather vane on purpose or by accident?
 
 Click "ask a question" below to sign in and tell me what you're a signpost for
 
