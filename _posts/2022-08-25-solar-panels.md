@@ -46,7 +46,7 @@ A battery was at least £3000 at time of installation. And this was already an e
 
 ### Feed-in-tariff
 
-We receive some payments from [the UK feed-in-tariff](https://www.which.co.uk/reviews/feed-in-tariffs/article/feed-in-tariffs/what-was-the-feed-in-tariff-aAsa36S95iJy). Roughly 5p for every KWh we generate and another 5p for every Kwh we export. For small installations you aren't required to meter generation _and_ export. So the tariff assumes that we export 50% of what we generate.
+We receive some payments from [the UK feed-in-tariff](https://www.which.co.uk/reviews/feed-in-tariffs/article/feed-in-tariffs/what-was-the-feed-in-tariff-aAsa36S95iJy). Roughly 5p for every KWh we generate and another 5p for every KWh we export. For small installations you aren't required to meter generation _and_ export. So the tariff assumes that we export 50% of what we generate.
 
 Since Nov 2018 (I don't have all the records available online and I'm too lazy to find the paper records) we've received £950.21. Naively that's an interest rate of around 4%. 
 
