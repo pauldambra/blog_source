@@ -8,9 +8,11 @@ category: "energy"
 tags: ["solar", "energy"]
 ---
 
-We've had photovoltaic solar panels generating electricity on our roof for exactly 5 years. I've explained the impact a few times prviately or on the tooter website. I'm writing it down here since electricity prices are in the news at the moment and it might be useful to some folks.
+We've had photovoltaic (PV) solar panels generating electricity on our roof for exactly 5 years. I've explained the impact a few times prviately or [on the tooter website](https://twitter.com/search?q=from%3Apauldambra%20AND%20solar&src=typed_query). I'm writing it down here so that I don't have to re-remember all the details each time. And since electricity prices are in the news at the moment and it might be useful to some folks.
 
-We had 14 panels installed on 25th August 2017. It cost £4,793.25 which included 5% VAT. Our house is south facing at the rear. They've generated 17.06MWh of electricity in the last five years. That's 17,060Kwh or a little over 17,000 "units".
+We had 14 panels installed on 25th August 2017. It cost £4,793.25 which included 5% VAT. Our house is south facing at the rear. They've generated 17.06MWh of electricity in the last five years. 
+
+That's 17,060Kwh or a little over 17,000 "units".
 
 And that represents around 4 tonnes of CO<sub>2</sub> "saved". 
 
@@ -25,7 +27,6 @@ We have 11 panels on the south facing roof.
 And 3 on the east facing roof. 
 
 ![the layout and lifetime generation of the east facing panels](../images/solar/panels-east.png)
-
 
 You can see the lifetime generation of each panel in those images. 
 
@@ -61,19 +62,23 @@ At 18.9 p/kWh that's another £76.54 we've not had to spend on electricity
 
 Then there's the electricity we've used that we would have otherwise paid for. Our monitoring isn't detailed enough to know this value. Using Ofgem figures [British Gas suggests our household would use 4,300kWh electricity annually](https://www.britishgas.co.uk/energy/guides/average-bill.html).
 
-Our usage is around 3900kWh annually. Not all of that difference will be due to the panels but that's up-to around £70 a year more that we're saving.
-
-## Payback time
-
-Folk seem unreasonably obsessed with the payback time of solar systems. Before Solar PV installation we had other work done on the roof. The payback time of that investment was infinity. No part of our house generated income before we got the panels.
-
-Based on the last five years and assuming (despite what's happening right now) that electricity prices rise with inflation then the payback time is 15-20 years.
-
-Over the coming years prices will rise, my kids will move out (🙏), and our electricity demand will fall. So I'd expect payback to be less than 15 years.
+Our usage is around 3100kWh annually. Not all of that difference will be due to the panels - we're super careful about energy use - but that's up-to £200 a year more that we're "saving".
 
 #### Price rises
 
-The UK is having a terrible time of absent government and unrestrained, self-interested capitalism after an extended period of government by money-vampire. So, electricity is expected to soon be 52p/KWh. That potential 400KWh a year is then £208 a year.
+The UK is having a terrible time of absent government and unrestrained, self-interested capitalism after an extended period of government by money-vampire. So, electricity is expected to soon be 52p/KWh. That potential 1200KWh a year less is then £600 a year.
+
+## Payback time
+
+Payback time is the time it takes for income and savings to pay for the cost of installation. Before Solar PV installation we had other work done on the roof. The payback time of that investment in the roof was... ... infinity. No part of our house generated income before we got the panels.
+
+We were in the lucky position to care more about offsetting our environmental impact than the financial return on investment.
+
+However, based on the last five years and assuming (despite what's happening right now) that electricity prices rise with inflation then the payback time is 15-20 years.
+
+Over the coming years prices will rise, my kids will move out (🙏), and our electricity demand will fall. So I'd expect payback to be more like 10-15 years.
+
+But I'm not relying on it!
 
 ## Would I recommend you get panels?
 
