@@ -28,7 +28,7 @@ And 3 on the east facing roof.
 
 ![the layout and lifetime generation of the east facing panels](/images/solar/panels-east.png)
 
-You can see the lifetime generation of each panel in those images. 
+You can see the lifetime generation of each panel in those images. The south-facing panels have each generated around 1.3MWh and the east-facing panels around 1MWh.
 
 There is an inverter in the attic and a generation meter alongside our gas and electricity meters in the hall. The inverter from [SolarEdge](https://www.solaredge.com/uk) emits some metrics over wi-fi and we have an app that lets us see them.
 
