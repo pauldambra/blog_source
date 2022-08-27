@@ -66,6 +66,7 @@ Our usage is around 3100kWh annually. Not all of that difference will be due to 
 
 #### Price rises
 
+<!--alex ignore period-->
 The UK is having a terrible time of absent government and unrestrained, self-interested capitalism after an extended period of government by money-vampire. So, electricity is expected to soon be 52p/KWh. That potential 1200KWh a year less is then £600 a year.
 
 ## Payback time
