@@ -22,11 +22,11 @@ And that represents around 4 tonnes of CO<sub>2</sub> "saved".
 
 We have 11 panels on the south facing roof.
 
-![the layout and lifetime generation of the south facing panels](../images/solar/panels-south.png)
+![the layout and lifetime generation of the south facing panels](/images/solar/panels-south.png)
 
 And 3 on the east facing roof. 
 
-![the layout and lifetime generation of the east facing panels](../images/solar/panels-east.png)
+![the layout and lifetime generation of the east facing panels](/images/solar/panels-east.png)
 
 You can see the lifetime generation of each panel in those images. 
 
@@ -38,7 +38,7 @@ Solar Energy sales people behaved horribly. It was like the worst experience of 
 
 We did lose some data when I changed my wifi network and forgot about the metrics for a few weeks. So we've generated an unknown amount more than 17.06MWh. You can see the drop in Q3 2019 below. Which suggests we've actually generated closer to 17.5MWh. 
 
-![production (by quarter) showing 2 or 3 MWh per year](../images/solar/production.png)
+![production (by quarter) showing 2 or 3 MWh per year](/images/solar/production.png)
 
 We don't have a battery. So we do still draw from the grid. Because, while we generate almost as much as we use, we don't always generate electricity when we are using it. :)
 
