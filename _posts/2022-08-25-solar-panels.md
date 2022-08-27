@@ -67,7 +67,7 @@ Our usage is around 3900kWh annually. Not all of that difference will be due to 
 
 Folk seem unreasonably obsessed with the payback time of solar systems. Before Solar PV installation we had other work done on the roof. The payback time of that investment was infinity. No part of our house generated income before we got the panels.
 
-Based on the last five years and assuming electricity prices rise with inflation (don't read the news if it would make you angry to find out they are rising way faster than that) then the payback time is 15-20 years.
+Based on the last five years and assuming (despite what's happening right now) that electricity prices rise with inflation then the payback time is 15-20 years.
 
 Over the coming years prices will rise, my kids will move out (🙏), and our electricity demand will fall. So I'd expect payback to be less than 15 years.
 
