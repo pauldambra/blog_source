@@ -59,7 +59,7 @@ The actual switch is
 }(window.omniclopse = window.omniclopse || {}));
 ```
 
-Since the site is using the well-named [Font-awesome icon library](http://fortawesome.github.io/Font-Awesome/) all that is needed to change the icon is to alter the fa classes on the element. 
+Since the site is using the well-named [Font-awesome icon library](http://fontawesome.github.io/Font-Awesome/) all that is needed to change the icon is to alter the fa classes on the element. 
 
 As an exercise in hipsterism this is done with [vanilla javascript](http://vanilla-js.com/) but it would be trivial to pass JQuery into this IIFE and use the class addition and removal functions it provides instead.
 

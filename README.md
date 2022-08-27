@@ -2,7 +2,7 @@ My super-good awesome-fun blog
 
 Uses Github actions for CI so that I can use Jekyll and plugins.
 
-Livereload is built-in to Jekyll 3.7+ so no longer uses guard
+Livereload is built-in to Jekyll 3.7+ so it no longer uses guard
 
 ## to run:
 
@@ -10,7 +10,7 @@ Livereload is built-in to Jekyll 3.7+ so no longer uses guard
 
 ## Manual Spell checking runs
 
-markdown spellchecker is an awesome tool. To run it in interactive mode:
+Uses "markdown spellchecker" - an awesome tool. To run it in its interactive mode:
 
 ```bash
  node_modules/.bin/mdspell _posts/*.md \
