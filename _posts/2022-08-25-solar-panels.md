@@ -44,8 +44,6 @@ We don't have a battery. So we do still draw from the grid. Because, while we ge
 
 A battery was at least £3000 at time of installation. And this was already an expensive luxury. We chose a slightly more expensive inverter. So that we could still add a battery in future.  
 
-## Income
-
 ### Feed-in-tariff
 
 We receive some payments from [the UK feed-in-tariff](https://www.which.co.uk/reviews/feed-in-tariffs/article/feed-in-tariffs/what-was-the-feed-in-tariff-aAsa36S95iJy). Roughly 5p for every KWh we generate and another 5p for every Kwh we export. For small installations you aren't required to meter generation _and_ export. So the tariff assumes that we export 50% of what we generate.
