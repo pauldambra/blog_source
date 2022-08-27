@@ -32,7 +32,7 @@ You can see the lifetime generation of each panel in those images. The south-fac
 
 There is an inverter in the attic and a generation meter alongside our gas and electricity meters in the hall. The inverter from [SolarEdge](https://www.solaredge.com/uk) emits some metrics over wi-fi and we have an app that lets us see them.
 
-Solar Energy sales people behaved horribly. It was like the worst experience of buying a car. We were lucky that we found a group that seemed trustworthy and had very soft touch sales. They drove up from Bristol and completed the installation in a day. I would happily recommend them but [they aren't trading any more](http://www.justenergysolutions.com/).
+Solar Energy sales people behaved horribly. It was like the worst experience of buying a car. We were lucky that we found a group that seemed trustworthy and had soft-touch sales. They drove up from Bristol and completed the installation in a day. I would happily recommend them but [they aren't trading any more](http://www.justenergysolutions.com/).
 
 ## Generation 
 
