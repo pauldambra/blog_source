@@ -52,7 +52,7 @@ Since Nov 2018 (I don't have all the records available online and I'm too lazy t
 
 ### Immediate use
 
-Our generation meter shows 16,655KWh. So I think that represents 405KWh that have been consumed within the house before making it to the meter (or possibly that the panels metrics don't match production exactly ¯\_(ツ)_/¯ )
+Our generation meter shows 16,655KWh. So I think that represents 405KWh that have been consumed within the house before making it to the meter (or possibly that the panels metrics don't match production exactly ¯\\_(ツ)_/¯ )
 
 At 18.9 p/kWh that's another £76.54 we've not had to spend on electricity
 
