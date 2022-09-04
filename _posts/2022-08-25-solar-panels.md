@@ -8,7 +8,7 @@ category: "energy"
 tags: ["solar", "energy"]
 ---
 
-We've had photovoltaic (PV) solar panels generating electricity on our roof for exactly 5 years. I've explained the impact a few times prviately or [on the tooter website](https://twitter.com/search?q=from%3Apauldambra%20AND%20solar&src=typed_query). I'm writing it down here so that I don't have to re-remember all the details each time. And since electricity prices are in the news at the moment and it might be useful to some folks.
+We've had photovoltaic (PV) solar panels generating electricity on our roof for exactly 5 years. I've explained the impact a few times privately or [on the tooter website](https://twitter.com/search?q=from%3Apauldambra%20AND%20solar&src=typed_query). I'm writing it down here so that I don't have to re-remember all the details each time. And since electricity prices are in the news at the moment and it might be useful to some folks.
 
 We had 14 panels installed on 25th August 2017. It cost £4,793.25 which included 5% VAT. Our house is south facing at the rear. They've generated 17.06MWh of electricity in the last five years. 
 
