@@ -17,7 +17,7 @@ instructions:
   - place them straight into a bowl and cover with clingfilm
   - after at least ten minutes
   - remove them from the bowl
-  - the skin will easily peel away
+  - the skin will peel away without much effort
   - slice lengthways
   - re-using the same bowl (which will have the pepper's juices at the bottom)
   - add the sliced peppers
