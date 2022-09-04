@@ -22,16 +22,25 @@ jobs:
     - uses: actions/setup-node@v2-beta
       with:
         node-version: '16'
-    - uses: marceloprado/has-changed-path@v1
-      id: changed-images
+    - uses: dorny/paths-filter@v2
+      id: text-changes
       with:
-        paths: images/**/*.*
+        filters: |
+          src:
+            - '**/*.md'
+            - '**/*.html'
+    - uses: dorny/paths-filter@v2
+      id: image-changes
+      with:
+        filters: |
+          src:
+            - 'images/**/*.*'
     - name: setup dependencies
       run: sudo apt-get install libjpeg-progs optipng fonts-noto-color-emoji imagemagick
     - name: pre build
       run: npm ci
     - name: image optimisation
-      if: steps.changed-images.outputs.changed == 'true'
+      if: steps.image-changes.outputs.src == 'true'
       run: ./imageOptimisation.sh
     - name: get the current state of the site
       uses: actions/checkout@v2
@@ -44,14 +53,17 @@ jobs:
     - name: update service worker
       run: npx sw-precache --config service-worker-config.js
     - name: lint markdown
+      if: steps.text-changes.outputs.src == 'true'
       run: npx remark . --use lint --frail
     - name: lint spelling
+      if: steps.text-changes.outputs.src == 'true'
       run: npx mdspell _posts/**.md \
         --en-gb \
         --ignore-numbers \
         --ignore-acronyms \
         --report
     - name: lint with alex
+      if: steps.text-changes.outputs.src == 'true'
       run: npx alex _posts --diff --why
     - name: build site
       run: JEKYLL_ENV=production NODE_ENV=production bundle exec jekyll build --trace
