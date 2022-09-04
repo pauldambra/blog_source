@@ -37,6 +37,7 @@ permalink: "/recipes/2022/09/pepper-salad.html"
 description: "A ridiculously tasty pepper salad"
 category: "cooking"
 tags: ["recipe", "salad"]
+opengraphImage: "/images/pepper-wide.jpg"
 ---
 
 Be careful to have lots of good bread available to soak up the tasty oil when you're finished! 👩‍🍳👌

@@ -27,6 +27,7 @@ permalink: "/recipes/2022/09/pizza-dough.html"
 description: "Neapolitan pizza dough"
 category: "cooking"
 tags: ["recipe", "salad"]
+opengraphImage: "/images/dough-wide.jpg"
 ---
 
 It turns out that Neapolitan pizza dough is a strictly described thing. The [UK version of the EU rules are here](https://www.legislation.gov.uk/eur/2010/97/annexes). Those instructions use 1.8 kilograms of flour and 1 litre of water. But (if you're not going to a wholesaler) flour comes in 1 kilogram bags. Ingredients have been adjusted to 1kg for this recipe.
