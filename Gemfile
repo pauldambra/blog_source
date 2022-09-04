@@ -12,6 +12,7 @@ gem 'eventmachine', :git => 'https://github.com/eventmachine/eventmachine.git', 
 
 group :jekyll_plugins do
   gem 'octopress-paginate'
+  gem 'jekyll-postcss'
 end
 
 gem "webrick"

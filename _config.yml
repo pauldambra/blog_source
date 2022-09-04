@@ -11,33 +11,35 @@ facebook_id: 1029758320473951
 future: true
 plugins:
   - octopress-paginate
+  - jekyll-postcss
 keep_files: [images]
 exclude:
-  - vendor
-  - node_modules
-  - sw-config.js
   - "*.sh"
-  - htmltest.rb
-  - package.json
-  - yarn.lock
-  - Gemfile
-  - Gemfile.lock
-  - Guardfile
-  - README.md
-  - make_collection.py
-  - weeknote.rb
-  - .vscode
-  - .github
-  - .idea
   - .alexrc
+  - .github
   - .gitignore
+  - .idea
+  - .jekyll-cache
   - .nvmrc
   - .remark*
   - .ruby-version
   - .spelling
+  - .vscode
+  - Gemfile
+  - Gemfile.lock
+  - Guardfile
   - htmltest.rb
+  - make_collection.py
+  - node_modules
+  - package.json
   - package-lock.json
-  - .jekyll-cache
+  - postcss.config.js
+  - README.md
+  - sw-config.js
+  - tailwind.config.js
+  - vendor
+  - weeknote.rb
+  - yarn.lock
 collections:
   dear_diary_year_one:
     output: false
