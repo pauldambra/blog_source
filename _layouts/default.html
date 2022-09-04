@@ -1,81 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8" />
 
-    <meta charset="utf-8">
-
-    <link rel="manifest" href="/manifest.json">
-    <link rel="icon" href="/images/icons/icon-152x152.png">
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" href="/images/icons/icon-152x152.png" />
     <!-- theme-color defines the top bar color-->
-    <meta name="theme-color" content="#575757"/>
-    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'report-sample' 'self' https://app.posthog.com/static/array.js https://www.googletagmanager.com/gtag/js; style-src 'report-sample' 'self' https://fonts.googleapis.com; object-src 'none'; base-uri 'self'; connect-src 'self' https://app.posthog.com; font-src 'self'; frame-src 'self'; img-src 'self'; manifest-src 'self'; media-src 'self'; report-uri https://pauldambra.report-uri.com/r/d/csp/enforce; worker-src 'self';" />
+    <meta name="theme-color" content="#575757" />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'report-sample' 'self' https://app.posthog.com/static/array.js https://www.googletagmanager.com/gtag/js; style-src 'report-sample' 'self' https://fonts.googleapis.com; object-src 'none'; base-uri 'self'; connect-src 'self' https://app.posthog.com; font-src 'self'; frame-src 'self'; img-src 'self'; manifest-src 'self'; media-src 'self'; report-uri https://pauldambra.report-uri.com/r/d/csp/enforce; worker-src 'self';"
+    />
     <!-- Add to home screen for Safari on iOS-->
-    <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
-    <meta name="apple-mobile-web-app-title" content="MiRaNo"/>
-    <link rel="apple-touch-icon" href="/images/icons/icon-152x152.png"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="MiRaNo" />
+    <link rel="apple-touch-icon" href="/images/icons/icon-152x152.png" />
 
     <!-- Add to home screen for Windows-->
-    <meta name="msapplication-TileImage" content="/images/icons/icon-152x152.png"/>
-    <meta name="msapplication-TileColor" content="#575757"/>
+    <meta
+      name="msapplication-TileImage"
+      content="/images/icons/icon-152x152.png"
+    />
+    <meta name="msapplication-TileColor" content="#575757" />
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>{{ page.title }}</title>
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-    <meta property="og:url"          content="{{ site.url }}{{ page.url }}" />
-    <meta property="og:type"         content="article" />
-    <meta property="og:title"        content="{{ page.title }}" />
-    <meta property="og:description"  content="{{ page.description | default: 'a blog about software engineering' }}" />
-    <meta property="og:image"        content="{{ site.url }}/images/cardboard.jpg" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta
+      property="og:description"
+      content="{{ page.description | default: 'a blog about software engineering' }}"
+    />
+    <meta property="og:image" content="{{ site.url }}/images/cardboard.jpg" />
     <meta name="twitter:creator" content="@pauldambra" />
-    <meta property="fb:app_id"       content="{{ site.facebook_id }}" />
+    <meta property="fb:app_id" content="{{ site.facebook_id }}" />
 
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="{{page.description | default: 'a blog about software engineering' }}">
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="description"
+      content="{{page.description | default: 'a blog about software engineering' }}"
+    />
     <meta property="fb:pages" content="1029758320473951" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="{{ site.name }}"
+      href="{{ site.url }}/feed.xml"
+    />
     <link rel="shortcut icon" href="/favicon.ico" />
 
-    <link rel="prefetch" href="/images/cardboard.jpg">
+    <link rel="prefetch" href="/images/cardboard.jpg" />
 
-    <style>
-      {% include syntax.css %}
-      {% capture include_to_scssify %}
-        {% include main.scss %}
-      {% endcapture %}
-      {{ include_to_scssify | scssify }}
-    </style>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/syntax.css" | relative_url }}">
     <meta name="msvalidate.01" content="54691C3C7B863CEE60F0305D6EDFF7A8" />
-    <meta name="google-site-verification" content="hLKEdujpXNQ9PSZWEcQkwxCgL2z1tWxVedeaUmttH7c" />
+    <meta
+      name="google-site-verification"
+      content="hLKEdujpXNQ9PSZWEcQkwxCgL2z1tWxVedeaUmttH7c"
+    />
     {% include posthog_init.html %}
   </head>
-  <body>
+  <body class="flex flex-col h-screen">
     {% include header.html %}
-    <main role="main">
+    <main role="main" class="bg-white p-4 w-11/12 m-auto flex-auto flex-grow">
       {{ content }}
-    </div>
-    {% include footer.html %}
-
-    {% if page.path contains '_posts' %}
+    </main>
+    {% include footer.html %} {% if page.path contains '_posts' %}
     <script>
-      var tsl = document.getElementById('twitter-share-link')
-      tsl.addEventListener('click', function() {
-        ga('send', {
-          hitType: 'social',
-          socialNetwork: 'twitter',
-          socialAction: 'tweet',
-          socialTarget: "{{site.url}}{{page.url}}"
+      var tsl = document.getElementById("twitter-share-link");
+      tsl.addEventListener("click", function () {
+        ga("send", {
+          hitType: "social",
+          socialNetwork: "twitter",
+          socialAction: "tweet",
+          socialTarget: "{{site.url}}{{page.url}}",
         });
       });
 
-      var fsl = document.getElementById('facebook-share-link')
-      fsl.addEventListener('click', function() {
-        ga('send', {
-          hitType: 'social',
-          socialNetwork: 'facebook',
-          socialAction: 'share',
-          socialTarget: "{{site.url}}{{page.url}}"
+      var fsl = document.getElementById("facebook-share-link");
+      fsl.addEventListener("click", function () {
+        ga("send", {
+          hitType: "social",
+          socialNetwork: "facebook",
+          socialAction: "share",
+          socialTarget: "{{site.url}}{{page.url}}",
         });
       });
     </script>
@@ -83,7 +94,9 @@
 
     <script defer src="/register-service-worker.js"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Khula&display=swap" rel="stylesheet">
-
+    <link
+      href="https://fonts.googleapis.com/css?family=Khula&display=swap"
+      rel="stylesheet"
+    />
   </body>
 </html>

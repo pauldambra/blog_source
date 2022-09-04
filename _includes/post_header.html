@@ -1,35 +1,49 @@
-<header>
-	<div class="heading">
-		<div class="date">
-			{{ page.date | date: "%a %b %d %Y" }}
-		</div>
-		<h1 class="title">{{ page.title }}</h1>
-	</div>
-	<div class="meta">
-		<div class="share-this">
-			<a id="facebook-share-link" 
-			   class="social-share" 
-			   target="_blank"
-			   rel="noopener"
-			   href="https://www.facebook.com/dialog/share?app_id=305449093152216&href={{site.url}}{{page.url}}">
-				<img src="/images/facebook-black-32.png" alt="share on facebook" width="32" height="32">
-			</a>
-			<a id="twitter-share-link"
-			   class="social-share" 
-			   target="_blank"
-			   rel="noopener"
-			   href="https://twitter.com/intent/tweet?text={{page.title | cgi_escape}}&via=pauldambra&url={{site.url}}{{page.url}}">
-				<img src="/images/twitter-black-32.png" alt="share on twitter" width="32" height="32">
-			</a>
-		</div>
-		<div class="more-like-this">
-			<a class="post-metadata post-category"
-				href="/categories.html#{{ page.category | slugify }}">
-				in: {{ page.category }}
-			</a>
-			<div>
-				{% include tags.html tags=page.tags %}
-			</div>
-		</div>
-	</div>
+<header class="flex flex-col border-b-black border-b-2 bg-white text-black">
+  <div class="heading">
+    <div class="date">{{ page.date | date: "%a %b %d %Y" }}</div>
+    <h1 class="title leading-10 pt-2 mb-0 mt-1">{{ page.title }}</h1>
+  </div>
+  <div class="meta flex-grow flex flex-row">
+    <div class="share-this flex self-end space-x-2">
+      <a
+        id="facebook-share-link"
+        class="social-share"
+        target="_blank"
+        rel="noopener"
+        href="https://www.facebook.com/dialog/share?app_id=305449093152216&href={{site.url}}{{page.url}}"
+      >
+        <img
+          class="w-8"
+          src="/images/facebook-black-32.png"
+          alt="share on facebook"
+          width="32"
+          height="32"
+        />
+      </a>
+      <a
+        id="twitter-share-link"
+        class="social-share"
+        target="_blank"
+        rel="noopener"
+        href="https://twitter.com/intent/tweet?text={{page.title | cgi_escape}}&via=pauldambra&url={{site.url}}{{page.url}}"
+      >
+        <img
+          class="w-8"
+          src="/images/twitter-black-32.png"
+          alt="share on twitter"
+          width="32"
+          height="32"
+        />
+      </a>
+    </div>
+    <div class="more-like-this text-right content-end flex-grow">
+      <a
+        class="post-metadata"
+        href="/categories.html#{{ page.category | slugify }}"
+      >
+        in: {{ page.category }}
+      </a>
+      <div>{% include tags.html tags=page.tags %}</div>
+    </div>
+  </div>
 </header>

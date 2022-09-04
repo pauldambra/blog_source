@@ -4,3 +4,97 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Khula", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 0.25rem;
+}
+h2 {
+  font-size: 1.5rem;
+  margin-top: 0.25rem;
+}
+h3 {
+  font-size: 1.2rem;
+  margin-top: 0.25rem;
+}
+
+hr {
+  clear: both;
+}
+
+p {
+  word-wrap: break-word;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-left: 0.5rem;
+}
+
+body > header {
+  background-image: url("/images/cardboard.jpg");
+}
+@media (max-width: 600px) {
+  body > header {
+    background-position: -400px -23px;
+  }
+}
+
+@media (max-width: 778px) {
+  body > header {
+    height: 370px;
+  }
+}
+
+@media (min-width: 778px) {
+  body > header {
+    height: 437px;
+  }
+}
+
+@media (min-width: 984px) {
+  body > header {
+    background-size: 100%;
+  }
+}
+
+@media (min-width: 1440px) {
+  body > header {
+    height: 600px;
+  }
+}
+
+@media (max-height: 320px) {
+  body > header {
+    height: 250px;
+  }
+}
+
+img {
+  display: block;
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+}
+
+img + img {
+  margin-top: 1rem;
+}
+
+blockquote {
+  padding: 5px 10px;
+  margin: 0 0 20px;
+  border-left: 5px solid #eee;
+}
+
+.excerpt .series {
+  display: none;
+}
+
+.highlight {
+  overflow-x: scroll;
+}

@@ -8,15 +8,15 @@ category: "Structured Data"
 tags: [jekyll, recursion, seo, json+ld]
 ---
 
-<aside class="series">
-	<h1>
+<aside class="mb-2 ml-4 border-l-2 border-l-sky-700 pl-1">
+	<h1 class="text-sm">
 		This post is part of a series on improving this blog #recursion
 	</h1>
-	<div class="links">
-		<div class="previous">
+	<div class="flex flex-row">
+		<div class="flex-grow">
 			<a href="/using-travis-to-build-jekyll.html">Previous Post</a>
 		</div>
-		<div class="next">
+		<div class="flex-grow content-end">
       <a href="/2017/testing-static-sites.html">Next Post</a>
 		</div>
 	</div>

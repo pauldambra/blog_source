@@ -1,17 +1,16 @@
 module.exports = {
-    purge: [
-      './_includes/**/*.html',
-      './_layouts/**/*.html',
-      './_posts/*.md',
-      './*.html',
-      './**/*.html'
-    ],
-    darkMode: false,
-    theme: {
-      extend: {},
-    },
-    variants: {},
-    plugins: [
-      require('@tailwindcss/typography'),
-    ],
-  }
+  content: [
+    "./*.html",
+    "./_includes/**/*.html",
+    "./_layouts/**/*.html",
+    "./_drafts/**/*.html",
+    "./_posts/*.{html,md}",
+    "./_weeknotes/*.{html,md}",
+  ],
+  darkMode: "media",
+  theme: {
+    extend: {},
+  },
+  variants: {},
+  plugins: [require("@tailwindcss/typography")],
+};

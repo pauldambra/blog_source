@@ -8,11 +8,11 @@ category: "continuous delivery"
 tags: [travisci, jekyll, recursion, blog, series]
 ---
 
-<aside class="series">
-	<h1>This post is part of a series on improving this blog #recursion</h1>
-	<div class="links">
-		<div class="previous"></div>
-		<div class="next">
+<aside class=""mb-2 ml-4 border-l-2 border-l-sky-700 pl-1"">
+	<h1 class="text-sm">This post is part of a series on improving this blog #recursion</h1>
+	<div class="flex flex-row">
+		<div class="flex-grow"></div>
+		<div class="flex-grow content-end">
 			<a href="/structured-data-with-jekyll.html">Next Post</a>
 		</div>
 	</div>

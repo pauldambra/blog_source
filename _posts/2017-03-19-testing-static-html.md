@@ -8,15 +8,15 @@ category: "continuous delivery"
 tags: [series, blog, recursion, testing, jekyll, travisci]
 ---
 
-<aside class="series">
-  <h1>
+<aside class="mb-2 ml-4 border-l-2 border-l-sky-700 pl-1">
+  <h1 class="text-sm">
     This post is part of a series on improving this blog #recursion
   </h1>
-  <div class="links">
-    <div class="previous">
+  <div class="flex flex-row">
+    <div class="flex-grow">
       <a href="/structured-data-with-jekyll.html">Previous Post</a>
     </div>
-    <div class="next">
+    <div class="flex-grow content-end">
       <a href="/2017/generating-static-amp.html">Next Post</a>
     </div>
   </div>

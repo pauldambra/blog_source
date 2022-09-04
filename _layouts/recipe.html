@@ -5,7 +5,7 @@ comments: false
 
 <!-- ingredients -->
 <div class="w-full border rounded p-4 mb-4 mx-2">
-<h3 class="mb-2">Ingredients</h3>
+<h3 class="mb-2 text-lg border-b-2 border-b-slate-300">Ingredients</h3>
 	<ul class="list-none">
 	{% for ingredient in page.ingredients %}
 	<li itemprop="ingredients">{{ ingredient[1] }} {{ ingredient[0] }}</li>
@@ -16,8 +16,8 @@ comments: false
 
 <!-- instructions -->
 <div itemprop="recipeInstructions" class="w-full border rounded p-4 mx-2">
-	<h3 class="mb-2">Instructions</h3>
-	<ol class="list-decimal">
+	<h3 class="mb-2 text-lg border-b-2 border-b-slate-300">Instructions</h3>
+	<ol class="list-decimal pl-4">
 	<li>{{ page.instructions | join: '</li> <li>' }}</li>
 	</ol>
 </div>

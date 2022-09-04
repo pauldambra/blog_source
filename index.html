@@ -4,71 +4,90 @@ title: Mindless Rambling Nonsense
 paginate:
   limit: false
 ---
+
 <script type="application/ld+json">
-{ "@context": "http://schema.org",
- "@type": "Blog",
- "keywords": "software engineering agile refactoring c# ruby javascript",
- "url": "https://pauldambra.github.io",
- "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://pauldambra.github.io"
-  },
- "author": {
-    "@type": "Person",
-    "name": "Paul D'Ambra",
-    "sameAs": [
+  {
+    "@context": "http://schema.org",
+    "@type": "Blog",
+    "keywords": "software engineering agile refactoring c# ruby javascript",
+    "url": "https://pauldambra.github.io",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://pauldambra.github.io"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Paul D'Ambra",
+      "sameAs": [
         "https://twitter.com/pauldambra",
         "https://github.com/pauldambra",
         "https://plus.google.com/u/0/+PaulDAmbraPlus"
-    ]
+      ]
+    }
   }
- }
 </script>
 
 {% for post in paginator.posts %}
-    <div class="post-item" id="id{{ forloop.index }}">
-        <div class="excerpt">
-            <a href="{{ post.url }}">
-                <h1>{{ post.title }}</h1>
-            </a>
-            {{ post.excerpt }}
-        </div>
-        <div class="metadata">
-            <div class="post-metadata">
-                posted on: {{ post.date | date_to_string }}
-            </div>
-            <div class="post-metadata post-category">
-                <a href="/categories.html#{{ post.category | slugify }}">in: {{ post.category }}</a>
-                <div class="tags">
-                    {% include tags.html tags=post.tags %}
-                </div>
-            </div>
-        </div>
-    </div>
-{% endfor %}
-
-{% if paginator.total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-    {% else %}
-      <span>&laquo; Prev</span>
-    {% endif %}
-
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-        <strong>{{ page }}</strong>
-      {% elsif page == 1 %}
-        <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-      {% else %}
-        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-      {% endif %}
-    {% endfor %}
-
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-    {% else %}
-      <span>Next &raquo;</span>
-    {% endif %}
+<div
+  class="post-item mb-5 flex flex-col p-2 hover:bg-slate-300/75 transition-colors"
+  id="id{{ forloop.index }}"
+>
+  <div class="mb-2 max-h-96 overflow-hidden">
+    <a href="{{ post.url }}">
+      <h1 class="overflow-hidden text-ellipsis">{{ post.title }}</h1>
+    </a>
+    {{ post.excerpt }}
   </div>
+  <div class="flex flex-row mt-2 border-t-2 border-t-slate-400">
+    <div>posted on: {{ post.date | date_to_string }}</div>
+    <div class="flex-grow flex flex-col items-end">
+      <a href="/categories.html#{{ post.category | slugify }}"
+        >in: {{ post.category }}</a
+      >
+      <div class="tags">{% include tags.html tags=post.tags %}</div>
+    </div>
+  </div>
+</div>
+{% endfor %} {% if paginator.total_pages > 1 %}
+<div class="flex justify-center gap-x-2">
+  <span>
+    {% if paginator.previous_page %}
+    <a
+      class="no-underline hover:underline"
+      href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+      >&laquo; Prev</a
+    >
+    {% else %} &laquo; Prev {% endif %}
+  </span>
+
+  {% for page in (1..paginator.total_pages) %}
+  <span>
+    {% if page == paginator.page %}
+    <strong>{{ page }}</strong>
+    {% elsif page == 1 %}
+    <a
+      class="no-underline hover:underline"
+      href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}"
+      >{{ page }}</a
+    >
+    {% else %}
+    <a
+      class="no-underline hover:underline"
+      href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}"
+      >{{ page }}</a
+    >
+    {% endif %}
+  </span>
+  {% endfor %}
+
+  <span>
+    {% if paginator.next_page %}
+    <a
+      class="no-underline hover:underline"
+      href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+      >Next &raquo;</a
+    >
+    {% else %} Next &raquo; {% endif %}
+  </span>
+</div>
 {% endif %}

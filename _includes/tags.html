@@ -1,9 +1,8 @@
 {% for tag in include.tags | split:',' %}
-	<span class="post-category">
-		<img src="/images/tag.svg" alt="tag-icon"/>
-		<a class="post-metadata"
-			href="/tags.html#{{ tag | slugify }}">
-			{{ tag }}
-		</a>
-	</span>
+<span class="text-slate-500">
+  <img class="w-6 h-6 inline-block" src="/images/tag.svg" alt="tag-icon" />
+  <a class="no-underline hover:underline" href="/tags.html#{{ tag | slugify }}">
+    {{ tag }}
+  </a>
+</span>
 {% endfor %}

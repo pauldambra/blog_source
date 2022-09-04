@@ -1,29 +1,41 @@
-<header class="hero" role="banner">
-	<div class="top">
-		<div class="title">
-			<a href="/">Mindless Rambling Nonsense</a>
-		</div>
-		<div class="separator"></div>
-		<div class="name">
-			<div class="row">
-				<div>Paul D'Ambra</div>
-					<a href="https://github.com/pauldambra" rel="noopener">
-						<img src="/images/GitHub-Mark-Light-32px.png" alt="pauldambra on github" width="32" height="32">
-					</a>
-			</div>
-			<div class="row">
-				<div>Fangler</div>
-					<a href="https://twitter.com/pauldambra" rel="noopener">
-						<img src="/images/twitter-32.png" alt="pauldambra on twitter" width="32" height="32">
-					</a>
-			</div>
-		</div>
-	</div>
-	<div class="separator"></div>
-	<div class="bottom">
-		<nav role="navigation">
-			<a href="/">Blog Posts</a>
-			<a href="/weeknotes.html">Week Notes</a>
-		</nav>
-	</div>
+<header class="flex flex-col px-8 pt-1 text-white text-xl" role="banner">
+  <div class="flex flex-col sm:flex-row">
+    <div class="no-underline hover:underline">
+      <a href="/">Mindless Rambling Nonsense</a>
+    </div>
+    <div class="flex-grow my-2 sm:m-0"></div>
+    <div class="flex justify-start items-end flex-col text-sm">
+      <div class="flex items-center">
+        <div class="mr-4">Paul D'Ambra</div>
+        <a href="https://github.com/pauldambra" rel="noopener">
+          <img
+            src="/images/GitHub-Mark-Light-32px.png"
+            alt="pauldambra on github"
+            width="32"
+            height="32"
+          />
+        </a>
+      </div>
+      <div class="flex items-center">
+        <div>Fangler</div>
+        <a href="https://twitter.com/pauldambra" rel="noopener">
+          <img
+            src="/images/twitter-32.png"
+            alt="pauldambra on twitter"
+            width="32"
+            height="32"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="flex-grow"></div>
+  <div
+    class="flex align-middle items-start px-2 py-4 text-white space-x-4 text-lg"
+  >
+    <nav role="navigation">
+      <a class="underline" href="/">Blog Posts</a>
+      <a class="underline ml-5" href="/weeknotes.html">Week Notes</a>
+    </nav>
+  </div>
 </header>

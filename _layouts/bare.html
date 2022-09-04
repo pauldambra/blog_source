@@ -35,25 +35,17 @@
     <meta property="fb:pages" content="1029758320473951" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
     <link rel="shortcut icon" href="/favicon.ico" />
-
-    <style>
-      {% include syntax.css %}
-      {% capture include_to_scssify %}
-        {% include main.scss %}
-      {% endcapture %}
-      {{ include_to_scssify | scssify }}
-      <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-    </style>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/syntax.css" | relative_url }}">
     <meta name="msvalidate.01" content="54691C3C7B863CEE60F0305D6EDFF7A8" />
     <meta name="google-site-verification" content="hLKEdujpXNQ9PSZWEcQkwxCgL2z1tWxVedeaUmttH7c" />
     {% include posthog_init.html %}
-    <script>
   </head>
-  <body>
-    <header class="hero short" role="banner"></header>
-    <main role="main">
+  <body class="flex flex-col h-full">
+    <header class="hero h-24" role="banner"></header>
+    <main role="main" class="bg-white p-4 w-11/12 m-auto flex-auto">
       {{ content }}
-    </div>
+    </main>
 
     <script defer src="/register-service-worker.js"></script>
 
