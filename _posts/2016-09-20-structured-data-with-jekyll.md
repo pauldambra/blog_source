@@ -9,7 +9,7 @@ tags: [jekyll, recursion, seo, json+ld]
 ---
 
 <aside class="mb-2 ml-4 border-l-2 border-l-sky-700 pl-1">
-	<h1 class="text-sm">
+	<h1 class="text-base">
 		This post is part of a series on improving this blog #recursion
 	</h1>
 	<div class="flex flex-row">
