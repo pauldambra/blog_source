@@ -6,6 +6,7 @@ ingredients:
   black olives: 25
   thyme: to taste
   basil: to taste
+  garlic: to taste
 instructions:
   - Set your grill to hot.
   - chop the peppers into quarters or halves
@@ -24,6 +25,7 @@ instructions:
   - add basil
   - add halved and pitted olives
   - add a pinch of thyme
+  - slice and add garlic
   - season with black pepper
   - drizzle with olive oil (no more than that!)
   - stir
