@@ -27,7 +27,7 @@ instructions:
   - add a pinch of thyme
   - slice and add garlic
   - season with black pepper
-  - drizzle with olive oil (no more than that!)
+  - drizzle with olive oil
   - stir
   - leave overnight for the flavours to combine
 layout: recipe
