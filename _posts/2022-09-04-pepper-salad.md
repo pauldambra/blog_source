@@ -40,3 +40,6 @@ tags: ["recipe", "salad"]
 ---
 
 Be careful to have lots of good bread available to soak up the tasty oil when you're finished! 👩‍🍳👌
+
+![the pepper salad in a bowl](/images/pepper-1.jpg)
+![the pepper salad on friselle](/images/pepper-2.jpg)
