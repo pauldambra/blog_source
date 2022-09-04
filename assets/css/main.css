@@ -52,7 +52,7 @@ body > header {
 
 @media (min-width: 778px) {
   body > header {
-    height: 437px;
+    min-height: 350px;
   }
 }
 
