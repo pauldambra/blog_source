@@ -6,7 +6,7 @@ Livereload is built-in to Jekyll 3.7+ so it no longer uses guard
 
 ## to run:
 
-`bundle install && jekyll serve --livereload`
+`bundle install && bundle exec jekyll serve --livereload`
 
 ## Manual Spell checking runs
 
