@@ -54,7 +54,7 @@ jobs:
     - name: lint with alex
       run: npx alex _posts --diff --why
     - name: build site
-      run: bundle exec jekyll build --trace
+      run: EKYLL_ENV=production NODE_ENV=production bundle exec jekyll build --trace
     - name: deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
