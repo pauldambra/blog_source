@@ -36,8 +36,7 @@ as made by my Neapolitan Nonna Luisa
 
 Pasta and bean soup reminds me of being looked after when recovering from an illness as a kid. I like it so thick the spoon will stand up.
 
-<!--alex ignore dad-mom-->
-<!--alex ignore he-she-->
+<!--alex disable he-her dad-mom-->
 You can use odds and ends of pasta or break spaghetti in. When my dad was little he'd be sent to the pasta shop to get their broken odds and ends. They were cheaper.
 
 ![steps in making pasta fasule as a gif](/images/pasta-fasule.gif)
