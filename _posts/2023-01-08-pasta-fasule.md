@@ -30,9 +30,9 @@ tags: ["recipe", "pasta"]
 opengraphImage: "/images/pasta-fasule.jpg"
 ---
 
-# Pasta e Fasule
+Pasta e Fasule, as made by my Neapolitan Nonna Luisa
 
-as made by my Neapolitan Nonna Luisa
+Pasta e Fasule is Neapolitan for Pasta e Fagiole which is Italian for Pasta and Beans
 
 Pasta and bean soup reminds me of being looked after when recovering from an illness as a kid. I like it so thick the spoon will stand up.
 
