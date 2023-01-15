@@ -54,6 +54,7 @@ I'm more who I want to be, but there's more to do
 
 ## my world
 
+<!--alex ignore white-->
  👀 use the unfair super power of being a white, middle-class, middle-aged, straight man to lift others up
 
 This is the least I could do. I should take it for granted and figure out the answer to "Great, you want to help others, so what?"
