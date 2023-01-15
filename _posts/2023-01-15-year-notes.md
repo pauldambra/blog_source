@@ -12,7 +12,7 @@ Forgive me, for I have sinned, it's been 2 years since my last year notes 👼
 
 I wrote [year notes for 2019](/2020/01/year-notes.html), [and 2020](/2021/01/year-notes.html). I've been super un-inspired to write for the last few years. Which is a shame - because it's a a great way to learn.
 
-So much happened last year that it feels way longer than a year. So, discipline over motiviation  - here are my 2022 year notes.
+So much happened last year that it feels way longer than a year. So, discipline over motiviation  - here are my 2022 year notes. Or at least as much as I can write while the house is empty of other people. 
 
 <!--more-->
 
@@ -145,7 +145,7 @@ I think that's awesome.
 Also, sometimes in remote work I miss the power of someone looking over your shoulder while you work. It's way harder to cut corners when someone is watching. Remembering that anyone can watch my work helps remind me to take the step from ["make it work" to then "make it right"](https://wiki.c2.com/?MakeItWorkMakeItRightMakeItFast)
 
 <!--alex ignore simple -->
-For example, I fixed a bunch of bugs in our dashboards product (I think more than I introduced 😅). In doing that we learned about what made it easier to introduce those bugs than to avoid them. I could have moved back on to my main priority... but the world is watching, so I figured out a way to make it harder to introduce the bugs than to avoid them (["four rules of simple design"](https://wiki.c2.com/?XpSimplicityRules) for the win) https://github.com/PostHog/posthog/pull/13630
+For example, I fixed a bunch of bugs in our dashboards product (I think more than I introduced 😅). In doing that we learned about what made it easier to introduce those bugs than to avoid them. I could have moved back on to my main priority... but the world is watching, so I figured out a way to make it harder to introduce the bugs than to avoid them (["four rules of simple design"](https://wiki.c2.com/?XpSimplicityRules) for the win) [https://github.com/PostHog/posthog/pull/13630](https://github.com/PostHog/posthog/pull/13630)
 
 # Kids
 
