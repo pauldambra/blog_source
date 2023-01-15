@@ -24,30 +24,31 @@ _(slightly reogranised since I see themes wit hindsight that I didn't at the tim
 
 ## leadership
 
- ❓ read about leadership and get over myself
- ❓ by March understand what business and team goals I'm contributing to
- 😅 meet one-on-one with everyone on my team at least once
- 😅 keep those meetings going with some of them
+- ❓ read about leadership and get over myself
+- ❓ by March understand what business and team goals I'm contributing to
+- 😅 meet one-on-one with everyone on my team at least once
+- 😅 keep those meetings going with some of them
 
 In retrospect I was struggling with a role that was poltical and not technical. 2021 saw me move teams, see that the grass wasn't greener, realise that the garden was (for me) poisoned, and move jobs to a technical role.
 
 ## writing software
- 🙃 record a video of event sourcing from scratch
+
+- 🙃 record a video of event sourcing from scratch
      - started but not completed
      - [three videos I recorded](https://youtube.com/playlist?list=PLosfMbzQO-j0C-IvdhzQ0G2qwtH6bnxqd)
- ✅ make time to write code *for days at a time*
+- ✅ make time to write code *for days at a time*
 
 And the move (back) to a technical role was harder than I anticipated. New stack, new org, new culture. But I wouldn't change the decision for all the money in the world (well, maybe _all_ the money)
 
 ## myself
 
- ❌ start weeknotes again
- ✅ practice Italian every day
- ❌ 15km running on average over 40 weeks of the year
+- ❌ start weeknotes again
+- ✅ practice Italian every day
+- ❌ 15km running on average over 40 weeks of the year
      - 43 runs totalling 168km = 3.9km per run
      - I ended up struggling with achilles pain in 2021 and hardly running at all in 2022
      - but physio is helping
- ✅ 4 leisurely cycle rides
+- ✅ 4 leisurely cycle rides
      - not in 2021, but I did in 2022 
 
 I'm more who I want to be, but there's more to do
@@ -55,7 +56,7 @@ I'm more who I want to be, but there's more to do
 ## my world
 
 <!--alex ignore white-->
- 👀 use the unfair super power of being a white, middle-class, middle-aged, straight man to lift others up
+- 👀 use the unfair super power of being a white, middle-class, middle-aged, straight man to lift others up
 
 This is the least I could do. I should take it for granted and figure out the answer to "Great, you want to help others, so what?"
 

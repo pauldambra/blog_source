@@ -33,6 +33,7 @@ p {
 
 li {
   margin-left: 0.5rem;
+  @apply list-decimal list-inside;
 }
 
 body > header {
