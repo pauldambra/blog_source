@@ -20,7 +20,7 @@ So much happened last year that it feels way longer than a year. So, discipline 
 
 _and whether I achieved them or not_
 
-_(slightly reogranised since I see themes wit hindsight that I didn't at the time)_
+_(slightly reogranised since I see themes with hindsight that I didn't at the time)_
 
 ## leadership
 

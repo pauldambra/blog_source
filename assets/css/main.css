@@ -103,3 +103,7 @@ blockquote {
 article > header {
   @apply mb-2;
 }
+
+a {
+  @apply underline;
+}
