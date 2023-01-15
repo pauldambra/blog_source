@@ -38,6 +38,7 @@ li {
 
 body > header {
   background-image: url("/images/cardboard.jpg");
+  @apply mb-2;
 }
 @media (max-width: 600px) {
   body > header {
