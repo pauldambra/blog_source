@@ -26,7 +26,8 @@ hr {
   clear: both;
 }
 
-p {
+p,
+ul {
   word-wrap: break-word;
   margin-bottom: 1rem;
 }
