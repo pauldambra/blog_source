@@ -3,7 +3,7 @@ title: "Jan 2023 Month Notes"
 layout: "post"
 permalink: "/2023/02/jan-month-notes.html"
 date: "2023-02-03 08:00:00"
-description: "Month notes for January 2022"
+description: "Month notes for January 2023"
 category: "month-notes"
 tags: ["dear-diary", "working-out-loud"]
 ---
