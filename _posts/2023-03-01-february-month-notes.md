@@ -24,7 +24,7 @@ In reverse order
 
 ## Visit Italy at least twice
 
-I'm still figuring out when Italy #2 will be. I'd love to take daughter #1 to Sicily and then catch the train back up through the country. I can work, she can study and we can both enjoy the food and culture. Maybe a pipe-dream...
+I'm still figuring out when Italy #2 will be. I'd love to take daughter #1 to Sicily and then catch the train back up through the country. I can work, she can study, and we can both enjoy the food and culture. Maybe a pipe-dream...
 
 ## 8 leisurely cycle rides
 
@@ -56,6 +56,6 @@ My GCSE physics teacher told us to always start solving a problem with a diagram
 
 ![a diagram of the problem I was trying to solve](/images/2023/03/01/drawing.png)
 
-One of my favourite engineering aphorisms is from Kent Beck: "for each desired change, make the change easy (warning: this may be hard), then make the easy change" https://twitter.com/KentBeck/status/250733358307500032
+One of my favourite engineering aphorisms is from Kent Beck: ["for each desired change, make the change easy (warning: this may be hard), then make the easy change"](https://twitter.com/KentBeck/status/250733358307500032).
 
-This particular piece of work, I had three attempts at that had to be abandoned because of side-effects to the change. By the time I'd simplified it, it was a less than 1-day change. Here's an example of one of the pieces of simplication https://github.com/PostHog/posthog/pull/14348
+This particular piece of work, I had three attempts at that had to be abandoned because of side-effects to the change. By the time I'd simplified it, it was a less than 1-day change. [Here's an example of one of the pieces of simplication https://github.com/PostHog/posthog/pull/14348](https://github.com/PostHog/posthog/pull/14348).
