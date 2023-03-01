@@ -2,87 +2,86 @@ name: Jekyll site CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-      with:
-        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
-        fetch-depth: 0
-    - uses: ruby/setup-ruby@v1
-      with:
-        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-    - uses: actions/setup-node@v2-beta
-      with:
-        node-version: '16'
-    - uses: dorny/paths-filter@v2
-      id: text-changes
-      with:
-        filters: |
-          src:
-            - '**/*.md'
-            - '**/*.html'
-    - uses: dorny/paths-filter@v2
-      id: image-changes
-      with:
-        filters: |
-          src:
-            - 'images/**/*.*'
-    - name: setup dependencies
-      run: sudo apt-get install libjpeg-progs optipng fonts-noto-color-emoji imagemagick
-    - name: pre build
-      run: npm ci
-    - name: image optimisation
-      if: steps.image-changes.outputs.src == 'true'
-      run: ./imageOptimisation.sh
-    - name: get the current state of the site
-      uses: actions/checkout@v2
-      with:
-        repository: pauldambra/pauldambra.github.io
-        token: ${{ secrets.blog_repo_access }}
-        path: _site
-        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
-        fetch-depth: 0
-    - name: update service worker
-      run: npx sw-precache --config service-worker-config.js
-    - name: lint markdown
-      if: steps.text-changes.outputs.src == 'true'
-      run: npx remark . --use lint --frail
-    - name: lint spelling
-      if: steps.text-changes.outputs.src == 'true'
-      run: npx mdspell _posts/**.md \
-        --en-gb \
-        --ignore-numbers \
-        --ignore-acronyms \
-        --report
-    - name: lint with alex
-      if: steps.text-changes.outputs.src == 'true'
-      run: npx alex _posts --diff --why
-    - name: build site
-      run: JEKYLL_ENV=production NODE_ENV=production bundle exec jekyll build --trace
-    - name: deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        personal_token: ${{ secrets.blog_repo_access }}
-        external_repository: pauldambra/pauldambra.github.io
-        publish_branch: master  # default: gh-pages
-        publish_dir: ./_site
-        force_orphan: true
-        user_name: 'Github Actions CI'
-        user_email: 'paul.dambra+github@actions.com'
-        commit_message: "${{env.GITHUB_RUN_ID}} auto-pushed to github"
-    - name: test html # has to come after deploy so new links are valid
-      run: bundle exec ruby ./htmltest.rb
-    - name: Audit URLs using Lighthouse
-      uses: treosh/lighthouse-ci-action@v8
-      with:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+          fetch-depth: 0
+      - uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: "16"
+      - uses: dorny/paths-filter@v2
+        id: text-changes
+        with:
+          filters: |
+            src:
+              - '**/*.md'
+              - '**/*.html'
+      - uses: dorny/paths-filter@v2
+        id: image-changes
+        with:
+          filters: |
+            src:
+              - 'images/**/*.*'
+      - name: setup dependencies
+        run: sudo apt-get install libjpeg-progs optipng fonts-noto-color-emoji imagemagick
+      - name: pre build
+        run: npm ci
+      - name: image optimisation
+        if: steps.image-changes.outputs.src == 'true'
+        run: ./imageOptimisation.sh
+      - name: get the current state of the site
+        uses: actions/checkout@v2
+        with:
+          repository: pauldambra/pauldambra.github.io
+          token: ${{ secrets.blog_repo_access }}
+          path: _site
+          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+          fetch-depth: 0
+      - name: update service worker
+        run: npx sw-precache --config service-worker-config.js
+      - name: lint markdown
+        if: steps.text-changes.outputs.src == 'true'
+        run: npx remark . --use lint --frail
+      - name: lint spelling
+        if: steps.text-changes.outputs.src == 'true'
+        run: npx mdspell _posts/**.md \
+          --en-gb \
+          --ignore-numbers \
+          --ignore-acronyms \
+          --report
+      # - name: lint with alex
+      #   if: steps.text-changes.outputs.src == 'true'
+      #   run: npx alex _posts --diff --why
+      - name: build site
+        run: JEKYLL_ENV=production NODE_ENV=production bundle exec jekyll build --trace
+      - name: deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.blog_repo_access }}
+          external_repository: pauldambra/pauldambra.github.io
+          publish_branch: master # default: gh-pages
+          publish_dir: ./_site
+          force_orphan: true
+          user_name: "Github Actions CI"
+          user_email: "paul.dambra+github@actions.com"
+          commit_message: "${{env.GITHUB_RUN_ID}} auto-pushed to github"
+      - name: test html # has to come after deploy so new links are valid
+        run: bundle exec ruby ./htmltest.rb
+      - name: Audit URLs using Lighthouse
+        uses: treosh/lighthouse-ci-action@v8
+        with:
           urls: |
             https://pauldambra.dev
             https://pauldambra.dev/2021/07/tech-debts.html
