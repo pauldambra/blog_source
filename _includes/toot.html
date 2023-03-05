@@ -1,0 +1,14 @@
+<div class="border round p-4 my-2">
+    <div class="ml-2 float-right text-gray-500">{{toot.date}}</div>
+    {{toot.text | newline_to_br}}
+    <div class="flex flex-row flex-wrap justify-start gap-4"> 
+    {% for image in toot.images %}
+        <img src="{{image}}" class="max-w-sm w-1/2 h-auto m-0 rounded drop-shadow-md" loading="lazy">
+    {% endfor %}
+    </div>
+    {% for video in toot.videos %}
+        <video autoplay muted class="rounded drop-shadow-md">
+            <source src="{{video}}" type="video/mp4">
+        </video>
+    {% endfor %}
+</div>

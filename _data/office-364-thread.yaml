@@ -1,0 +1,646 @@
+---
+- text: My life with office 365 is not richer
+  date: 10:20AM Oct 20, 2019
+- text: |-
+    Me (a person at work): I'd like to import* a calendar
+    Office 365: "YOU MUST WANT SPORTS!"
+
+    This should not be the default behaviour of anything
+
+    * I want to view a calendar
+  date: 3:52 PM Oct 8, 2019
+  images:
+    - /images/office365/1.jpeg
+- text: |-
+    Interesting to learn that all one time password apps should behave the same because it's described in an RFC...
+
+    And yet Office 365 can only use Microsoft authenticator
+
+    #NewMicrosoft
+
+    #VeryStaringFace
+  date: 7:46PM Sep 26, 2019
+- text:
+    Hey @office365 can you opensource? It would be quicker for me to contribute
+    code to fix Word than to figure out how to amend a numbered list in this garbage
+    fire
+  date: 12:01PM Oct 18, 2019
+  videos:
+    - /images/office365/2.mp4
+- text: |-
+    In word you click "Give feedback to Microsoft".
+
+     3 apps, 3 different feedback mechanisms.
+
+    that gives me a sad
+  date: 8:33PM Oct 9, 2019
+- text:
+    Where's the approprate place to report that the visual affordance for giving
+    feedback is different in Outlook, Word, and Powerpoint (in the browser)?
+  date: 7:41PM Oct 9, 2019
+- text: |-
+    Hey @office365 what is going on with pasting into lists in Word in Crhome?!
+
+    (gif: MS Word in the browser being very odd about lists)
+  date: 4:48PM Oct 8, 2019
+  videos:
+    - /images/office365/3.mp4
+- text: |-
+    Me: "a new Word document just look many times already in the last couple of days"
+    O365: "Please just this time but not the others could you mindlessly click this box accepting a certificate"
+    Me: *just wanting to write some text *clicks OutlookO365: "H! Psyche! Nothing happened . Lol"
+  date: 4:29PM Oct 4, 2019
+- text: |-
+    I just selected a time for an invite in outlook calendar in a browser on my phone. 
+
+    Great example of why you should use native inputs instead of building your own
+
+    (Spoler that was not a native input and it was too hard)
+  date: 6:03PM Oct 9, 2019
+- text: |-
+    And today, I found a uservoice entry for snoozing email (blimey do I miss @inboxbygmail)
+
+    I can sign in using google or facebook but not office 365
+
+    I have twice given consent for storage of PII but my vote hasn't registered
+  images:
+    - /images/office365/4.jpeg
+  date: 10:20AM Oct 20, 2019
+- text: |-
+    I've just realised that I can "like" an email in Outlook
+
+    What am I supposed to imagine happens when I do that?!
+
+    Does the other person get an email saying that I've liked a different email? What is it for?
+  date: 10:24AM Oct 20, 2019
+- text: |-
+    Outlook: "try the new focussed inbox. we'll stop moving messages to the 'Clutter' folder"
+    Me: "What's the clutter folder?" Where is that?! Ugh I guess I'll learn more"
+    Outlook: "lol video is unavailable. psyche!"
+  images:
+    - /images/office365/5.png
+    - /images/office365/6.jpeg
+  date: 10:39AM Oct 20, 2019
+- text: |-
+    Nope, no clutter folder :/
+  images:
+    - /images/office365/7.png
+  date: 10:41AM Oct 20, 2019
+- text: |-
+    Listening to someone use Outlook for the first time
+
+    "this isn't nice"
+    "that's unexpected"
+
+    #UX
+  date: 1:39PM Oct 21, 2019
+- text: |-
+    Insert a picture with the cursor in a cell in excel. Adds image at full size.
+
+    Insert a picture in a powerpoint slide. Adds image as small as it feels it can get away with.
+
+    As a user
+    I want adding images to be as frustrating as possible
+    So that I close my laptop and go outside
+  date: 8:00PM Oct 21, 2019
+- text: |-
+    Me: *I wonder if I can book a meeting with someone
+    Calendar: I WILL SHOW YOU MYSELF HORZONTL SO ALL TEXT IS HIDDEN. I HALP YOU MAKE A DECIDE
+  date: 11:10AM Oct 24, 2019
+  images:
+    - /images/office365/8.png
+- text: |-
+    Calendar: "Don't worry some of what you need to click on is off th ebottom of the screen but despite it being lierally the default behaviour of a web page you can't scroll to it"
+    Calendar: *holds up hand for high five
+  date: 8:35PM Oct 29, 2019
+  videos:
+    - /images/office365/9.mp4
+- text: |-
+    Presented without comment #calendar #search
+  date: 1:00PM Nov 6, 2019
+  images:
+    - /images/office365/10.png
+- text: |-
+    The two states of opening an email in Outlook on poor signal
+
+    (NB I have gmail open in another window in the same browser. Guess whether it can open my mail)
+  date: 9:58AM Nov 25, 2019
+  images:
+    - /images/office365/11.png
+    - /images/office365/12.png
+- text: |-
+    Me: find this document
+    OneDrive: here are some results... including the folder they are in...
+    Me: oh, useful can I open that folder from here
+    OneDrive: No!
+  date: 11:42AM Dec 3, 2019
+  videos:
+    - /images/office365/13.mp4
+- text: |-
+    And just randomly someone else's name is the title of the left hand column of the OneDrive page.
+
+    Really is the least discoverable UI I've worked with for quite some time.
+  date: 11:44AM Dec 3, 2019
+  images:
+    - /images/office365/14.png
+- text: |-
+    When the browser tab has this red thing it's Outlook making it look like you've new mail when actually you haven't
+  date: 12:56PM Dec 3, 2019
+  images:
+    - /images/office365/15.png
+- text: |-
+    Me: navigates to a week in the calendar
+    Me: "yep, that's the one" *clicks new event
+    Office 364.5: Ah, you must want to default to today not the week you're looking actually
+  date: 9:28AM Dec 12, 2019
+  videos:
+    - /images/office365/16.mp4
+- text: |-
+    My office 420 session just expired *while* I was typing into a Word document.
+
+    It told me to refresh the page.
+
+    I did.
+
+    3 paragraphs of text gone.
+
+    I have literally never lost a character of text in over a decade of using Google.
+  date: 6:58PM Dec 19, 2019
+- text: |-
+    Today in my-life-editing-word-documents-in-chrome the cursor moves around while I'm typing and so every sentence is a battle
+  date: 12:23PM Jan 28, 2020
+  videos:
+    - /images/office365/17.mp4
+- text: |-
+    Me: fuck it, ok, I'll open Outlook as a native app
+    Outlook: you have to quit word first, Lol"
+  date: 10:17AM Feb 11, 2020
+  videos:
+    - /images/office365/18.mp4
+- text: |-
+    Outlook (native app): log in twice now please.
+    Outlook (native app): click allow or deny on this meaningless tech message.
+    Outlook (native app): and now here are two appointments in the past that nobody has asked about
+
+    #FuckingHell
+  date: 10:21AM Feb 11, 2020
+- text: |-
+    Outlook (native app): here're 1664 reminders for the past, human I am halp
+  date: 10:55AM Feb 11, 2020
+- text: |-
+    Even though the cursor is in it I can't type in the box to thell them what I don't like...
+
+    I don't feel like my feedback is valued.
+  date: 9:05AM Feb 12, 2020
+  images:
+    - /images/office365/19.jpeg
+- text: |-
+    Me: "please save this spreadsheet with this password to open it"
+    Me: *pastes password into box
+    Excel: "please confirm the password into this new box"
+    Me: *pastes password into box
+    Excel: "they are not the same"
+    Me: "I feel like you have secret password format restrictions"
+  date: 6:36pM Mar 2, 2020
+  videos:
+    - /images/office365/20.mp4
+- text: |-
+    Searching in GMail: "did you mean this email that doesn't actually have the words you typed into search but we had a feeling you might actually want?"
+
+    Searching in Outlook:
+  date: 2:27PM Mar 24, 2020
+  images:
+    - /images/office365/21.png
+- text: |-
+    The mail icon on the left has no little notification. That means I don't have mail. If it had a little notification it would mean I had mail
+
+    The mail icon on the right has a little notification. That rarely means I have mail. How is even that little detail so badly implemented?!
+  date: 9:21AM Jun 7, 2020
+  images:
+    - /images/office365/22.png
+- text: |-
+    I checked. There was no mail. Now, there's a notification on twitter. I checked. There was something new.
+
+    Twitter can get it right and they've made showing a list of snippets of text complicated.
+  date: 9:30AM Jun 7, 2020
+  images:
+    - /images/office365/23.png
+- text: |-
+    Me: *signs in to Word desktop app
+    Word: you have to sign in
+    Me: *clicks sign in
+    Word: *with no feedback "you have to sign in"
+    Me: *clicks sign in
+    Word: *with no feedback "you have to sign in"
+    ...
+    Me: *clicks sign in
+    Word: "seventh times the charm" *saves changes
+  date: 7:50PM Jun 15, 2020
+- text: |-
+    Me: *highlights line of text
+    Me: *paste
+    Word: "Don't worry, I've stuck this pasted text as the start of the next nearest heading in the document."
+  date: 7:54PM Jun 15, 2020
+  videos:
+    - /images/office365/24.mp4
+- text: |-
+    Me: *clicks a calendar appointment in O365 web calendar
+    O342: "here's your little white diamond"
+    Me: "no, that's not what should happen" *clicks again
+    O213: "yep, little white diamond, as requested"
+    Me: *waits a minute and clicks again
+    O420: "your diamond, good sir"
+  date: 12:18PM Jun 16, 2020
+  images:
+    - /images/office365/25.png
+- text: |-
+    wait, so teams works in the app or in chrome?
+
+    sorry, I was late for the meeting. I foolishly thought having two browsers on my computer would be enough
+  date: 10:18AM Jun 19, 2020
+- text: |-
+    me: scroll down please
+    word in the browser: I DoNT sCroLl An1m0r
+    me: it's just a browser window
+    word: I DoNT sCroLl An1m0r
+    me: refreshes window
+    word:  NO SCROLL ONLY RENDER
+  date: 12:02PM Jun 26, 2020
+  videos:
+    - /images/office365/26.mp4
+- text: |-
+    Ha, forking hall MS, One instance of firefox, all tabs scroll except for MS Word tabs. even newly opened ones. 
+
+    This has happened to multiple open tabs (and now any new tabs) at the same time.
+
+    Office 365 must be a burning nightmare of a code base.
+  date: 12:08PM Jun 26, 2020
+- text: |-
+    Oh, my bad, it was Chrome not firefox. Teams can't do video in Firefox so I have to run two different browsers.
+  date: 12:10PM Jun 26, 2020
+  videos:
+    - /images/office365/27.mp4
+- text: |-
+    I have the outlook calendar integration in Slack now. It's great except...
+
+    slack: you have a meeting!
+    me: * clicks link
+    link: * opens in my default browser
+    teams: I can't a video in this browser
+    me: * copies link from browser URL bar
+    me: * pastes into Chrome
+
+    1/2
+  date: 1:04PM Jun 26, 2020
+- text: |-
+    teams: You want to open in app or browser?
+    me: IN THE BROWSER
+    teams: would you like to join this call
+    me: * clicks join now
+
+    in another timeline
+
+    me: * clicks link
+    zoom: * want to join call?
+    me: * clicks join now
+
+    2/2
+  date: 1:04PM Jun 26, 2020
+- text: |-
+    Me: highlights text at the beginning of a bullet point and presses delete
+    Outlook: I R DELETE THE BULLET POINT AND NOT THE WORDIES AS PER YOUR RECENT REQUEST
+  date: 11:52AM Jul 15, 2020
+- text: |-
+    ORGANISE WHAT MESSAGES, OUTLOOK?! YOU ARE LITERALLY TELLING ME THERE ARE NO MESSAGES AND THAT I SHOULD ORGANISE THEM
+  date: 11:37AM Jul 16, 2020
+  images:
+    - /images/office365/28.png
+- text: |-
+    How I make a line chart in excel (web version) where the first column should be the Y axis values.
+
+    1) copy data to google sheets
+  date: 8:16PM Jul 16, 2020
+- text: |-
+    me: open the next email, please
+    outlook: here you go
+    me: close email
+    me: oh, actually, open email again
+    outlook: I can't display that email
+    me: but... but...
+  date: 8:57AM Jul 29, 2020
+- text: |-
+    powerpoint: "Here's how text selection works"
+    me: "Yes, that is what I expected"
+    narrator: "It was not what he expected"
+
+    (look at the difference in the same key commands when the cursor is on "predictable" vs. when it is on "Not")
+  date: 10:31AM Aug 6, 2020
+  videos:
+    - /images/office365/29.mp4
+- text: |-
+    After I stopped recording the screen I deleted the text by holding down backspace. Sometimes the cursor moved left without actually removing the character to its left.
+
+    This is fine becuase text editing is new
+
+    NB it is not new and not fine
+  date: 10:36AM Aug 6, 2020
+  videos:
+    - /images/office365/30.mp4
+- text: |-
+    me: *typing in box
+    teams: wHy NoT rEfErsH teH paJ
+  date: 8:48AM Aug 21, 2020
+  images:
+    - /images/office365/31.jpeg
+- text: |-
+    Let's not worry about the fact that while Teams wants me to refresh the page cos I'm not connected to the internet. I can toot from the same computer.
+
+    TIL: https://Twitter.com runs on my laptop
+
+    Turns out it's called teams cos it's teeming with bugs
+  date: 8:50AM Aug 21, 2020
+  images:
+    - /images/office365/32.jpeg
+- text: |-
+    Me: ...
+    Me: ...
+    TeAmS: I HAVE ANTICIPATED YOUR NEEDS AND MUTED THE LIVE STREAM AGAIN FOR YOU HUMAN. NO NEED TO THANK ME
+  date: 2:53PM Sep 2, 2020
+- text: |-
+    This isn't just an Office 365 complaint. But look at all that unused space... What are all of those buttons?! 
+
+    Can we just all agree that icons need to have text alongside them?
+  date: 5:16PM Sep 2, 2020
+  images:
+    - /images/office365/33.jpeg
+- text: |-
+    I don't have the energy for snark today
+
+    fucking teams!
+  date: 10:37AM Sep 9, 2020
+- text: |-
+    I've edited text in probably 10 applications already today. In all bar one of them the only thing that has caused mistakes is my fat fingers
+
+    I'm on my fourth attempt trying to edit a line of text in powerpoint and whole blocks of the text keep disappearing
+  date: 11:18AM Sep 15, 2020
+  videos:
+    - /images/office365/34.mp4
+- text: |-
+    Award for the most value-less interruption ever goes to...
+
+    *opens golden envelope
+
+    message to say that you clicked on a link for content you have access to and would you like to go to that content?
+  date: 9:00PM Sep 15, 2020
+  images:
+    - /images/office365/35.png
+- text: |-
+    Kid in the same room playing an online game, I'm watching a video, and using Slack. My house couldn't currently have more internet.
+
+    Me: * clicks a link in Teams
+    Teams: "I don't feel too well"
+  date: 3:54PM Nov 9, 2020
+  images:
+    - /images/office365/36.jpeg
+- text: |-
+    me: "I'd like to edit this bulleted list"
+    outlook: "gotcha"
+    me: "new line please"
+    O: "starts with a bullet"
+    me: *tab
+    O: *move the bullet in
+    me: *repeats 3 times
+    me: "new line please"
+    O: "starts with a bullet"
+    me: *tab
+    O: "move the cursor leave the bullet, gotcha"
+  date: 7:42AM Nov 9, 2020
+  videos:
+    - /images/office365/37.mp4
+- text: |-
+    Teams: works on chrome desktop but it turns out not on chrome mobile. Works in Firefox including video for live events but not video for meetings
+
+    #NewMicrosoft my arse
+  date: 11:16AM Nov 24, 2020
+  images:
+    - /images/office365/38.png
+- text: |-
+    So, you can close the Teams app window on Mac by pressing CMD + W when you think another window has focus and not be able to get it back without restarting
+
+    What I like in a tool is when there are multiple sharp edges to cut myself with when I use it
+  date: 11:12AM Dec 4, 2020
+  images:
+    - /images/office365/39.jpeg
+- text: |-
+    And, yes, it's possible in other applications.... but they also don't dump you in a dead end.
+  date: 11:13AM Dec 4, 2020
+  images:
+    - /images/office365/40.png
+- text: |-
+    1. open email
+    2. save to onedrive
+    3. view in onedrive
+    4. download
+
+    Thanks O3.65 I'm glad there's not a download attachment button
+  date: 10:42AM Dec 11, 2020
+- text: |-
+    I googled yammer, got to a website, clicked start using yammer, I am logged in to O3.65 and have access to Yammer
+  date: 10:42AM Dec 11, 2020
+  images:
+    - /images/office365/41.jpeg
+- text: |-
+    Oh, forking hell. Joining a teams call UI is like the space shuttle
+
+    join teams call without audio
+
+    means literally without audio, it doesn't mean "join muted" which is a useful setting but instead "join without being able to hear" which doesn't seem useful to me
+  date: 11:05AM Dec 14, 2020
+- text: |-
+    me: *cmd + tab
+    teams: "your invisible notification window, as requested"
+    me: "that's not right"
+    me: *clicks "calendar" in the window menu
+    teams: "your calendar, you should have said first time, here you go"
+
+    (nb if I move my mouse around I get the calendar items' hover text)
+  date: 14:23PM Jan 15, 2021
+  images:
+    - /images/office365/42.png
+- text: |-
+    Me: presses space
+    Almost every program playing video: *toggles play/pause
+    MS stream not full screen: *toggles play/pause
+    MS stream in full screen: I AM EXITING FULL SCREEN AS ANYONE WOULD EXPECT
+  date: 6:08PM Jan 29, 2021
+  videos:
+    - /images/office365/43.mp4
+- text: |-
+    Me: *I wonder if @HollyDonohue01 is on this call?
+    Teams: *offscreen "Calling her in to this meeting for you"
+    Teams: "Hey Holly, Paul is inviting you to join these 85 people on a call"
+    Me: "Argh, that's not what I meant! How do I cancel this?"
+    Teams: "What is a cancel?"
+  date: 2:57PM Feb 8, 2021
+  videos:
+    - /images/office365/44.mp4
+- text: |-
+    Me: *signed into teams and using it
+    Me: *clicks a button
+    Teams: YOU HAVE TO SIGN IN INSIDE THE WINDOW EVEN THOUGH YOU HAVE TO SIGN IN TO SEE THE WINDOW. I AM A SECURE
+  date: 5:37PM Feb 22, 2021
+  images:
+    - /images/office365/45.jpeg
+- text: |-
+    For three weeks I've been off work and I didn't notice the feeling cos it was an absence of a thing
+
+    The absence of being amazed at how bad something is... I've not noticeably waited for a computer to do something
+
+    And now? "Crashing" back into using O3.65
+  date: 12:42PM Mar 23, 2021
+  images:
+    - /images/office365/46.png
+- text: |-
+    Me: please open this spreadsheet
+    Teams: allow me to present an onboarding journey you don't need and can't interact with that freezes your browser
+  date: 12:43PM Mar 23, 2021
+  images:
+    - /images/office365/47.png
+- text: |-
+    Oh nice, no option to mark all as read in Teams. Thank fork there are only 26
+
+    As a business owner
+    I want to pay my staff to have to click on every conversation 
+    So that I know they are engaging
+
+    pro tip if you click through them quickly they don't actually get marked as read
+  date: 12:53PM Mar 23, 2021
+  images:
+    - /images/office365/48.png
+- text: |-
+    I have six applications that are using the internet successfully. But not Outlook 🤬
+
+    I'm lucky my calendar and mail aren't trapped in that burning building of a system, eh?
+  date: 8:40AM Apr 6, 2021
+  images:
+    - /images/office365/49.jpeg
+- text: |-
+    Thanks powerpoint
+  date: 10:59AM Apr 6, 2021
+  images:
+    - /images/office365/50.png
+- text: |-
+    Office 3.64 spell check now takes my northern accent into account
+  date: 2:43PM Apr 6, 2021
+  images:
+    - /images/office365/51.png
+- text: |-
+    Every Monday Outlook does a "cute" thing where it recreates a meeting series for me so that I can say I don't go to it anymore.
+
+    It takes maybe 30 seconds. If it's doing that for 1% of employees that's 5 hours a week.
+
+    That'd be 8 weeks FTE over the year. #HiddenCosts
+  date: 10:57AM Apr 12, 2021
+  images:
+    - /images/office365/52.png
+- text: |-
+    For weeks now Teams has been "opening" a "notification" window on my Mac. It isn't viewable and only has the effect that I can no longer CMD+Tab to Teams cos that invisible window gets "shown"
+
+    The "fix" is to restart Teams when I notice it
+
+    (lifehack: just close it instead)
+  date: 10:00AM Apr 14, 2021
+  images:
+    - /images/office365/53.jpeg
+- text: |-
+    Sharepoint: THIS IS NOT SAVED
+    Also Sharepoint: YOU SHOULD REFRESH TEH PAGE
+    Me: *please save the page
+    Sharepoint: HAVE A FREE STACK TRACE. I AM A WEB
+  date: 12:22PM Apr 26, 2021
+  images:
+    - /images/office365/54.png
+    - /images/office365/55.png
+    - /images/office365/56.jpeg
+- text: |-
+    And, yes, reader, when I refreshed the page all my edits had gone. Sharepoint has one purpose and cannot do it
+
+    It's like Wordpress having a bad trip
+  date: 12:23PM Apr 26, 2021
+- text: |-
+    I "like" the new "why not in a fortnight" scheduling feature
+
+    here's me suggesting a meeting that the invitee is free for and Office helpfully pointing out we're both also free two weeks later than that
+  date: 4:47PM Mar 10, 2021
+  images:
+    - /images/office365/57.png
+- text: |-
+    Teams: DONUT WORRY HUMAN, FOR THIS MEETING YOU ARNE"T ALLOWED TO ATTACH FILES IN TEH CHAT
+  date: 3:35PM May 13, 2021
+  images:
+    - /images/office365/58.png
+- text: |-
+    Outlook: DO NOT WORRY HUMAN, IF I NEVER FINISH LOADING THESE SCRIPTS YOU CANNOT SEE YOUR MAIL AND GET SOME FOCUS TIME
+  date: 9:07AM May 14, 2021
+  images:
+    - /images/office365/59.jpeg
+- text: |-
+    outlook *showing me an invite: "no conflicts 👍"
+    me *looking at the calendar: "do you know what a conflict is?"
+    outlook *starting to sweat: "yes?"
+  date: 1:56PM May 24, 2021
+  images:
+    - /images/office365/60.png
+    - /images/office365/61.png
+- text: |-
+    PP: morning
+    me: "open a deck, please"
+    PP: here you go
+    me: "open this one from the browser"
+    PP: I AM FROZEN
+    me: *ugh, force quit
+    O3.7: DON'T WORRY WE HAVE A CUSTOM WAY OF HANDLING ERRORS
+    me: is it good
+    O3.7: I don't know, I've never seen it work
+  date: 9:44AM Jul 7, 2021
+  images:
+    - /images/office365/62.png
+    - /images/office365/63.jpeg
+- text: |-
+    me: maybe if I sign out
+    "Power"point: "worth a shot, guv"
+    me: *sign out, please
+    PP: done it
+    me: *and sign back in, please
+    PP: NOT A THING I CAN DO, PYSKE!
+  date: 9:45AM Jul 7, 2021
+  images:
+    - /images/office365/64.jpeg
+- text: |-
+    me: *has a 30-minute meeting with one other person
+    Teams: HERE IS AN ATTENDANCE REPORT. THIS IS A HELP IF YOU DON'T KNOW IF YOU ATTENDED OR IF YOU NEED TO CHECK IF YOU JUST SPENT THRITY MINUTES ALONE OR NOT"
+  date: 11:58AM Jul 12, 2021
+  images:
+    - /images/office365/65.png
+- text: |-
+    CISO: "Hello, I'd like to implement security"
+    O365: "It's already done. The steps for downloading an attachment are: 1) click save to one drive 2) click view in one drive 3) download. Security!
+
+    WHY CAN I NOT DOWNLOAD AN ATTACHMENT FROM AN EMAIL
+  date: 4:57PM Sep 7, 2021
+  videos:
+    - /images/office365/66.mp4
+- text: |-
+    One final disappointment from O3.6
+
+    Because I insist on the unexpected browser choice of Chrome on an Android. I can't join a meeting when I find myself caught away from home.
+
+    Obvs Teams isn't supported on desktop Chrome
+  date: 1:42PM Sep 17, 2021
+  images:
+    - /images/office365/67.jpeg
+- text: |-
+    And in a perfect bit of poetry, I can end this thread, let down by technology, and frozen in Teams.
+  date: 9:06AM Sep 18, 2021
+  images:
+    - /images/office365/68.png
