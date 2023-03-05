@@ -18,7 +18,7 @@ I'm sure that there are great people working on Office with care and attention b
 
 If the tooter-web dissappeared they'd be the one thing I missed and so I've copied them here.
 
-<!-- more -->
+<!--more-->
 
 I didn't start the thread until after I had already made several of the toots. So the initial few dates might appear out of order. I've kept the order that I added them to the thread instead of listing them in date order.
 
