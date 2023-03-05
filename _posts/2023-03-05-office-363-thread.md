@@ -12,7 +12,7 @@ Between the end of 2019 and when I left the Co-op on Sep 18th 2021 I used Office
 
 Well, maybe one, a small set of Co-op employees had access to slack and g-suite in Co-op Digital. But in the rest of Co-op they were using installed (i.e. local only) old versions of Office (**without video-conferencing and chat**). For them, maybe Office 365 was an improvement - and certainly it made remote work during the pandemic possible.
 
-But for me, it was a constant source of frustration and amazment.
+But for me, it was a constant source of frustration.
 
 I'm sure that there are great people working on Office with care and attention but I didn't _experience_ that. It was like being haunted and losing your mind all in one go. I had a habit of [tooting my frustrations](https://twitter.com/pauldambra/status/1185848202249023488). I'm aware of them having been submitted as evidence in one procurement process. I don't think they swung the decision.
 
