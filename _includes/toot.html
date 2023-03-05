@@ -7,7 +7,7 @@
     {% endfor %}
     </div>
     {% for video in toot.videos %}
-        <video autoplay muted loop class="rounded drop-shadow-md">
+        <video autoplay muted loop playsinline class="rounded drop-shadow-md">
             <source src="{{video}}" type="video/mp4">
         </video>
     {% endfor %}
