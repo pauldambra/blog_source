@@ -16,9 +16,11 @@ But for me, it was a constant source of frustration and amazment.
 
 I'm sure that there are great people working on Office with care and attention but I didn't _experience_ that. It was like being haunted and losing your mind all in one go. I had a habit of [tooting my frustrations](https://twitter.com/pauldambra/status/1185848202249023488). I'm aware of them having been submitted as evidence in one procurement process. I don't think they swung the decision.
 
-If the tooter-web dissappeared they'd be the one thing I missed and so I've tooted them here.
+If the tooter-web dissappeared they'd be the one thing I missed and so I've copied them here.
 
 <!-- more -->
+
+I didn't start the thread until after I had already made several of the toots. So the initial few dates might appear out of order. I've kept the order that I added them to the thread instead of listing them in date order.
 
 {% assign toots = site.data.office-364-thread %}
 
