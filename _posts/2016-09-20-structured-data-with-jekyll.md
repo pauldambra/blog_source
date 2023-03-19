@@ -1,7 +1,7 @@
---- 
-title: "Adding Structured Data to a Jekyll site" 
-layout: "post" 
-permalink: "/structured-data-with-jekyll.html" 
+---
+title: "Adding Structured Data to a Jekyll site"
+layout: "post"
+permalink: "/structured-data-with-jekyll.html"
 date: "2016-09-20 17:00:00"
 description: "how to add structured data to a jekyll site"
 category: "Structured Data"
@@ -32,7 +32,7 @@ This blog is only authoritative for being unread but I've not worked with struct
 
 There are several formats with which you can add structured data which typically use the [schema.org](http://schema.org/docs/schemas.html) vocabulary. Google prefers [JSON-LD](http://json-ld.org/) which is added to the page in a script tag as opposed to, for example, Microdata which decorates the HTML.
 
-Here is an ([example taken from schema.org](https://schema.org/Movie)): 
+Here is an ([example taken from schema.org](https://schema.org/Movie)):
 
 ```HTML
 <div itemscope itemtype="http://schema.org/ScreeningEvent">
@@ -84,9 +84,9 @@ Since the aim is to add this data to a Jekyll site where the HTML is generated f
 
 ```HTML
 <script type="application/ld+json">
-{ "@context": "http://schema.org", 
+{ "@context": "http://schema.org",
  "@type": "Blog",
- "keywords": "software engineering agile refactoring c# ruby javascript", 
+ "keywords": "software engineering agile refactoring c# ruby javascript",
  "url": "https://pauldambra.github.io",
  "mainEntityOfPage": {
     "@type": "WebPage",
@@ -120,7 +120,7 @@ There's more to grok here...
 {% assign wordcount = include.content | number_of_words %}
 
 <script type="application/ld+json">
-{  
+{
    "@context":"http://schema.org",
    "@type":"BlogPosting",
    "headline":"{{ include.headline }}",
@@ -129,19 +129,19 @@ There's more to grok here...
    "wordCount":"{{ wordcount }}",
    "url":"https://pauldambra.github.io{{ include.link }}",
    "datePublished":"{{ include.date | | date: '%Y-%m-%d' }}",
-   "author":{  
+   "author":{
       "@type":"Person",
       "name":"Paul D'Ambra",
-      "sameAs":[  
+      "sameAs":[
         "https://twitter.com/pauldambra",
         "https://github.com/pauldambra",
         "https://plus.google.com/u/0/+PaulDAmbraPlus"
       ]
    },
-   "publisher":{  
+   "publisher":{
       "@type":"Person",
       "name":"Paul D'Ambra",
-      "sameAs":[  
+      "sameAs":[
         "https://twitter.com/pauldambra",
         "https://github.com/pauldambra",
         "https://plus.google.com/u/0/+PaulDAmbraPlus"
@@ -152,14 +152,14 @@ There's more to grok here...
   		  "url": "https://pauldambra.github.io"
     }
    },
-   "image":{  
+   "image":{
       "@type":"ImageObject",
       "contentUrl":"https://pauldambra.github.io/images/cardboard.jpg",
       "url":"https://pauldambra.github.io",
       "height":"450",
       "width":"1000"
    },
-   "mainEntityOfPage":{  
+   "mainEntityOfPage":{
       "@type":"WebPage",
       "@id":"https://pauldambra.github.io{{ include.link }}"
    },
@@ -171,12 +171,12 @@ There's more to grok here...
 
 As with the index page the context and type is set. That determines which properties are relevant. Also best to run the markup through the [Google testing tool](https://search.google.com/structured-data/testing-tool) to make sure that you have included the properties Google requires.
 
-The above is pasted into an html file in the _includes folder. And added to the layout used to render BlogPosts
+The above is pasted into an html file in the \_includes folder. And added to the layout used to render BlogPosts
 
 ```HTML
 {% raw %}
-{% 
-  include structuredData.html 
+{%
+  include structuredData.html
   headline=page.title
   genre=page.category
   keywords=page.keywords
@@ -188,7 +188,7 @@ The above is pasted into an html file in the _includes folder. And added to the 
 
 ```
 
-BlogPosts (i.e. those items in the _posts folder) have a bunch of variables either automatically available or added in the post's YAML frontmatter. These are passed on into the structuredData include and referenced inside it as `include.provided_name` 
+BlogPosts (i.e. those items in the \_posts folder) have a bunch of variables either automatically available or added in the post's YAML frontmatter. These are passed on into the structuredData include and referenced inside it as `include.provided_name`
 
 # That's not quite everything
 
@@ -196,7 +196,7 @@ The home page now has some data about the site itself but there's nothing in the
 
 My solution to this highlights nicely how powerful the [liquid templating language](https://shopify.github.io/liquid/) can be with a very limited set of operators and filters.
 
-```HTML 
+```HTML
 {% raw %}
 <script type="application/ld+json">
 {
@@ -210,14 +210,14 @@ My solution to this highlights nicely how powerful the [liquid templating langua
 {% endraw %}
 ```
 
-This adds a second script tag to hold the item list of blog postings. It is then necessary to loop over each post in `site.posts` and add an entry for that item. 
+This adds a second script tag to hold the item list of blog postings. It is then necessary to loop over each post in `site.posts` and add an entry for that item.
 
 But an array with a trailing comma is not valid JSON+LD and including a template here ends up with a trailing comma.
 
 The solution is led by two things:
 
-* Liquid provides the join filter which correctly joins an array without adding a trailing separator
-* You can only initialise an array by splitting a string
+- Liquid provides the join filter which correctly joins an array without adding a trailing separator
+- You can only initialise an array by splitting a string
 
 so...
 
@@ -226,8 +226,8 @@ so...
   {% assign items = "" %}
   {% for post in site.posts %}
     {% capture list_item %}
-        {% 
-            include blogListItem.html 
+        {%
+            include blogListItem.html
             index=forloop.index
             url=post.url
             title=post.title
@@ -236,30 +236,32 @@ so...
     {% endcapture %}
     {% assign items = items | append: list_item | append: "|||" %}
   {% endfor %}
-    
+
   {% assign items = items | split: "|||" | join: ',' %}
 {% endraw %}
 ```
 
- * create an empty string
- * loop over `site.posts`
- * for each post capture the result of populating a `blogListItem` include into a string
- * append that to the original string with a known separator
- * then split that string
- * then join that array with commas
- * that can then be output into the script tag above
+- create an empty string
+- loop over `site.posts`
+- for each post capture the result of populating a `blogListItem` include into a string
+- append that to the original string with a known separator
+- then split that string
+- then join that array with commas
+- that can then be output into the script tag above
 
- There may well be a different way of doing that. It seems a bit bonkers but it works...
+There may well be a different way of doing that. It seems a bit bonkers but it works...
 
 # Do the search engines use it?
 
 I've submitted the site for crawling since adding structured data and Google has so far picked up the home page and four of the articles.
 
-![structured data crawled by Google](/images/structured-data-crawled.png){:loading="lazy"}
-<!--alex ignore obvious --->
-Several days on and there's no obvious change in how my site places in search rankings or how Google displays it but... 
+![structured data crawled by Google](/images/structured-data-crawled.png){: loading="lazy"}{:loading="lazy"}
 
-* their documentation says it can take some time and I've seen other people talking about it taking more than 10 days
-* as above this site isn't authoritative for anything so I may not be crossing a threshold of importance for processing or be at the back of a very long queue.
+<!--alex ignore obvious --->
+
+Several days on and there's no obvious change in how my site places in search rankings or how Google displays it but...
+
+- their documentation says it can take some time and I've seen other people talking about it taking more than 10 days
+- as above this site isn't authoritative for anything so I may not be crossing a threshold of importance for processing or be at the back of a very long queue.
 
 Anyway, I think Structured Data, as well as being interesting, is a prerequisite for getting AMP set up and that's next up...

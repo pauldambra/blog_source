@@ -29,7 +29,7 @@ Now that the API lets clients propose destinations to the visit plannr the home 
 
 In a CRUD SQL system the application would have been maintaining the most up-to-date state of each destination in SQL and you'd read them when the HTML is requested. But this application isn't storing the state of the destinations but the facts that it has been told about the destinations.
 
-> As an aside a lot of people don't realise that CRUD SQL stands for __*C*__ an we __*R*__ eally not __*U*__ se SQL __*D*__ atabases they may __*S*__ eem familiar but all the ORM stuff is well over our __*Q*__ uota for comp __*L*__ icated dependencies.
+> As an aside a lot of people don't realise that CRUD SQL stands for **_C_** an we **_R_** eally not **_U_** se SQL **_D_** atabases they may **_S_** eem familiar but all the ORM stuff is well over our **_Q_** uota for comp **_L_** icated dependencies.
 
 In an event driven system applications subscribe to be notified when new events occur. They can create read models as the events arrive. Those read models are what the application uses to, erm, read data. So they're used in places many applications make SQL queries. Now this visit plannr application needs a read model for recently updated destinations.
 
@@ -37,11 +37,11 @@ In an event driven system applications subscribe to be notified when new events 
 
 # What even is a Read Model?
 
- > The query (or read) model is a denormalized data model. It is not meant to deliver the domain behaviour, only data for display (and possibly reporting).
+> The query (or read) model is a denormalized data model. It is not meant to deliver the domain behaviour, only data for display (and possibly reporting).
 
- > CQRS-based views can be both cheap and disposable ... any single view could be rewritten from scratch in isolation or the entire query model be switched to completely different persistence technology
+> CQRS-based views can be both cheap and disposable ... any single view could be rewritten from scratch in isolation or the entire query model be switched to completely different persistence technology
 
- - both from Page 141 Implementing Domain Driven Design by Vaughn Vernon
+- both from Page 141 Implementing Domain Driven Design by Vaughn Vernon
 
 A CQRS system ([see part 1](/2018/02/serverless-1.html#cqrs)) separates the parts of the application(s) that receives commands to change from those that receive queries for data. Read models are the data models for the read side of the application. This lets you optimise different areas for their specific tasks.
 
@@ -72,33 +72,35 @@ A wonderful thing about read models (in an eventsourced system at least) is that
 
 ## Work an example
 
-![without any events](/images/1-no-event.jpg){:loading="lazy"}
+![without any events](/images/1-no-event.jpg){: loading="lazy"}{:loading="lazy"}
 
 Let's imagine an eventsourced ecommerce application with no events. Sales and fulfilment teams need to know how much money we've made, how many orders we've taken, and what products have been sold.
 
 We've deployed 3 separate applications that are subscribed to the empty event stream.
 
-![after one event](/images/2-one-event.jpg){:loading="lazy"}
+![after one event](/images/2-one-event.jpg){: loading="lazy"}{:loading="lazy"}
 
 Big day - the first sale! myshop.com writes an event to the stream that we've sold a t-shirt. The sales, order count, and products sold read models update and any UI or report being generated using them can update accordingly.
 
-![after many events](/images/3-many-events.jpg){:loading="lazy"}
+![after many events](/images/3-many-events.jpg){: loading="lazy"}{:loading="lazy"}
 
 Many days and events have passed and after the most recent cancelled order the fulfilment team let you know that it's really hard for them to figure out what's happening when an order is cancelled. They'd like a view to help them manage cancellations.
 
-![when the new read model is deployed](/images/4-new-readmodel.jpg){:loading="lazy"}
+![when the new read model is deployed](/images/4-new-readmodel.jpg){: loading="lazy"}{:loading="lazy"}
 
 So a new read model is built and deployed to track order cancellations. The existing read models are all up-to-date on event 300. When the new application starts its read model isn't showing any cancelled orders and it has read 0 events.
 
 (important to note that no other applications had to change at all to support this!)
 
-![when the new read model is caught up](/images/5-caught-up.jpg){:loading="lazy"}
+![when the new read model is caught up](/images/5-caught-up.jpg){: loading="lazy"}{:loading="lazy"}
+
 <!--alex ignore period --->
+
 The new application reads through the event stream until it has caught up. There's a period of time where it is reading through the event stream and performing any calculations or running any logic where it isn't caught up with the other read models or with the write side of the applications.
 
 This is 'eventual consistency'. An event sourced system embraces the benefits of not trying to force all the parts of the application to stay exactly in sync with each other all the time.
 
-![adding a graph database read model](/images/6-graph.jpg){:loading="lazy"}
+![adding a graph database read model](/images/6-graph.jpg){: loading="lazy"}{:loading="lazy"}
 
 As the website gets more popular storing the products sold in an array is limiting what business intelligence the sales team can gather. You can add a consumer that stores products sold in a graph database.
 
@@ -123,26 +125,31 @@ Serverless systems only run for the lifetime of each request and so need to star
 This is kept as a port into the system
 
 ```javascript
-exports.handler = async event => {
-  streamReader = streamReader || makeStreamRepository.for(
-    eventsTableName,
-    dynamoDbClient.documentClient(),
-    guid)
+exports.handler = async (event) => {
+  streamReader =
+    streamReader ||
+    makeStreamRepository.for(
+      eventsTableName,
+      dynamoDbClient.documentClient(),
+      guid
+    );
 
-  readModelWriter = readModelWriter || makeReadModelRepository.for(
-    readModelsTableName,
-    dynamoDbClient.documentClient(),
-    guid)
+  readModelWriter =
+    readModelWriter ||
+    makeReadModelRepository.for(
+      readModelsTableName,
+      dynamoDbClient.documentClient(),
+      guid
+    );
 
-  const writes =
-    await readModelUpdateHandler
-      .withStreamReader(streamReader)
-      .withReadModelWriter(readModelWriter)
-      .allowingModelsWithStatus(terminalEventType)
-      .writeModelsFor(event)
+  const writes = await readModelUpdateHandler
+    .withStreamReader(streamReader)
+    .withReadModelWriter(readModelWriter)
+    .allowingModelsWithStatus(terminalEventType)
+    .writeModelsFor(event);
 
-  return Promise.all(writes)
-}
+  return Promise.all(writes);
+};
 ```
 
 It initialises a stream reader and a model writer then curries a handler function which receives the event that triggered the lambda. Accepting a `terminalEventType` so destinations that shouldn't be shown to users yet can be filtered out. Finally waiting for any dynamodb writes to be gathered and passes those promises back to the executing environment so it can wait for them to complete.
@@ -150,34 +157,36 @@ It initialises a stream reader and a model writer then curries a handler functio
 The handler is small.
 
 ```javascript
-const destinationReadModel = require('./destinationReadModel.js')
-const streamNames = require('./streamNames')
+const destinationReadModel = require("./destinationReadModel.js");
+const streamNames = require("./streamNames");
 
 module.exports = {
-  withStreamReader: streamReader => ({
-    withReadModelWriter: modelWriter => ({
-      allowingModelsWithStatus: status => ({
-        writeModelsFor: async event => {
-          console.log(`processing trigger event: ${JSON.stringify(event)}`)
+  withStreamReader: (streamReader) => ({
+    withReadModelWriter: (modelWriter) => ({
+      allowingModelsWithStatus: (status) => ({
+        writeModelsFor: async (event) => {
+          console.log(`processing trigger event: ${JSON.stringify(event)}`);
 
           const readPromises = streamNames
             .from(event.Records)
-            .map(cs => streamReader.readStream({streamName: cs}))
+            .map((cs) => streamReader.readStream({ streamName: cs }));
 
-          const streamsOfEvents = await Promise.all(readPromises)
+          const streamsOfEvents = await Promise.all(readPromises);
 
           const writes = streamsOfEvents
-            .map(streamOfWrappedEvents => streamOfWrappedEvents.map(x => x.event))
+            .map((streamOfWrappedEvents) =>
+              streamOfWrappedEvents.map((x) => x.event)
+            )
             .map(destinationReadModel.apply)
-            .filter(m => m.status === status)
-            .map(modelWriter.write)
+            .filter((m) => m.status === status)
+            .map(modelWriter.write);
 
-          return writes
-        }
-      })
-    })
-  })
-}
+          return writes;
+        },
+      }),
+    }),
+  }),
+};
 ```
 
 The triggering event could contain more than one dyanamodb update so:
@@ -185,61 +194,63 @@ The triggering event could contain more than one dyanamodb update so:
 ```javascript
 const readPromises = streamNames
   .from(event.Records)
-  .map(cs => streamReader.readStream({streamName: cs}))
+  .map((cs) => streamReader.readStream({ streamName: cs }));
 
-const streamsOfEvents = await Promise.all(readPromises)
+const streamsOfEvents = await Promise.all(readPromises);
 ```
 
 Remember each event is appended onto the end of a stream of events that represents an instance of a particular domain concept. So each `destination` has its own stream of events that make up the history of _that destination_. This code reads the stream name from each of the events that triggered the lambda and reads all of the events from each of those streams from dynamodb.
 
 ```javascript
 const writes = streamsOfEvents
-  .map(streamOfWrappedEvents => streamOfWrappedEvents.map(x => x.event))
+  .map((streamOfWrappedEvents) => streamOfWrappedEvents.map((x) => x.event))
   .map(destinationReadModel.apply)
-  .filter(m => m.status === status)
-  .map(modelWriter.write)
+  .filter((m) => m.status === status)
+  .map(modelWriter.write);
 ```
 
 each stream of events is applied to a `destinationReadModel` which are filtered to keep only those with the desired status. Those models are then written to dynamodb so other applications can query them.
 
 ```javascript
-
 module.exports = {
-  apply: events => {
-    const readModel = events.reduce((model, event) => {
-      switch (event.type) {
-        case 'destinationProposed':
-          model.name = event.name
-          model.geolocation = event.geolocation
-          model.timestamp = event.timestamp
-          break
-        case 'geolocationValidationSucceeded':
-          model.status = 'locationValidated'
-          break
-        case 'geolocationValidationFailed':
-          model.status = 'failed'
-          break
-      }
+  apply: (events) => {
+    const readModel = events.reduce(
+      (model, event) => {
+        switch (event.type) {
+          case "destinationProposed":
+            model.name = event.name;
+            model.geolocation = event.geolocation;
+            model.timestamp = event.timestamp;
+            break;
+          case "geolocationValidationSucceeded":
+            model.status = "locationValidated";
+            break;
+          case "geolocationValidationFailed":
+            model.status = "failed";
+            break;
+        }
 
-      return model
-    }, {status: 'pending', type: 'destination'})
+        return model;
+      },
+      { status: "pending", type: "destination" }
+    );
 
-    console.log(`built readmodel ${JSON.stringify(readModel)} from events ${JSON.stringify(events)}`)
-    return readModel
-  }
-}
-
+    console.log(
+      `built readmodel ${JSON.stringify(
+        readModel
+      )} from events ${JSON.stringify(events)}`
+    );
+    return readModel;
+  },
+};
 ```
 
 Building the read model involves taking each event and updating a model based on the event type. Here you can see how this code is tolerant of events it isn't expecting - it will ignore them.
 
 There's no validation that the data being read from the events is present. Whether there should be validation at this stage is context dependent. Here we wrote the event producers and know that for there to be a `geolocationValidationSucceeded` event both name and geolocation have to be present. We can trust that the read model will be good enough for now.
 
-
-
 # What's next?
 
 Now that read models are being stored in dynamodb the next step is to generate a home page. Because the read models are writing to a dynamodb table they can be treated as a projection (read models that can be treated as an eventstream and subscribed to) and we can generate static HTML when the read models change.
 
 All the code for this post can be found [here on github](https://github.com/pauldambra/visit-plannr/tree/code-blog-post-part-five).
-

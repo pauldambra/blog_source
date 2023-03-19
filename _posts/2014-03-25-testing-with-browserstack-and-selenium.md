@@ -34,44 +34,44 @@ A nightwatch test for the front page looks like:
 
 ```js
 module.exports = {
-  "Test the home page" : function (browser) {
+  "Test the home page": function (browser) {
     browser
       .url("http://omniclopse-v0-1.herokuapp.com/")
-      .waitForElementVisible('body', 1000)
-      .assert.elementPresent('#homeCarousel')
+      .waitForElementVisible("body", 1000)
+      .assert.elementPresent("#homeCarousel")
       //must have at least one image
-      .assert.elementPresent('#homeCarousel .item img')
+      .assert.elementPresent("#homeCarousel .item img")
       .end();
-  }
+  },
 };
 ```
 
-This demonstrates a very clear API. Load the page, wait till the body is visible, then assert that the carousel is present. 
+This demonstrates a very clear API. Load the page, wait till the body is visible, then assert that the carousel is present.
 
 ## How to run the tests
 
 Running this at the terminal using:
 `nightwatch -t end-to-end-tests/* -c end-to-end-tests/settings.json`
 
-```json 
+```json
 {
-  "src_folders" : ["./"],
+  "src_folders": ["./"],
 
-  "selenium" : {
-    "start_process" : false,
-    "host" : "hub.browserstack.com",
-    "port" : 80
+  "selenium": {
+    "start_process": false,
+    "host": "hub.browserstack.com",
+    "port": 80
   },
 
-  "test_settings" : {
-    "default" : {
-      "launch_url" : "http://hub.browserstack.com",
-      "selenium_port"  : 80,
-      "selenium_host"  : "hub.browserstack.com",
+  "test_settings": {
+    "default": {
+      "launch_url": "http://hub.browserstack.com",
+      "selenium_port": 80,
+      "selenium_host": "hub.browserstack.com",
       "silent": true,
-      "screenshots" : {
-        "enabled" : false,
-        "path" : ""
+      "screenshots": {
+        "enabled": false,
+        "path": ""
       },
       "desiredCapabilities": {
         "browserName": "firefox",
@@ -89,7 +89,7 @@ Here the settings file sets the location of the tests folder(s), how and where t
 
 Passing in a settings file like this means that different browser settings can be setup and run separately. For example:
 
-```bash 
+```bash
 nightwatch -t end-to-end-tests/* -c end-to-end-tests/settingsWindowsFirefox.json
 nightwatch -t end-to-end-tests/* -c end-to-end-tests/settingsOSXFirefox.json
 nightwatch -t end-to-end-tests/* -c end-to-end-tests/settingsIPhone.json
@@ -100,7 +100,7 @@ Which would allow running all of the nightwatch tests against different operatin
 
 ## Viewing results
 
-![Results from the tests are displayed in the console](/images/run-nightwatch.png){:loading="lazy"}
+![Results from the tests are displayed in the console](/images/run-nightwatch.png){: loading="lazy"}{:loading="lazy"}
 
 ## Some more realistic tests for the home page
 
@@ -108,19 +108,19 @@ Switching out the test for carousel by id and instead testing by class (as this 
 
 ```js
 module.exports = {
-  "Test the home page" : function (browser) {
+  "Test the home page": function (browser) {
     browser
       .url("http://omniclopse-v0-1.herokuapp.com/")
-      .waitForElementVisible('body', 1000)
-      .assert.elementPresent('header img#brand')
-      .assert.elementPresent('header .navbar')
-      .assert.elementPresent('header .navbar li a')
-      .assert.elementPresent('.carousel')
-      .assert.elementPresent('.carousel .item img')
-      .assert.elementPresent('.row.info')
-      .assert.elementPresent('.row.info .panel')
+      .waitForElementVisible("body", 1000)
+      .assert.elementPresent("header img#brand")
+      .assert.elementPresent("header .navbar")
+      .assert.elementPresent("header .navbar li a")
+      .assert.elementPresent(".carousel")
+      .assert.elementPresent(".carousel .item img")
+      .assert.elementPresent(".row.info")
+      .assert.elementPresent(".row.info .panel")
       .end();
-  }
+  },
 };
 ```
 

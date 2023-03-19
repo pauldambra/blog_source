@@ -1,7 +1,7 @@
 ---
-title: "Retrosperiment" 
-layout: "post" 
-permalink: "/2017/07/retrosperiment.html" 
+title: "Retrosperiment"
+layout: "post"
+permalink: "/2017/07/retrosperiment.html"
 date: "2017-07-06 10:00:00"
 description: "A retrospective experiment"
 category: "agile"
@@ -18,9 +18,9 @@ For our team's most recent retro we decided to try a new format to see how it af
 
 A retrospective is a practice from [XP described on the c2.wiki](http://wiki.c2.com/?IterationRetrospective) as
 
-> A practice which has an XP team asking itself, at the end of each iteration : What went well ? 
-What could be improved ? 
-What could we experiment with ?
+> A practice which has an XP team asking itself, at the end of each iteration : What went well ?
+> What could be improved ?
+> What could we experiment with ?
 
 We've recently had several discussions trying to focus on the real and perceived progress of our work and thought it would be beneficial to run the retro with a focus on the impact of our team's principles and practices. Specifically how they relate to delivery of value and speed of delivery.
 
@@ -28,32 +28,32 @@ We've recently had several discussions trying to focus on the real and perceived
 
 We first drew axes on a white-board
 
-![The axes of the retro graph](/images/the-graph.png){:loading="lazy"}
+![The axes of the retro graph](/images/the-graph.png){: loading="lazy"}{:loading="lazy"}
 
-Since any and all software communication must take the form of some set of quadrants... 
+Since any and all software communication must take the form of some set of quadrants...
 
-![the quadrants this describes](/images/the-quadrants.png){:loading="lazy"}
+![the quadrants this describes](/images/the-quadrants.png){: loading="lazy"}{:loading="lazy"}
 
-Then the whole team wrote on post-it notes what they thought our principles and practices were and put them on the board. 
+Then the whole team wrote on post-it notes what they thought our principles and practices were and put them on the board.
 
 The faster that practice helps us move the further right the post-it goes. The more value it lets us deliver the higher it goes.
 
 ## So what did this look like in practice?
 
-![the post-its](/images/the-chart-1.png){:loading="lazy"}
+![the post-its](/images/the-chart-1.png){: loading="lazy"}{:loading="lazy"}
 
 This let us see straight away where we had different opinions across the team
 
- * feature flags
- * estimates
- * road-maps
- * Slack / comms
+- feature flags
+- estimates
+- road-maps
+- Slack / comms
 
 And where, when we agreed roughly on position, we needed to focus on if we could speed-up or get more value
 
 This was a very different discussion than we would usually have. Anchored more in what we could change and how we might change it than how we feel about things...
 
-![the discussion](/images/the-discussion.png){:loading="lazy"}
+![the discussion](/images/the-discussion.png){: loading="lazy"}{:loading="lazy"}
 
 It's still important to address the team's morale and individual concerns but this list of discussion points felt more focused, as we'd hoped, on what we can change to deliver more value faster.
 

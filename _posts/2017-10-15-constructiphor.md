@@ -14,7 +14,7 @@ tags: [metaphors, software]
 
 > I've never really got on with construction metaphors for software. The cost of mistakes and rework is high in construction
 
-![the toot itself](/images/toot.jpeg){:loading="lazy"}
+![the toot itself](/images/toot.jpeg){: loading="lazy"}{:loading="lazy"}
 
 This isn't saying that Software isn't putting things together but rather I've seen people justify not 'being agile' by using construction metaphors.
 
@@ -28,21 +28,23 @@ For example
 
 ### So, why, do we have to agree up front what we're doing?
 
-The builders pouring the foundations in the image in that toot were *really* careful they got things right before they started pouring concrete. If you pour that concrete and it's wrong, it's a big deal. Doing it *twice* would be an expensive problem. It isn't inconceivable that you make a mistake where it might be impossible to recover from the cost.
+The builders pouring the foundations in the image in that toot were _really_ careful they got things right before they started pouring concrete. If you pour that concrete and it's wrong, it's a big deal. Doing it _twice_ would be an expensive problem. It isn't inconceivable that you make a mistake where it might be impossible to recover from the cost.
 
-The bricklayers that built on top of the foundations couldn't start before the foundations were ready. Once they could start they went _really_, *really* slowly until the first few rows were in and true. After that it is amazing how fast they can add new rows of bricks.
+The bricklayers that built on top of the foundations couldn't start before the foundations were ready. Once they could start they went _really_, _really_ slowly until the first few rows were in and true. After that it is amazing how fast they can add new rows of bricks.
 
- * They have to work in series.
- * They have to be incredibly intolerant of mistakes
+- They have to work in series.
+- They have to be incredibly intolerant of mistakes
 
 In short they have to agree up front what they're doing.
 
 In comparison I could run infrastructure scripts to create complex utility computing environments, test the results, tear down the infrastructure, and repeat. All for the cost of the compute time. AWS recently started billing by the second so if that only takes minutes to run it's even cheaper than before.
+
 <!--alex ignore just --->
+
 I can reset the state of the software to just about any point in history to see what it was like. I can experiment with swingeing changes cheaply and without impacting other people's work.
 
- * We don't have to work in series
- * We can be tolerant of mistakes
+- We don't have to work in series
+- We can be tolerant of mistakes
 
 So, we don't have to agree up front what we're doing?
 
@@ -52,7 +54,7 @@ So, we don't have to agree up front what we're doing?
 
 In the context of the 70s pricing planning was cheap. But planning is now comparatively expensive.
 
-![seen at https://twitter.com/ojuncu/status/913688587576778752](/images/agilecam.jpg){:loading="lazy"}
+![seen at https://twitter.com/ojuncu/status/913688587576778752](/images/agilecam.jpg){: loading="lazy"}{:loading="lazy"}
 
 That's all the confirmation bias I need :)
 
@@ -60,7 +62,7 @@ That's all the confirmation bias I need :)
 
 ... in construction the cost of the work, or the cost of the work being wrong is higher than the cost of planning the work. Measure twice, cut once is still good advice.
 
-That *was* true in Software but isn't anymore.
+That _was_ true in Software but isn't anymore.
 
 Because the cost of planning is comparatively expensive it is now the item to minimise. Software systems can be put together by taking many small, cheap, reversible steps. What Deng Xiaoping would have described as "crossing the river by feeling the stones."
 

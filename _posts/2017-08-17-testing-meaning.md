@@ -1,7 +1,7 @@
---- 
-title: "Testing Meaning in HTML!" 
-layout: "post" 
-permalink: "/2017/testing-meaning.html" 
+---
+title: "Testing Meaning in HTML!"
+layout: "post"
+permalink: "/2017/testing-meaning.html"
 date: "2017-08-17 22:40:00"
 description: "Testing the meaning of what you generate"
 keywords: jekyll static html testing
@@ -56,16 +56,16 @@ After _yet another_ occasion where I proofread a post, published it, read it, an
 
 [MarkDown spellcheck](https://github.com/lukeapage/node-markdown-spellcheck) is a tool for doing exactly that.
 
-Here it 
+Here it
 
- * grabs all the `.md` files
- * sets the dictionary to `--en-gb`
- * ignores numbers and acronyms
- * and is set to run in `report` mode
+- grabs all the `.md` files
+- sets the dictionary to `--en-gb`
+- ignores numbers and acronyms
+- and is set to run in `report` mode
 
 The tool has a `report` mode which outputs spelling errors and then exits with a non-zero code. And an `interactive` mode that pauses on each potential mistake allowing you to choose to ignore, add to a dictionary, or to correct.
 
-![example interactive spelling output](/images/interactive-spelling.png){:loading="lazy"}
+![example interactive spelling output](/images/interactive-spelling.png){: loading="lazy"}{:loading="lazy"}
 
 The interactive spelling mode can be pretty slow at checking the dictionary. There is [an open issue about this](https://github.com/lukeapage/node-markdown-spellcheck/issues/33).
 
@@ -79,10 +79,11 @@ There is very little cost to modifying your language (replacing "guys" with "eve
 
 Alex is run using this command: `npx alex _posts --why`
 
-* `_posts` tells alex which directory to start in
-* `--why` tries to output a source for the warning
+- `_posts` tells alex which directory to start in
+- `--why` tries to output a source for the warning
 
-<!--alex ignore heshe--> 
+<!--alex ignore heshe-->
+
 ## he-she rule
 
 ```
@@ -108,7 +109,7 @@ Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
 
 Here's another example of the importance of context but also the unthinking use of language.
 
-I wrote that post in 2010. I don't use that voice any more. But, I'm ok with `bitchin'` in the context it was used in. But it isn't about what I'm ok with. I don't know the reader and can rephrase without it. 
+I wrote that post in 2010. I don't use that voice any more. But, I'm ok with `bitchin'` in the context it was used in. But it isn't about what I'm ok with. I don't know the reader and can rephrase without it.
 
 Next `failed is profane in some cases`... in this post it's talking about software failing to send emails. I think it's ok. But I can also see how to rephrase the sentence. This is about trying to include as many people as possible. It takes seconds to rephrase the sentence.
 
@@ -130,7 +131,7 @@ I can set my `.alexrc` file to contain
 
 Or to rephrase the sentence. There's always another way to make yourself clear.
 
-I use words like `Idiot` less and less since it takes little effort to replace them. On reading the paragraph it was in so many years after writing it doesn't add anything to the post at all. So I remove the entire paragraph. 
+I use words like `Idiot` less and less since it takes little effort to replace them. On reading the paragraph it was in so many years after writing it doesn't add anything to the post at all. So I remove the entire paragraph.
 
 # And so...
 

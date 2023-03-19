@@ -2,13 +2,13 @@
 ingredients:
   broken spaghetti and pasta: 400 gram
   cannalini beans (washed and drained): 2 tins
-  garlic cloves (peeled): 3 or 4 
+  garlic cloves (peeled): 3 or 4
   olive oil: 5 tablespoons (approx)
   cherry tomatoes (optional): 10
   salt & pepper: to taste
 instructions:
   - Put oil in a pan fry garlic till blond not brown
-  - If you have tomatoes add to the pan 
+  - If you have tomatoes add to the pan
   - If you don't have tomatoes you can add a quarter of a tin of chopped tomatoes or leave them out entirely
   - cook with garlic & oil for about 5mins
   - Then add beans stir and cook all together for 5mins
@@ -37,6 +37,7 @@ Pasta e Fasule is Neapolitan for Pasta e Fagiole which is Italian for Pasta and 
 Pasta and bean soup reminds me of being looked after when recovering from an illness as a kid. I like it so thick the spoon will stand up.
 
 <!--alex disable he-her dad-mom-->
+
 You can use odds and ends of pasta or break spaghetti in. When my dad was little he'd be sent to the pasta shop to get their broken odds and ends. They were cheaper.
 
-![steps in making pasta fasule as a gif](/images/pasta-fasule.gif)
+![steps in making pasta fasule as a gif](/images/pasta-fasule.gif){: loading="lazy"}

@@ -9,7 +9,9 @@ tags: [learning, cms, design, web, series]
 ---
 
 I was once complaining about having difficulty setting up a very slightly unusual feature in a Drupal site that was taking forever to achieve. The framework made so many assumptions about what I should do that it wouldn't let me do what I wanted to.
+
 <!--alex ignore he-she --->
+
 A freelancer commented that if he was quoting on a project that had a requirement that it use a given CMS he didn't quote any less than building from scratch. He had found it didn't make enough difference to the effort he'd spend...
 
 This stuck with me and matches my experience so far. (yeah, yeah, confirmation bias. I know)
@@ -30,22 +32,22 @@ As [Dan](https://plus.google.com/u/0/+DanielDrummond) points out in the comments
 
 Importantly, both times I was able to deliver almost every necessary change by editing JS files.
 
-I'm not saying that Django is bad per se (although <i>I</i> *really* didn't enjoy working with it). I'm not even saying that having a system to manage content on a website is bad - I can't be I'm suggesting building one!
+I'm not saying that Django is bad per se (although <i>I</i> _really_ didn't enjoy working with it). I'm not even saying that having a system to manage content on a website is bad - I can't be I'm suggesting building one!
 
 Maybe that "heavy-weight" web frameworks may not be appropriate to build that system - on a large .Net project recently I'd argue most of the functionality the customer wanted was built with JS.
-    
+
 I'm primarily a .Net developer. I love C# - I think the language is powerful and expressive. I think MS are really pushing things with new language development. I grok how to build websites using it but I'm getting to the point where even my BFF language isn't necessarily my first choice.
 
 Really all I'm saying is that I've discovered I heart JS for making web things because I've found it gets out of the way and lets me build things.
 
-![always be punning](/images/ABC.png){:loading="lazy"}
+![always be punning](/images/ABC.png){: loading="lazy"}{:loading="lazy"}
 
 The basic idea for this blog series had been bouncing around in my head for a while... and the recent work with Django was the kick I needed to actually bother to write it.
 
 #### Never say never but sometimes say no
-    
+
 So I wondered if I really could build an editable website
-    
+
 Proof, in other words, if proof be need be.
 
 # What is it?!
@@ -57,32 +59,33 @@ Wikipedia has a reasonable definition of a Web CMS (right now at least) as:
 > Most systems use a content repository or a database to store page content, metadata, and other information assets that might be needed by the system.
 
 > A presentation layer (template engine) displays the content to website visitors based on a set of templates, which are sometimes XSLT files. Most systems use server side caching to improve performance. This works best when the WCMS is not changed often but visits happen regularly.
+
  <!--alex ignore fat --->
+
 > Administration is also typically done through browser-based interfaces, but some systems require the use of a fat client
 
 > A WCMS allows non-technical users to make changes to a website with little training. A WCMS typically requires a systems administrator and/or a web developer to set up and add features, but it is primarily a website maintenance tool for non-technical staff.
 
-
 I'm not trying to build a CMS... something that could be packaged and distributed. I'm only interested in how long it would actually take me to build a web site that:
 
-* Displays Web pages
-	* [part 1](/2014/03/websites-cms-displaying-pages.html)
-    * [part 2](/2014/03/website-cms-display-pages-part-2.html)
-* Stores data
-	* [part 1](/Websites-CMS-Platform-Storing-Data.html)
-	* [part 2](/Websites-CMS-Platform-Storing-Data2.html)
-* Edits web pages / Has an Admin section
-	* [on page editing](/On-Page-Editing.html)
-	* [UX part 1](/better-affordance.html)
-	* [UX part 2](/better-affordance-js.html)
-* Has templating
-	* [Handlebars](/2014/03/website-cms-display-pages-part-2.html)
-* Allows more than one author
-	* [Logging in](/websites-CMS-platform-logging-in.html)
-* Has Server side caching
-	* does anything not have server side caching these days?!
-* Can be used by someone non-technical
-	* totally subjective...
+- Displays Web pages
+  - [part 1](/2014/03/websites-cms-displaying-pages.html)
+    - [part 2](/2014/03/website-cms-display-pages-part-2.html)
+- Stores data
+  - [part 1](/Websites-CMS-Platform-Storing-Data.html)
+  - [part 2](/Websites-CMS-Platform-Storing-Data2.html)
+- Edits web pages / Has an Admin section
+  - [on page editing](/On-Page-Editing.html)
+  - [UX part 1](/better-affordance.html)
+  - [UX part 2](/better-affordance-js.html)
+- Has templating
+  - [Handlebars](/2014/03/website-cms-display-pages-part-2.html)
+- Allows more than one author
+  - [Logging in](/websites-CMS-platform-logging-in.html)
+- Has Server side caching
+  - does anything not have server side caching these days?!
+- Can be used by someone non-technical
+  - totally subjective...
 
 (edited with links to the completed work)
 

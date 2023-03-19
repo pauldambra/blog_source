@@ -16,7 +16,7 @@ I really did give it a good go but this image sums up the difficulty faced using
 
 <!--more-->
 
-![map software screenshots](http://3.bp.blogspot.com/-VPG8J6aU_e4/UF-WIE86bVI/AAAAAAAAAlU/4DR5xAFykh0/s1600/map-comparison.PNG){:loading="lazy"}
+![map software screenshots](http://3.bp.blogspot.com/-VPG8J6aU_e4/UF-WIE86bVI/AAAAAAAAAlU/4DR5xAFykh0/s1600/map-comparison.PNG){: loading="lazy"}{:loading="lazy"}
 
 Above you can see the difference. Google's maps app on the left has natural features so you can navigate by looking at what is going on. It has contrast so tiny country roads are still visible and it has words on it so that you can... well... see what's going on.
 

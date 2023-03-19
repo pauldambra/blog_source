@@ -1,7 +1,7 @@
---- 
-title: "Websites != CMS Platform - Better Editable Affordance" 
-layout: "post" 
-permalink: "/better-affordance.html" 
+---
+title: "Websites != CMS Platform - Better Editable Affordance"
+layout: "post"
+permalink: "/better-affordance.html"
 date: "2014-07-20 22:11:00"
 description: using funky css3 magic to make a better visual affordance
 category: cms
@@ -16,15 +16,15 @@ The code can be found on [GitHub](https://github.com/pauldambra/omniclopse)
 
 In the last post I wasn't happy with the visual affordance that a page element is editable.
 
-![editable sections for anonymous users](/images/affordance-loggedout.png){:loading="lazy"}
+![editable sections for anonymous users](/images/affordance-loggedout.png){: loading="lazy"}{:loading="lazy"}
 
-![editable sections for anonymous users](/images/affordance-loggedin.png){:loading="lazy"}
+![editable sections for anonymous users](/images/affordance-loggedin.png){: loading="lazy"}{:loading="lazy"}
 
 <!--more-->
 
 I also wasn't happy that the page elements shifted around as alerts were added to the screen.
 
-![editing the page](/images/editing.gif){:loading="lazy"}
+![editing the page](/images/editing.gif){: loading="lazy"}{:loading="lazy"}
 
 # So...
 
@@ -34,55 +34,55 @@ I still don't have a better idea of how to indicate that an element is editable 
 
 ### And...
 
-There are two steps 
+There are two steps
 
- * Make the affordance more betterer
- * Make the affordance give more info
+- Make the affordance more betterer
+- Make the affordance give more info
 
-# A more affordable affordance 
+# A more affordable affordance
 
 <sub> ouch! what a pun</sub>
 
-The indicator that an element is editable has to be on the element itself otherwise how is a user to know what they can edit - but what we had didn't draw the eye. 
+The indicator that an element is editable has to be on the element itself otherwise how is a user to know what they can edit - but what we had didn't draw the eye.
 
 By using CSS3 keyframes we can cock-a-snoot at older browsers (without breaking them) and get the desired behaviour.
 
-![Pulsing editor indicator](/images/pulse.gif){:loading="lazy"}
+![Pulsing editor indicator](/images/pulse.gif){: loading="lazy"}{:loading="lazy"}
 
-```scss 
+```scss
 @mixin editorAffordance($size, $pos, $glow) {
-	position: absolute;
-	left: $pos;
-	top: $pos;
-	z-index: 900;
-	color: $glow;
-	font-size: $size;
-	border-radius: 15px;
-	padding: 5px;
+  position: absolute;
+  left: $pos;
+  top: $pos;
+  z-index: 900;
+  color: $glow;
+  font-size: $size;
+  border-radius: 15px;
+  padding: 5px;
 }
 
 [contenteditable] {
-	-moz-user-select: none;
-	-khtml-user-select: none;
-	-webkit-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	outline: none;
-	position:relative;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+  position: relative;
 }
 
 div[contenteditable] {
-	.editable-affordance{
-    	@include editorAffordance(1em, 0, $complementaryDarkTwo);
-    	@include animation('darkpulse 2.5s infinite ease-in');
-	}
+  .editable-affordance {
+    @include editorAffordance(1em, 0, $complementaryDarkTwo);
+    @include animation("darkpulse 2.5s infinite ease-in");
+  }
 }
 
 h1[contenteditable] {
-	.editable-affordance{
-    	@include editorAffordance(0.5em, -0.5em, gold);
-    	@include animation('goldpulse 2.5s infinite ease-in');
-	}
+  .editable-affordance {
+    @include editorAffordance(0.5em, -0.5em, gold);
+    @include animation("goldpulse 2.5s infinite ease-in");
+  }
 }
 ```
 
@@ -93,9 +93,9 @@ The important bits here are:
 Using the `[contenteditable]` rule to set `position:relative` on the editable elements means we can add an element as a child with `.editable-afforance` as one of its classes. That class has a rule that sets `position:absolute` and some positioning to put the element top left (but those positions are passed in so don't need to be top left).
 
 Positioning something absolutely inside something that is positioned relatively positions the child in relation to the parent ([see - CSS is straight-forward](http://www.amazon.co.uk/gp/product/B00EZ3Y5RW/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00EZ3Y5RW&linkCode=as2&tag=mindlramblnon-21)
-). 
+).
 
-Giving an element that indicates something is editable but doesn't push that editable content out of its way. 
+Giving an element that indicates something is editable but doesn't push that editable content out of its way.
 
 # No blue outline
 
@@ -111,34 +111,32 @@ As always the [Mozilla Developer Network](https://developer.mozilla.org/en-US/do
 
 So, if 2s is set as the animation-duration then a keyframe rule for 50% applies after 1 second.
 
-Here there are three rules that set a cycling box shadow inside and outside of the element 
+Here there are three rules that set a cycling box shadow inside and outside of the element
 
-```scss 
+```scss
 @include keyframes(darkpulse) {
-  0% { 
-	box-shadow: inset 0px 0px 5px rgb(61,28,79),
-		0px 0px 15px rgb(61,28,79); 
-	}
-  50% { 
-  	box-shadow: inset 0px 0px 15px rgb(61,28,79), 
-  		0px 0px 35px rgb(61,28,79); 
+  0% {
+    box-shadow: inset 0px 0px 5px rgb(61, 28, 79), 0px 0px 15px rgb(61, 28, 79);
   }
-  100% {  
-  	box-shadow: inset 0px 0px 5px rgb(61,28,79), 
-  		0px 0px 15px rgb(61,28,79); 
-  	}
+  50% {
+    box-shadow: inset 0px 0px 15px rgb(61, 28, 79), 0px 0px 35px rgb(61, 28, 79);
+  }
+  100% {
+    box-shadow: inset 0px 0px 5px rgb(61, 28, 79), 0px 0px 15px rgb(61, 28, 79);
+  }
 }
 ```
 
 {% if page.path contains '_posts' %}
-  
-  And here is a codepen so you can play with the CSS that generates the effect
+
+And here is a codepen so you can play with the CSS that generates the effect
+
 <p data-height="129" data-theme-id="7380" data-slug-hash="gIseG" data-default-tab="result" class='codepen'>See the Pen <a href='https://codepen.io/pauldambra/pen/gIseG/'>gIseG</a> by Paul D'Ambra (<a href='https://codepen.io/pauldambra'>@pauldambra</a>) on <a href='https://codepen.io'>CodePen</a>.</p>
 <script async src="//codepen.io/assets/embed/ei.js"></script>
 
 {% else %}
 
-  And [here is a codepen](https://codepen.io/pauldambra/pen/gIseG/) so you can play with the CSS that generates the effect
+And [here is a codepen](https://codepen.io/pauldambra/pen/gIseG/) so you can play with the CSS that generates the effect
 
 {% endif %}
 

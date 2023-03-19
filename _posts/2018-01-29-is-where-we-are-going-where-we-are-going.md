@@ -15,10 +15,12 @@ A way of measuring the progress being made by a software team. Not all teams use
 <!--more-->
 
 > Velocity is the number of story points completed by a team in an iteration.
-[scrum alliance 2014](https://web.archive.org/web/20170926190909/https://www.scrumalliance.org/community/articles/2014/february/velocity)
+> [scrum alliance 2014](https://web.archive.org/web/20170926190909/https://www.scrumalliance.org/community/articles/2014/february/velocity)
+
 <!--alex ignore simple --->
+
 > define velocity as simply a measure of how fast a team is going
-[mountain goat software 2014](https://www.mountaingoatsoftware.com/blog/know-exactly-what-velocity-means-to-your-scrum-team)
+> [mountain goat software 2014](https://www.mountaingoatsoftware.com/blog/know-exactly-what-velocity-means-to-your-scrum-team)
 
 In fact both of those articles go on to expand on the physical metaphor...
 
@@ -40,16 +42,16 @@ If you are told someone is moving 30mph can you tell me how long it will take th
 
 No! You don't know where they are and you don't know which way they're travelling. You need to know they are, for example, due south from your house and travelling north.
 
-You can't say *anything* about when and where they will arrive only from their speed.
+You can't say _anything_ about when and where they will arrive only from their speed.
 
 ### So, what do we need?
 
 Simplistically (let's not stretch the metaphor to routing on a map) you need:
 
- * a destination
- * a starting point
- * a direction of travel
- * a speed
+- a destination
+- a starting point
+- a direction of travel
+- a speed
 
 Let's, for now, assume we're talking about a fixed destination and starting point (spoiler: we're not).
 
@@ -61,32 +63,32 @@ Do we care? Should we care?
 
 # High speed with no progress
 
-![some toddlers demonstrating you can have speed without progress](/images/kids.gif){:loading="lazy"}
+![some toddlers demonstrating you can have speed without progress](/images/kids.gif){: loading="lazy"}{:loading="lazy"}
 
 So logically you can have a high speed system with low progress. And you can have a low speed system with high progress.
 
 Let's labour the point...
 
-Take two cyclists and start them at the same place with some desired destination for them to travel to. Point one of them in the right direction and the other randomly. No matter how fast the randomly pointed cyclist travels they are far less likely to reach the destination *at all*.
+Take two cyclists and start them at the same place with some desired destination for them to travel to. Point one of them in the right direction and the other randomly. No matter how fast the randomly pointed cyclist travels they are far less likely to reach the destination _at all_.
 
 Mix in a closer to reality metaphor. Make it a journey of many legs and the likelihood that the randomly directed cyclist will ever reach the destination approaches zero pretty quickly. The other cyclist could be travelling at any speed but is guaranteed to get to the destination.
 
-![1 step forward and 1 step back means 0 progress](/images/zero-velocity.png){:loading="lazy"}
+![1 step forward and 1 step back means 0 progress](/images/zero-velocity.png){: loading="lazy"}{:loading="lazy"}
 
 # So, what
 
 I assume a few things:
 
- * you want to achieve something to solve a problem
- * you want to get better at doing that
- * you don't want to waste your own or somebody else's time or money
+- you want to achieve something to solve a problem
+- you want to get better at doing that
+- you don't want to waste your own or somebody else's time or money
 
 In which case you have to regularly measure
 
- * where you are
- * where you're going
- * the direction you're travelling
- * that your speed isn't zero
+- where you are
+- where you're going
+- the direction you're travelling
+- that your speed isn't zero
 
 Otherwise, like the cyclist that chooses random directions you can't expect to ever reach your destination.
 
@@ -102,24 +104,24 @@ So, ok, direction is important.
 
 Because the landscape you're building software in probably doesn't look like this:
 
-![a picture of the peak district with great visibility](/images/sunny-day.jpg){:loading="lazy"}
+![a picture of the peak district with great visibility](/images/sunny-day.jpg){: loading="lazy"}{:loading="lazy"}
 
 Since we're generally operating under imperfect conditions. Trying to figure out where we are is more like being in the fog:
 
-![a picture of the peak in foggy conditions](/images/foggy-day.jpg){:loading="lazy"}
+![a picture of the peak in foggy conditions](/images/foggy-day.jpg){: loading="lazy"}{:loading="lazy"}
 
 A friend was for a while a member of mountain rescue (who are incidentally incredible - [you should give them money](https://donate.justgiving.com/donation-amount?uri=aHR0cHM6Ly9kb25hdGUtYXBpLmp1c3RnaXZpbmcuY29tL2FwaS9kb25hdGlvbnMvNzk5ZTk3YzlhMDFiNGRkMGJhNzEwNTdjMWIxODgyZjg=)). They once described to me how they navigate when they have very low visibility.
 
-![a lost Lego hiker](/images/lost.jpg){:loading="lazy"}
+![a lost Lego hiker](/images/lost.jpg){: loading="lazy"}{:loading="lazy"}
 
 In pairs:
 
- * use the map to figure out where you are
- * use that information to figure out what direction to go
- * using a compass one of you slowly walks in that direction
- * the other stays still and calls out when the walker is about to disappear into the fog
- * then that person catches up with the walker
- * repeat
+- use the map to figure out where you are
+- use that information to figure out what direction to go
+- using a compass one of you slowly walks in that direction
+- the other stays still and calls out when the walker is about to disappear into the fog
+- then that person catches up with the walker
+- repeat
 
 Looking at the context of where they are against what they know about the world. Working together to understand what that means, right then. Watching each other and relying on communication. Chopping the journey into many safer parts.
 
@@ -129,15 +131,14 @@ I've tried a number of times to work this out during sessions at [Co-op Digital]
 
 Maybe I've not worked it out completely yet... [toot me and tell me what you think](https://twitter.com/pauldambra)!
 
- * We can use tools like [the Cyenfin framework](https://lizkeogh.com/2012/03/11/cynefin-for-devs/), [Wardley mapping](https://medium.com/wardleymaps), and user research to understand where we are and how we want to get to our destination.
+- We can use tools like [the Cyenfin framework](https://lizkeogh.com/2012/03/11/cynefin-for-devs/), [Wardley mapping](https://medium.com/wardleymaps), and user research to understand where we are and how we want to get to our destination.
 
- * We can remember that we have low visibility and work closely together to make sure we aren't trying to move too far in one go. Slicing work as thinly as our context tells us makes sense.
+- We can remember that we have low visibility and work closely together to make sure we aren't trying to move too far in one go. Slicing work as thinly as our context tells us makes sense.
 
- * We can use data from people using our software and more user research as our compass to check whether we strayed from our desired path.
+- We can use data from people using our software and more user research as our compass to check whether we strayed from our desired path.
 
 # TL;DR
 
 We can and should care if we're being asked to do something meaningful. And we mustn't treat it as somebody else's work to check where we should go or whether we got there.
 
 The number of tickets you complete is not a measure of progress by itself. Start by measuring value and only then, if ever, start counting tickets or points
-

@@ -18,14 +18,15 @@ And then today Google release Chrome for Ice Cream Sandwich. BEST. TABLET. BROWS
 
 <!--more-->
 
-I am fickle and this is enough to sway me to an evens opinion between the two OSs. The keyboard keeps switching back to upper case But it is chrome beta 
+I am fickle and this is enough to sway me to an evens opinion between the two OSs. The keyboard keeps switching back to upper case But it is chrome beta
 
 One brill feature is when the browser isn't certain what link you meant to click
 
-![link zoom](http://4.bp.blogspot.com/-uzlphZanh9k/TzF8dUNmjRI/AAAAAAAAAbs/BjhbqhoQIE4/s1600/Screenshot_2012-02-07-19-24-21.jpg){:loading="lazy"}
+![link zoom](http://4.bp.blogspot.com/-uzlphZanh9k/TzF8dUNmjRI/AAAAAAAAAbs/BjhbqhoQIE4/s1600/Screenshot_2012-02-07-19-24-21.jpg){: loading="lazy"}{:loading="lazy"}
 
 A pop-up is launched to give you a larger target. As always with Chrome impeccable attention to detail
-<hr />I wanted to make a "proper", "empirical" comparison between Android and iOS. So I got a Transformer Prime. 
+
+<hr />I wanted to make a "proper", "empirical" comparison between Android and iOS. So I got a Transformer Prime.
 
 Actually this is anecdotal and written at 5am &lt;= YMMV
 
@@ -36,9 +37,13 @@ As such I ran it through a full suite of tests
 <ol><li>Watching parrots talking on YouTube with my kids</li><ol><li>Result: beautiful screen, speakers have a tendency to buzz, youngest thinks parrot and pirate are synonyms</li></ol><li>Reading using Kindle</li><ol><li>Result: The wide aspect screen makes a great portrait reader. The screen really is beautiful</li></ol><li>Typing stuff into stuff</li><ol><li>Android autocorrect isn't as good as iOS. iOS correct is so good that people stop checking it and so you get "damn you autocorrect". With Android I have to break out of my flow to pay attention to what it is suggesting.</li></ol><li>Sending emails</li><ol><li>Why can't I edit the body of the mail I'm replying to when in HTML?</li><li>Do I keep missing the space bar because of the task bar at the bottom of the screen</li><ol><li>spoiler: yes</li></ol></ol></ol>
 
 A) iOS is a consumer operating system in a way that Android isn't
+
 <!--alex ignore kids adults --->
+
 The first time I was handed an iPad I fell in love. I immediately grokked how to use it. I bought one. My kids use it (18 months and 4 year old). They've tried but they haven't broken it. I've seen children and adults with little or no experience of computers pick iOS up super-fast.
+
 <!--alex ignore he-she dad-mom --->
+
 I handed the Transformer to my 18 month old and with two-screen presses she had turned off wifi. <b>This device isn't kid proof in the way that an iPad is.</b> My eldest when she under three taught my Dad how to use YouTube on iOS.
 
 But a lot of this ease of use isn't specific to iOS. Touch-screen visual metaphors more closely mimic how we interact with the physical world - so a touchscreen OS doesn't need explanation in the way that a traditional desktop OS does. And&nbsp;neither Apple nor Google invented touch-screen gestures. Although that's not say they haven't patented them.
@@ -49,13 +54,13 @@ The first time I picked up an Android device I had to have it explained to me so
 
 But that was Honeycomb and in ICS Google (or whichever genius did it) have sorted the problem I had...
 
-![android UI](http://2.bp.blogspot.com/-2M-IxfjEhzk/TzDA6T-sHCI/AAAAAAAAAac/4vc6orMDJGI/s1600/android-icons.jpg){:loading="lazy"}
+![android UI](http://2.bp.blogspot.com/-2M-IxfjEhzk/TzDA6T-sHCI/AAAAAAAAAac/4vc6orMDJGI/s1600/android-icons.jpg){: loading="lazy"}{:loading="lazy"}
 
 In Honeycomb my eyes didn't immediately get that metaphor. I read it as Left, Up, Windows. Not &nbsp;as; Back, Home, "Windows" i.e. multi-tasking. So I had a tiny barrier to using the system. And in the MTV-diseased, Radio-1-attention-span world a tiny usability barrier is actually a big usability barrier (you know what I mean - don't confound user's expectations)
 
 I wanted to change application and my brain only knew how to do that in iOS mode.&nbsp;
 
-1) Go back to the desktop 2) pick an application 3)???? 4) Profit &lt; meme apology /&gt;
+1. Go back to the desktop 2) pick an application 3)???? 4) Profit &lt; meme apology /&gt;
 
 In ICS the home icon is much, much, much, much clearer. So the barrier to understanding of a new user and specifically to an iOS user is lower.
 
@@ -78,5 +83,7 @@ So guess what YMMV. Get the tablet that fits yours or your user's needs. There's
 I'm not really sold on the clip-on keyboard but then I tend to plan my daily typing amount in advance and if I'll go over an arbitrary amount of typing I take a laptop.
 
 The transformer is a gorgeous piece of hardware. Now to hack iOS onto it... what's that you can't do that kind of thing with iOS...
+
 <!--alex ignore kids --->
+
 Kids are awake. Blog post ends.

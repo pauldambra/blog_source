@@ -8,13 +8,13 @@ category: ux
 tags: [design, analysis, search]
 ---
 
-So I'm building a page in a mobile app to find "things". 
+So I'm building a page in a mobile app to find "things".
 
 Some assumptions:
 
-* If you're using the app you are already familiar with the "things"
-* You've clicked "Find Things" and so you're expecting, as a minimum, to type something into a box (to tell the app what things you want to find)
-* You're a busy person and [you don't want to have to think](http://www.amazon.co.uk/Dont-Make-Me-Think-Usability/dp/0321344758)
+- If you're using the app you are already familiar with the "things"
+- You've clicked "Find Things" and so you're expecting, as a minimum, to type something into a box (to tell the app what things you want to find)
+- You're a busy person and [you don't want to have to think](http://www.amazon.co.uk/Dont-Make-Me-Think-Usability/dp/0321344758)
 
 <!--more-->
 
@@ -22,11 +22,11 @@ Each thing has a name and a location. The one is, to some extent, meaningless wi
 
 I'd like the search function to be as unobtrusive as possible and to my mind that means that the user shouldn't have to tell me whether they've entered a name or a place.
 
-The problem I have is that sometimes the name of the thing *is* the name of a place. When you type in that text expecting to search in the context of it being a place I currently have no way of letting you override the context of it being the name of a "thing".
+The problem I have is that sometimes the name of the thing _is_ the name of a place. When you type in that text expecting to search in the context of it being a place I currently have no way of letting you override the context of it being the name of a "thing".
 
 The question is do I catch only that scenario - as in this first set of mockups...
 
-![Mockup](http://2.bp.blogspot.com/-h1Xm0j1c0wQ/UUlrqBaznwI/AAAAAAAACyQ/TK1bmf7zZUk/s1600/rad+app+search.png){:loading="lazy"}
+![Mockup](http://2.bp.blogspot.com/-h1Xm0j1c0wQ/UUlrqBaznwI/AAAAAAAACyQ/TK1bmf7zZUk/s1600/rad+app+search.png){: loading="lazy"}{:loading="lazy"}
 
 I like this because the intention is pretty clear and the UI doesn't contain elements to muddy the intention unless we're already in a situation where we might need to make additional decisions.
 
@@ -34,6 +34,6 @@ But if there's a use-case or an incorrect result state that we haven't accounted
 
 So we could add a toggle that allows people to tell us what they want to do - as in this set...
 
-![Mockup](http://2.bp.blogspot.com/-gvBeHDi7SwQ/UUlufgumOJI/AAAAAAAACyg/RPcrpOyQ3Qo/s1600/rad-search-two.png){:loading="lazy"}
+![Mockup](http://2.bp.blogspot.com/-gvBeHDi7SwQ/UUlufgumOJI/AAAAAAAACyg/RPcrpOyQ3Qo/s1600/rad-search-two.png){: loading="lazy"}{:loading="lazy"}
 
 I worry that there's more to parse on this screen but also, I wonder if it makes the fact that you can search by address more discoverable.

@@ -14,16 +14,16 @@ It's a good job so few websites want to authenticate users and collect data on t
 
 <!--more-->
 
-Jesus no wonder people bang on about RoR. It makes this *easier* in comparison
+Jesus no wonder people bang on about RoR. It makes this _easier_ in comparison
 
 Anyway - I'll forget how to do this before I have to do it again
 
 So
 
- * fire up a new MVC3 web application
- * Jump into nuget and Install-Package System.Web.Providers&nbsp;
- * Sort out a connection string for SQL CE
- * Add a key to make sure the login link always points to `LogOn`
+- fire up a new MVC3 web application
+- Jump into nuget and Install-Package System.Web.Providers&nbsp;
+- Sort out a connection string for SQL CE
+- Add a key to make sure the login link always points to `LogOn`
 
 Now my `web.config` looks like this (edited out parts I haven't touched for something approximating brevity)
 
@@ -78,19 +78,19 @@ Now my `web.config` looks like this (edited out parts I haven't touched for some
 
 Now start a debug session for the web app. Click logon. Click Register. Fill in the form. Register. Click Logoff and stop the debug session in Visual Studio
 
-You can see the new SQL CE database and have a look at the schema. The Memberships and Users tables have a new row. The new user. 
+You can see the new SQL CE database and have a look at the schema. The Memberships and Users tables have a new row. The new user.
 
-![ssms screenshots](http://4.bp.blogspot.com/-w1VYrhrRydw/Tw7Aak9b3tI/AAAAAAAAAWw/dQllCHJ7Qjo/s1600/new-sdf-file.PNG){:loading="lazy"}
+![ssms screenshots](http://4.bp.blogspot.com/-w1VYrhrRydw/Tw7Aak9b3tI/AAAAAAAAAWw/dQllCHJ7Qjo/s1600/new-sdf-file.PNG){: loading="lazy"}{:loading="lazy"}
 
-![ssms screenshots](http://2.bp.blogspot.com/-y4bJjVXY8js/Tw7AcoHn8lI/AAAAAAAAAW4/hnLZO6ShvaQ/s1600/schema.PNG){:loading="lazy"}
+![ssms screenshots](http://2.bp.blogspot.com/-y4bJjVXY8js/Tw7AcoHn8lI/AAAAAAAAAW4/hnLZO6ShvaQ/s1600/schema.PNG){: loading="lazy"}{:loading="lazy"}
 
-![ssms screenshots](http://2.bp.blogspot.com/-tkP3-E66KgQ/Tw7Ad9z8n1I/AAAAAAAAAXA/Vcu-JkjCZrc/s1600/memberships.PNG){:loading="lazy"}
+![ssms screenshots](http://2.bp.blogspot.com/-tkP3-E66KgQ/Tw7Ad9z8n1I/AAAAAAAAAXA/Vcu-JkjCZrc/s1600/memberships.PNG){: loading="lazy"}{:loading="lazy"}
 
-![ssms screenshots](http://1.bp.blogspot.com/-Q83_Po9kXN4/Tw7AfVHsCcI/AAAAAAAAAXI/AvdnqwrMTvA/s1600/users-table.PNG){:loading="lazy"}
+![ssms screenshots](http://1.bp.blogspot.com/-Q83_Po9kXN4/Tw7AfVHsCcI/AAAAAAAAAXI/AvdnqwrMTvA/s1600/users-table.PNG){: loading="lazy"}{:loading="lazy"}
 
 Hurrah - all the information you'll ever need is collected.
 
-What?! You want to know more than name and email. Now *that's* a turn up for the books.
+What?! You want to know more than name and email. Now _that's_ a turn up for the books.
 
 It turns out you can store key-value pairs in the profiles table. I think that anyone that wrote ASP dot Net websites will be old-hand at this but I've never had to do that or this...
 
@@ -149,7 +149,7 @@ public class RegisterModel
     [Display(Name = "Confirm password")]
     [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
     public string ConfirmPassword { get; set; }
-    
+
     //Added Address field
     [Required]
     public string Address { get; set; }
@@ -191,25 +191,26 @@ public ActionResult Register(RegisterModel model)
 }
 ```
 
-*and* finally edit the view to add an editor field for the new property. (I'll leave that as an exercise for the reader)
+_and_ finally edit the view to add an editor field for the new property. (I'll leave that as an exercise for the reader)
 
 Now we can go back to the Register page
 
-![register page](http://2.bp.blogspot.com/-TZWnNTSKRvY/Tw7HgUSY_jI/AAAAAAAAAXQ/zFssEVG51_4/s1600/new+registration+form+bit.PNG){:loading="lazy"}
+![register page](http://2.bp.blogspot.com/-TZWnNTSKRvY/Tw7HgUSY_jI/AAAAAAAAAXQ/zFssEVG51_4/s1600/new+registration+form+bit.PNG){: loading="lazy"}{:loading="lazy"}
 
 Register and then have a look in the profile table.
 
-![profile table](http://4.bp.blogspot.com/-oKVRwA7UVxM/Tw7Hnkm1AfI/AAAAAAAAAXY/hHvXOXRF3ug/s1600/persistedproperty.PNG){:loading="lazy"}
+![profile table](http://4.bp.blogspot.com/-oKVRwA7UVxM/Tw7Hnkm1AfI/AAAAAAAAAXY/hHvXOXRF3ug/s1600/persistedproperty.PNG){: loading="lazy"}{:loading="lazy"}
 
 Ta da!
 
-So there's a mechanism for extending the default profile. 
+So there's a mechanism for extending the default profile.
 
 Honestly, it feels messy and since at this point if there's a need for any data access layer then since there'll be a link on user name or user id anyway it's likely a better idea to have the additional data in the DAL and fangle the authentication and user models together in a `ViewModel`.
+
 <!--alex ignore he-she her-him--->
+
 Having gone away and checked some code committed on another project by the lovely [OrangeTentacle](http://www.orangetentacle.co.uk/) that's what he's done. So having figured it out for myself I'll probably go and crib off that much tidier code
 
 Additional Reading:
 
 [`Simple.Web.Providers` announcement](http://www.hanselman.com/blog/IntroducingSystemWebProvidersASPNETUniversalProvidersForSessionMembershipRolesAndUserProfileOnSQLCompactAndSQLAzure.aspx)
-

@@ -14,14 +14,16 @@ This post is part of a series where I'm hoping to prove to myself that building 
 [Next Post](/2014/03/website-cms-display-pages-part-2.html)
 
 # Setup
+
 <!--alex ignore easy --->
-So, it's relatively easy to get an Hello World page displaying... 
+
+So, it's relatively easy to get an Hello World page displaying...
 
 <!--more-->
 
 The steps I take when I'm setting up a new project look like:
 
-![project setup steps](http://1.bp.blogspot.com/-bOVBV3wcEbE/Uya7PQnFeMI/AAAAAAAANOA/Hz_2p5XZpOY/s1600/Screenshot+2014-03-17+09.05.33.png){:loading="lazy"}
+![project setup steps](http://1.bp.blogspot.com/-bOVBV3wcEbE/Uya7PQnFeMI/AAAAAAAANOA/Hz_2p5XZpOY/s1600/Screenshot+2014-03-17+09.05.33.png){: loading="lazy"}{:loading="lazy"}
 
 I should probably start using [Yeoman](http://yeoman.io/) but I don't start enough projects to feel the need to automate this step of the setup.
 
@@ -48,27 +50,22 @@ and can make an empty but initialised commit
 # The First Test
 
 ```js
-var request = require('supertest');
+var request = require("supertest");
 
-var server = require('../server').app;
+var server = require("../server").app;
 
-describe('GET /', function(){
+describe("GET /", function () {
+  it("respond with html", function (done) {
+    request(server)
+      .get("/")
 
- it('respond with html', function(done){
+      .set("Accept", "text/html")
 
-   request(server)
-
-      .get('/')
-
-      .set('Accept', 'text/html')
-
-      .expect('Content-Type', /html/)
+      .expect("Content-Type", /html/)
 
       .expect(200, done);
-
-   });
-
-   });
+  });
+});
 ```
 
 There's quite a lot going on there if you haven't used Mocha or Supertest then head off and read about them. How they work is out of the scope of this post. But what we're asserting here is that if you ask our server application for the root route then you get some HTML and HTTP status 200.
@@ -76,22 +73,20 @@ There's quite a lot going on there if you haven't used Mocha or Supertest then h
 The simplest express server that makes this test pass is:
 
 ```js
-var app = require('express')();
+var app = require("express")();
 
-app.get('/', function(req, res){
+app.get("/", function (req, res) {
+  res.send("Hello World");
+});
 
-  res.send('Hello World');
+app.listen(1337);
 
-  });
-
-  app.listen(1337);
-
-  exports.app = app;
+exports.app = app;
 ```
 
 Running `node server` at the terminal I can point my browser at it:
 
-![screenshot of hello world response](http://2.bp.blogspot.com/-8RKwf5NLHDc/UybPd8r9L0I/AAAAAAAANQA/rb_3_4W-22c/s1600/Screenshot+2014-03-17+10.32.47.png){:loading="lazy"}
+![screenshot of hello world response](http://2.bp.blogspot.com/-8RKwf5NLHDc/UybPd8r9L0I/AAAAAAAANQA/rb_3_4W-22c/s1600/Screenshot+2014-03-17+10.32.47.png){: loading="lazy"}{:loading="lazy"}
 
 All of which has us set up to test our server and ready to display something meaningful with very little work at all.
 

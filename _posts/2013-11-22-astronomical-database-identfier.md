@@ -28,15 +28,15 @@ OK, that's a big number. Let's put it into context - [the ESA estimates there ar
 
 These IDs are used in the MS SQL DB Schema that we're importing into so I can't ignore the possibility of an ID coming in with this massive value. So there're three distinct problems here...
 
- 1. How do I represent these numbers in .Net (C# 4.5 to be precise)
- 2. How do I have Entity Framework 6 map these potentially massive IDs
- 3. How do I represent these numbers in the schema
+1.  How do I represent these numbers in .Net (C# 4.5 to be precise)
+2.  How do I have Entity Framework 6 map these potentially massive IDs
+3.  How do I represent these numbers in the schema
 
 ## Representing a Vigintillion in Dot Net
 
- [A quick journey to MSDN](http://msdn.microsoft.com/en-us/library/exx3b86w(v=vs.110).aspx) and we can see that if we restrict ourselves to integral types then we have int and long... In short one of those will hold a lot, lot less than NUMBER(38) and the other a lot less.
+[A quick journey to MSDN](<http://msdn.microsoft.com/en-us/library/exx3b86w(v=vs.110).aspx>) and we can see that if we restrict ourselves to integral types then we have int and long... In short one of those will hold a lot, lot less than NUMBER(38) and the other a lot less.
 
-All is not lost. Since .Net 4 we have had access to [BigInteger](http://msdn.microsoft.com/en-us/library/system.numerics.biginteger(v=vs.110).aspx) which allows for arbitrarily large numbers.
+All is not lost. Since .Net 4 we have had access to [BigInteger](<http://msdn.microsoft.com/en-us/library/system.numerics.biginteger(v=vs.110).aspx>) which allows for arbitrarily large numbers.
 
 OK, so we can actually import the number into memory... that's a start
 
@@ -44,7 +44,7 @@ OK, so we can actually import the number into memory... that's a start
 
 Let's fire up an EF project, create an entity model with a BigInteger ID, and add a DbSet for that model to a DbContext:
 
-![huge numbers code](http://4.bp.blogspot.com/-PgeRsO_R89w/Uo-zpg99w-I/AAAAAAAAJTk/8CyZmhvxdCw/s640/HugeNumbers.PNG){:loading="lazy"}
+![huge numbers code](http://4.bp.blogspot.com/-PgeRsO_R89w/Uo-zpg99w-I/AAAAAAAAJTk/8CyZmhvxdCw/s640/HugeNumbers.PNG){: loading="lazy"}{:loading="lazy"}
 
 Having an integral type ID at this point and running Enable-Migrations from the console would work without complaint but with BigInteger as the Id an exception is thrown...
 
@@ -62,7 +62,7 @@ Adding the [Key] data attribute doesn't help.
 
 How about fangling the ModelBuilder directly?
 
-![huge numbers more code](http://1.bp.blogspot.com/-Sy-WWyCcbWg/Uo-1qZFYLQI/AAAAAAAAJTw/kaI76AZC15s/s1600/proton2.PNG){:loading="lazy"}
+![huge numbers more code](http://1.bp.blogspot.com/-Sy-WWyCcbWg/Uo-1qZFYLQI/AAAAAAAAJTw/kaI76AZC15s/s1600/proton2.PNG){: loading="lazy"}{:loading="lazy"}
 
 Progress! Kind of :
 
@@ -76,26 +76,28 @@ A negative result is still a result. So this is definitely progress! The [scalar
 
 So long as we can define a value type key we can have numeric in the DB. Ta da!
 
-![huge numbers even more code](http://2.bp.blogspot.com/-5kh5vIIvp0w/Uo-7LImoKqI/AAAAAAAAJUA/i4OdUD5Coxo/s1600/Capture3.PNG){:loading="lazy"}
+![huge numbers even more code](http://2.bp.blogspot.com/-5kh5vIIvp0w/Uo-7LImoKqI/AAAAAAAAJUA/i4OdUD5Coxo/s1600/Capture3.PNG){: loading="lazy"}{:loading="lazy"}
 
 We can enable migrations and then generate one:
 
-![huge numbers even more code](http://1.bp.blogspot.com/-KelcMu1mi6w/Uo-7cv3auqI/AAAAAAAAJUI/lVSpjAvszNU/s1600/Capture4.PNG){:loading="lazy"}
+![huge numbers even more code](http://1.bp.blogspot.com/-KelcMu1mi6w/Uo-7cv3auqI/AAAAAAAAJUI/lVSpjAvszNU/s1600/Capture4.PNG){: loading="lazy"}{:loading="lazy"}
 
 Wrong :
 
-Decimal has the largest precision of the .Net value types and ["only" offers 28-29 significant digits](http://msdn.microsoft.com/en-us/library/364x0z75(v=vs.110).aspx)
+Decimal has the largest precision of the .Net value types and ["only" offers 28-29 significant digits](<http://msdn.microsoft.com/en-us/library/364x0z75(v=vs.110).aspx>)
 
 ### Is this peculiar to Entity Framework?
 
-[The NHibernate docs](https://nhibernate.info/doc/nhibernate-reference/mapping.html) say 
+[The NHibernate docs](https://nhibernate.info/doc/nhibernate-reference/mapping.html) say
 
 > Any integral property type is thus supported.
 
 so unless there is some funkiness possible with NHibernate (which I've never used in anger) then I'm guessing they've made a similar design decision to the EF team. And it wouldn't be possible there either...
 
 ### In conclusion
+
 <!--alex ignore daughter-son fairies --->
+
 Entity Framework is not yet ready for storing an identifier for every proton in the universe and if you might want to be storing 38 digit identifiers (a phrase which I'm assured by my five-year old daughter actually kills `int32.MaxValue` fairies every time it is uttered) then you aren't going to be using Entity Framework and I'd guess you aren't going to be having a good time.
 
 ### And straight from the Magic Unicorns mouth
@@ -103,5 +105,6 @@ Entity Framework is not yet ready for storing an identifier for every proton in 
 <div class="tweet-wrapper">
 	<blockquote class="twitter-tweet" lang="en"><a href="https://twitter.com/pauldambra">@pauldambra</a> As you concluded, it's not possible to map BigInt with EF. Easiest solution is probably to bypass EF for that data.
 
-	— Entity Framework (@efmagicunicorns) <a href="https://twitter.com/efmagicunicorns/statuses/403996143677235200">November 22, 2013</a></blockquote><script async="" charset="utf-8" src="//platform.twitter.com/widgets.js"></script>
+    — Entity Framework (@efmagicunicorns) <a href="https://twitter.com/efmagicunicorns/statuses/403996143677235200">November 22, 2013</a></blockquote><script async="" charset="utf-8" src="//platform.twitter.com/widgets.js"></script>
+
 </div>

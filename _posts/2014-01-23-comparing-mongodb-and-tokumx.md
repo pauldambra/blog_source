@@ -8,9 +8,9 @@ category: nosql
 tags: [mongodb, tokumx, comparison, benchmark]
 ---
 
-[TokuMX](http://www.tokutek.com/tokumx-for-mongodb/) is an 
+[TokuMX](http://www.tokutek.com/tokumx-for-mongodb/) is an
 
-> "open source, high-performance distribution of MongoDB". 
+> "open source, high-performance distribution of MongoDB".
 
 On a current project we're using MongoDB and, as the system is likely to scale fairly heavily, worrying (primarily) about storage. So, I picked up a task to compare MongoDB and TokuMX.
 
@@ -22,7 +22,7 @@ I installed MongoDB on one and TokuMX on the other.
 
 A NodeJS script was used to repetitively insert 6000 records and then query over the data in a single collection while only one of the two servers was powered on. I didn't clear out the databases between runs although this didn't appear to impact on the results. The script used is available [on GitHub](https://github.com/pauldambra/mongotest)and feedback on better tests or mechanism for performing them is welcome!
 
-The tests were run using asynchronous queues with varying levels of concurrency in order to try and simulate a relatively realistic load. 
+The tests were run using asynchronous queues with varying levels of concurrency in order to try and simulate a relatively realistic load.
 
 Update 2021: The data gathered used to be found on Google Docs but the link is dead now. It must have been in my FootClicks google account :'( Sorry posterity
 
@@ -30,15 +30,15 @@ The first set of tests were run against a collection with no indexes set.
 
 ### This first test showed that TokuMX query time was much better when searching on a non-indexed field.
 
-![Mongo DB vs Toku MX graph](http://2.bp.blogspot.com/-VHYm1IS6ML4/UukQH1-OxNI/AAAAAAAAK0w/2TsX0rj48aE/s1600/chart_1.png){:loading="lazy"}
+![Mongo DB vs Toku MX graph](http://2.bp.blogspot.com/-VHYm1IS6ML4/UukQH1-OxNI/AAAAAAAAK0w/2TsX0rj48aE/s1600/chart_1.png){: loading="lazy"}{:loading="lazy"}
 
-![Mongo DB vs Toku MX graph](http://1.bp.blogspot.com/-Oi1_rzWdpTY/UukQH7w0qmI/AAAAAAAAK0s/nSYB97cQe2c/s1600/chart_2.png){:loading="lazy"}
+![Mongo DB vs Toku MX graph](http://1.bp.blogspot.com/-Oi1_rzWdpTY/UukQH7w0qmI/AAAAAAAAK0s/nSYB97cQe2c/s1600/chart_2.png){: loading="lazy"}{:loading="lazy"}
 
 ### This performance difference larger disappeared when querying an indexed property.
 
-![Mongo DB vs Toku MX graph](http://3.bp.blogspot.com/-XdZ1UOxNU1M/UukQH1N4B9I/AAAAAAAAK0o/Vq-oyBG2Zwo/s1600/chart_3.png){:loading="lazy"}
+![Mongo DB vs Toku MX graph](http://3.bp.blogspot.com/-XdZ1UOxNU1M/UukQH1N4B9I/AAAAAAAAK0o/Vq-oyBG2Zwo/s1600/chart_3.png){: loading="lazy"}{:loading="lazy"}
 
-![Mongo DB vs Toku MX graph](http://1.bp.blogspot.com/-P5tL71I5HEY/UukQIZtcGYI/AAAAAAAAK1A/889-PAMtc0U/s1600/chart_4.png){:loading="lazy"}
+![Mongo DB vs Toku MX graph](http://1.bp.blogspot.com/-P5tL71I5HEY/UukQIZtcGYI/AAAAAAAAK1A/889-PAMtc0U/s1600/chart_4.png){: loading="lazy"}{:loading="lazy"}
 
 TokuMX was still slightly ahead and across all of these datasets was much less affected by the level of concurrency in use.
 

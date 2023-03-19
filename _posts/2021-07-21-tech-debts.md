@@ -14,34 +14,34 @@ When I am thinking about this, I am thinking about three things
 
 [Two of the agile principles](https://agilemanifesto.org/principles.html)
 
-  * > Continuous attention to technical excellence and good design enhances agility.
-  * > Simplicity--the art of maximising the amount of work not done--is essential.
+- > Continuous attention to technical excellence and good design enhances agility.
+- > Simplicity--the art of maximising the amount of work not done--is essential.
 
 And the XP Rule
 
-  * > [Refactor Mercilessly](http://www.extremeprogramming.org/rules/refactor.html)
+- > [Refactor Mercilessly](http://www.extremeprogramming.org/rules/refactor.html)
 
 <!--more-->
 
 # Owning software is like having a garden
 
-![/images/tree.jpg](/images/tree.jpg){:loading="lazy"}
+![/images/tree.jpg](/images/tree.jpg){: loading="lazy"}{:loading="lazy"}
 
 In managing a garden, you need to
 
-1) frequently and persistently weed
+1. frequently and persistently weed
 
 > "Argh, the young apple tree is being choked by bindweed again."
 
-2) look at the consequences of your decisions as the plants grow
+2. look at the consequences of your decisions as the plants grow
 
 > "hmmm, the apple tree is healthier now that I moved it, but it means it's grown a low branch across the path."
 
-3) deal with the consequences of decisions made before it was your garden
+3. deal with the consequences of decisions made before it was your garden
 
 > "I would never have put an apple tree that near to the path."
 
-4) delay work based on your context
+4. delay work based on your context
 
 > x: "The apple tree is growing too large but, I can't prune it until late winter." <br/>
 > y: "It could make the tree ill. But, we could tie the branch back until we prune it."
@@ -82,9 +82,10 @@ Sometimes you start what you think is a quick task. And discover it isn't. You s
 # 1. Mess
 
 <!--alex ignore ball-->
+
 [Foote and Yoder propose that all architectures become a big ball of mud.](http://www.laputan.org/mud/) It's a great paper. I suggest that software always ends up looking like the home of a hoarder.
 
-![a picture of a hoarders room, very messy, with piles of things](/images/Hoarding_living_room.jpeg){:loading="lazy"}
+![a picture of a hoarders room, very messy, with piles of things](/images/Hoarding_living_room.jpeg){: loading="lazy"}{:loading="lazy"}
 
 ## What is it?
 
@@ -96,9 +97,9 @@ In the physical world when the mess is particularly bad we have no choice but to
 
 ## How do we react?
 
-In the software world we deal with this mess by refactoring. One of the XP rules is to [refactor mercilessly](http://www.extremeprogramming.org/rules/refactor.html). Modern IDEs have tooling to help make this safe. A great guide to this is to use [code smells](https://refactoring.guru/refactoring/smells) as a guide to what to do next. 
+In the software world we deal with this mess by refactoring. One of the XP rules is to [refactor mercilessly](http://www.extremeprogramming.org/rules/refactor.html). Modern IDEs have tooling to help make this safe. A great guide to this is to use [code smells](https://refactoring.guru/refactoring/smells) as a guide to what to do next.
 
-This is a constant activity. You consider this for every task you complete. You are, however, allowed to be pragmatic. You may say: "I won't fix that *now* because I know folk are waiting for this bug fix so we can start making money again". But you watch for *always* choosing the pragmatic path. The road to hell is paved with good intentions.
+This is a constant activity. You consider this for every task you complete. You are, however, allowed to be pragmatic. You may say: "I won't fix that _now_ because I know folk are waiting for this bug fix so we can start making money again". But you watch for _always_ choosing the pragmatic path. The road to hell is paved with good intentions.
 
 Some people have had success putting "golden" tickets in the backlog and everyone has to play a golden ticket in ever iteration. One person may use theirs to learn, another to go back and refactor to remove the code smell that had bugged them in some recent work.
 
@@ -108,7 +109,7 @@ You may not know where to start. If you haven't been tidying enough you should s
 
 If you find yourself pulling new tickets into your iteration, time-box, or sprint that is a good signal that you are rushing through implementing without tidying.
 
-It is tempting to try to put value on individual pieces of tidying. But the value is in the constant application of effort. Not in any one individual piece of tidying. 
+It is tempting to try to put value on individual pieces of tidying. But the value is in the constant application of effort. Not in any one individual piece of tidying.
 
 What we would have to put value on is if we want to treat tidying as a task separate to our work. "I want to stop doing other things for M days, in order to tidy up. I believe this is necessary because X, Y, and Z". Here you have to put value on it because you are asking other people to stop and wait while you tidy.
 
@@ -118,15 +119,15 @@ You may not know where to start. If you haven't been tidying enough you should s
 
 "courage" to make the changes you believe will improve the code, no matter how big they are. Modern tooling makes large changes safe. If you find you can't make large changes safely, that's a new signal of how to improve your testing.
 
-And "respect". Firstly, respect that your team mates are right to try and tidy *this* ***now**.* And secondly, respect for others working in or with the team. Tidying might mean they're waiting longer than they expect. Tell them what is happening. 
+And "respect". Firstly, respect that your team mates are right to try and tidy _this_ **\*now**.\* And secondly, respect for others working in or with the team. Tidying might mean they're waiting longer than they expect. Tell them what is happening.
 
 ## 2 Things we did that we no longer like
 
-I loved that coat. A genuine first world war camel hair trench coat. It kept me dry and warm through many an Oldham winter snowstorm. I thought it was great. As time passed I had to come to terms with the fact that when it was wet it smelled like a dead dog. 
+I loved that coat. A genuine first world war camel hair trench coat. It kept me dry and warm through many an Oldham winter snowstorm. I thought it was great. As time passed I had to come to terms with the fact that when it was wet it smelled like a dead dog.
 
 What I had thought was a great coat, was actually a smelly coat. It served me well until I realised it stank.
 
-![a very old picture of a very young me wearing an original world war one camelhair coat](/images/bad_history.jpeg){:loading="lazy"}
+![a very old picture of a very young me wearing an original world war one camelhair coat](/images/bad_history.jpeg){: loading="lazy"}{:loading="lazy"}
 
 ## What is it?
 
@@ -140,9 +141,9 @@ In one of two ways.
 
 ### 1) slowly applying a direction of travel
 
-We choose a direction "we will more carefully apply the interface segregation principle". Maybe we run sessions to get or keep the team aligned on the direction. And then we fix the thing as it falls in front of us. 
+We choose a direction "we will more carefully apply the interface segregation principle". Maybe we run sessions to get or keep the team aligned on the direction. And then we fix the thing as it falls in front of us.
 
-In this specific case: 
+In this specific case:
 
 - every time we edit a file,
 - if the interface is too large,
@@ -152,32 +153,32 @@ As these are in the moment changes we don't even tell people we're doing it. It'
 
 ### 2) clearing the slate
 
-Sometimes the change is too large to be done in tiny pieces or would take so long to complete in small pieces you may as well never start. 
+Sometimes the change is too large to be done in tiny pieces or would take so long to complete in small pieces you may as well never start.
 
-In this case: 
+In this case:
 
- * we figure out why it is a problem
-     * e.g. every time we make a particular ten minute config change (X times per year) we lose 3 hours of time for at least two people.
- * and we say what happens if we fix it
-     * e.g. If we spend 10 days fixing this we will save 15 days this year, and 20 days every year after that
+- we figure out why it is a problem
+  - e.g. every time we make a particular ten minute config change (X times per year) we lose 3 hours of time for at least two people.
+- and we say what happens if we fix it
+  - e.g. If we spend 10 days fixing this we will save 15 days this year, and 20 days every year after that
 
 Similarly to the need for respect for other people's time when dealing with mess. When clearing the slate we are asking other people to wait while the engineering team seemingly achieves nothing. We don't always have to be right that we should stop and spend time changing our minds but we do have to be careful
 
 ## What to watch out for?
 
-Watch out for fads! Yes, SvelteJS might be getting lots of social media traction but do we want to invest tens of thousands of pounds changing JS frameworks. 
+Watch out for fads! Yes, SvelteJS might be getting lots of social media traction but do we want to invest tens of thousands of pounds changing JS frameworks.
 
 Watch out for swapping a known set of problems for almost the same problems in different clothes. You may hate Dropwizard and wish we were using Spring. Or think we shouldn't use Jenkins because GoCD is better. etc etc. There's much more to adopting a technology than the text files.
 
 Replacing "Things we did that we no longer like" with "things we now like" can cause your products and systems to stand still while you do the work. Watch out for replacing things without knowing when to stop or how to measure it
 
-Equally, watch out for *never* replacing decisions you've outgrown. There's a lot of room for manoeuvre between "never replace existing tech" and "OMG we should use Rust!" 
+Equally, watch out for _never_ replacing decisions you've outgrown. There's a lot of room for manoeuvre between "never replace existing tech" and "OMG we should use Rust!"
 
 # 3. Things someone else did that I do not like
 
 [Jessica Kerr talks about "downhill invention, uphill analysis"](https://www.youtube.com/watch?v=Lp-Xqj8wSMg) from [Vehicles by Valentino Braitenberg](https://mitpress.mit.edu/books/vehicles). Explaining that it is easier to think about how to replace a system than it is to think about how it works. And, so, we naturally tend to think that systems we inherit are bad, and the ones that we replace them with are good
 
-![the different styles of the same thing meme, one thing drawn in multiple styles](/images/actual_different_styles_meme_by_zeurel-d38c306.png){:loading="lazy"}
+![the different styles of the same thing meme, one thing drawn in multiple styles](/images/actual_different_styles_meme_by_zeurel-d38c306.png){: loading="lazy"}{:loading="lazy"}
 
 ## What is it?
 
@@ -191,7 +192,7 @@ And we should also be looking for low-hanging fruit. E.g. "I see we're using Clo
 
 ## What to watch out for?
 
-We always under-estimate the effort required to replace something and over-estimate the effort required to understand it. 
+We always under-estimate the effort required to replace something and over-estimate the effort required to understand it.
 
 Also watch out for justifications based on something being best or current practice. All practice is context dependent. One person's best practice is another's terrible idea. Use tools like [Wardley Mapping](https://medium.com/wardleymaps) and [Cynefin](https://lizkeogh.com/cynefin-for-everyone/) to help determine what practice to apply.
 
@@ -201,7 +202,7 @@ Also watch out for justifications based on something being best or current pract
 
 Tech debt has been short hand for so long now that everyone means a different thing but thinks they agree. It may be better to talk about whether we are keeping scope and delaying implementation or reducing scope and managing consequences.
 
-![several credit cards and a bill behind them](/images/credit-card-1104961_1280.webp){:loading="lazy"}
+![several credit cards and a bill behind them](/images/credit-card-1104961_1280.webp){: loading="lazy"}{:loading="lazy"}
 
 ## What is it?
 
@@ -209,7 +210,7 @@ Technical debt is a purposeful choice to make a version of something that is wor
 
 It is only bad when the work to add technical debt is more common than work to remove it. Think of each piece of debt as a new credit card and not a single purchase on one card.
 
-It isn't reducing scope with no intention to pay back the debt. 
+It isn't reducing scope with no intention to pay back the debt.
 
 ## How do we react?
 
@@ -223,7 +224,7 @@ Treating technical debt as avoiding work instead of deferring work. It is common
 
 # Repeating the tl;dr
 
-Avoid saying technical debt. Instead, say what you mean. 
+Avoid saying technical debt. Instead, say what you mean.
 
 Subsequently:
 
@@ -234,4 +235,3 @@ We don't budget time for writing tests or searching StackOverflow. Many small ch
 ## Any technical improvement that can't be done in the course of work should be described, proposed, and measured.
 
 Anything else is often "something the team wants to do". See categories 2 and 3. They should be described and capture the impact of doing or of not doing that work. They can then be prioritised, and reported on. In other words it is treated the same as a request from outside of the team.
-

@@ -10,7 +10,7 @@ ingredients:
 instructions:
   - Set your grill to hot.
   - chop the peppers into quarters or halves
-  - remove the seeds 
+  - remove the seeds
   - rub the skins with olive oil
   - place them on a baking tray skin-side up
   - grill until the skins are burning and bubbling away from the flesh
@@ -42,5 +42,5 @@ opengraphImage: "/images/pepper-wide.jpg"
 
 Be careful to have lots of good bread available to soak up the tasty oil when you're finished! 👩‍🍳👌
 
-![the pepper salad in a bowl](/images/pepper-1.jpg)
-![the pepper salad on friselle](/images/pepper-2.jpg)
+![the pepper salad in a bowl](/images/pepper-1.jpg){: loading="lazy"}
+![the pepper salad on friselle](/images/pepper-2.jpg){: loading="lazy"}

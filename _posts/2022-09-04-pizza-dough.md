@@ -32,10 +32,10 @@ opengraphImage: "/images/dough-wide.jpg"
 
 It turns out that Neapolitan pizza dough is a strictly described thing. The [UK version of the EU rules are here](https://www.legislation.gov.uk/eur/2010/97/annexes). Those instructions use 1.8 kilograms of flour and 1 litre of water. But (if you're not going to a wholesaler) flour comes in 1 kilogram bags. Ingredients have been adjusted to 1kg for this recipe.
 
-I sometimes use a biga starter. [Instructions for that are here](https://pauldambra.dev/biga-calculator/). But it takes more work, time, and nuance. 
+I sometimes use a biga starter. [Instructions for that are here](https://pauldambra.dev/biga-calculator/). But it takes more work, time, and nuance.
 
 This recipe can be completed in a single day and makes a very consistently tasty dough
 
 (Yes! _That_ much salt)
 
-![the dough balls resting on a wooden surface](/images/dough-balls.jpg)
+![the dough balls resting on a wooden surface](/images/dough-balls.jpg){: loading="lazy"}

@@ -10,11 +10,11 @@ tags: ["solar", "energy"]
 
 We've had photovoltaic (PV) solar panels generating electricity on our roof for exactly 5 years. I've explained the impact a few times privately or [on the tooter website](https://twitter.com/search?q=from%3Apauldambra%20AND%20solar&src=typed_query). I'm writing it down here so that I don't have to re-remember all the details each time. And since electricity prices are in the news at the moment and it might be useful to some folks.
 
-We had 14 panels installed on 25th August 2017. It cost £4,793.25 which included 5% VAT. Our house is south facing at the rear. They've generated 17.06MWh of electricity in the last five years. 
+We had 14 panels installed on 25th August 2017. It cost £4,793.25 which included 5% VAT. Our house is south facing at the rear. They've generated 17.06MWh of electricity in the last five years.
 
 That's 17,060Kwh or a little over 17,000 "units".
 
-And that represents around 4 tonnes of CO<sub>2</sub> "saved". 
+And that represents around 4 tonnes of CO<sub>2</sub> "saved".
 
 <!--more-->
 
@@ -22,34 +22,35 @@ And that represents around 4 tonnes of CO<sub>2</sub> "saved".
 
 We have 11 panels on the south facing roof.
 
-![the layout and lifetime generation of the south facing panels](/images/solar/panels-south.png)
+![the layout and lifetime generation of the south facing panels](/images/solar/panels-south.png){: loading="lazy"}
 
-And 3 on the east facing roof. 
+And 3 on the east facing roof.
 
-![the layout and lifetime generation of the east facing panels](/images/solar/panels-east.png)
+![the layout and lifetime generation of the east facing panels](/images/solar/panels-east.png){: loading="lazy"}
 
 You can see the lifetime generation of each panel in those images. The south-facing panels have each generated around 1.3MWh and the east-facing panels around 1MWh.
 
 There is an inverter in the attic and a generation meter alongside our gas and electricity meters in the hall. The inverter from [SolarEdge](https://www.solaredge.com/uk) emits some metrics over wi-fi and we have an app that lets us see them.
 
 <!--alex ignore just -->
+
 Solar Energy sales people behaved horribly. It was like the worst experience of buying a car. We were lucky that we found "Just Energy Solutions" who seemed trustworthy and had soft-touch sales. They drove up from Bristol and completed the installation in a day. I would happily recommend them but they aren't trading any more.
 
-## Generation 
+## Generation
 
-We did lose some data when I changed my wifi network and forgot about the metrics for a few weeks. So we've generated an unknown amount more than 17.06MWh. You can see the drop in Q3 2019 below. Which suggests we've actually generated closer to 17.5MWh. 
+We did lose some data when I changed my wifi network and forgot about the metrics for a few weeks. So we've generated an unknown amount more than 17.06MWh. You can see the drop in Q3 2019 below. Which suggests we've actually generated closer to 17.5MWh.
 
-![production (by quarter) showing 2 or 3 MWh per year](/images/solar/production.png)
+![production (by quarter) showing 2 or 3 MWh per year](/images/solar/production.png){: loading="lazy"}
 
 We don't have a battery. So we do still draw from the grid. Because, while we generate almost as much as we use, we don't always generate electricity when we are using it. :)
 
-A battery was at least £3000 at time of installation. And this was already an expensive luxury. We chose a slightly more expensive inverter. So that we could still add a battery in future.  
+A battery was at least £3000 at time of installation. And this was already an expensive luxury. We chose a slightly more expensive inverter. So that we could still add a battery in future.
 
 ### Feed-in-tariff
 
 We receive some payments from [the UK feed-in-tariff](https://www.which.co.uk/reviews/feed-in-tariffs/article/feed-in-tariffs/what-was-the-feed-in-tariff-aAsa36S95iJy). Roughly 5p for every KWh we generate and another 5p for every KWh we export. For small installations you aren't required to meter generation _and_ export. So the tariff assumes that we export 50% of what we generate.
 
-Since Nov 2018 (I don't have all the records available online and I'm too lazy to find the paper records) we've received £950.21. Naively that's an interest rate of around 4%. 
+Since Nov 2018 (I don't have all the records available online and I'm too lazy to find the paper records) we've received £950.21. Naively that's an interest rate of around 4%.
 
 ### Immediate use
 
@@ -66,6 +67,7 @@ Our usage is around 3100kWh annually. Not all of that difference will be due to 
 #### Price rises
 
 <!--alex ignore period-->
+
 The UK is having a terrible time of absent government and unrestrained, self-interested capitalism after an extended period of government by money-vampire. So, electricity is expected to soon be 52p/KWh. That potential 1200KWh a year less is then £600 a year.
 
 ## Payback time

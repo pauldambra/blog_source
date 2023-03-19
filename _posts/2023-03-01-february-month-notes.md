@@ -38,7 +38,7 @@ We were away in Cornwall for half term and so I managed 3 times a week while I w
 
 Here I am just after turning around, trying to figure out how to get back on track. At this point in time I thought I was all the way on the right-hand edge of that map segment 😅
 
-![an OS map showing my position in Cornwall](/images/2023/03/01/cornwall-map.png)
+![an OS map showing my position in Cornwall](/images/2023/03/01/cornwall-map.png){: loading="lazy"}
 
 I don't ache everywhere all the time anymore. And, actually, feel pretty good. Plus time at the gym is uninterrupted pod-cast time. So, I'm happy with that.
 
@@ -54,7 +54,7 @@ I've been concentrating on this more this month. We joke a lot about being a gro
 
 My GCSE physics teacher told us to always start solving a problem with a diagram. This month's work was tricky, slow, and frustrating. But when I took the time to draw a diagram or two, and then go for an accidentally long walk, my brain was prepared, and my subconscious figured out how to make the complicated thing much, much less complicated.
 
-![a diagram of the problem I was trying to solve](/images/2023/03/01/drawing.png)
+![a diagram of the problem I was trying to solve](/images/2023/03/01/drawing.png){: loading="lazy"}
 
 One of my favourite engineering aphorisms is from Kent Beck: ["for each desired change, make the change easy (warning: this may be hard), then make the easy change"](https://twitter.com/KentBeck/status/250733358307500032).
 

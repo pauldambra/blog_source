@@ -16,7 +16,7 @@ So first idea... you click a link = you get unsubscribed...
 
 `http://unsubscribe.somewhere.co.uk/123435`
 
-where 12345 is your user id. 
+where 12345 is your user id.
 
 Except someone malicious could
 
@@ -26,7 +26,8 @@ Except someone malicious could
  	$.get('http://unsubscribe.somewhere.co.uk/'+i);
  }
 ```
- and unsubscribe every member. 
+
+and unsubscribe every member.
 
 No, it isn't that likely since this is for a climbing organisation but, it's an avoidable risk!
 
@@ -42,21 +43,21 @@ That way although you could sit and guess the email addresses of members to unsu
 
 Except the [HTTP RFC](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html) says that a GET request should be idempotent.
 
-![not sure if meme is appropriate or you should feel bad](http://1.bp.blogspot.com/-uEF-Zso3K5M/Tju1K8hAhrI/AAAAAAAAAVk/Vi_WggM_FEY/s1600/1095675-futurama_fry_looking_squint_super.jpg){:loading="lazy"}
+![not sure if meme is appropriate or you should feel bad](http://1.bp.blogspot.com/-uEF-Zso3K5M/Tju1K8hAhrI/AAAAAAAAAVk/Vi_WggM_FEY/s1600/1095675-futurama_fry_looking_squint_super.jpg){: loading="lazy"}{:loading="lazy"}
 
 > ["Idempotence is the property of certain operations in mathematics and computer science, that they can be applied multiple times without changing the result."](http://en.wikipedia.org/wiki/Idempotence)
 
 In short someone clicking a link can get information from the database but shouldn't update information.
 
-The problem is that I think that is counter-intuitive. I know I don't click links hoping that the actions carried out are idempotent. I click a link *expecting* something to happen and if we [confound a user's expectations ](http://en.wikipedia.org/wiki/Principle_of_least_astonishment)then we get to do the same job at least one more time... and I'm lazy - so that isn't a solution for me
+The problem is that I think that is counter-intuitive. I know I don't click links hoping that the actions carried out are idempotent. I click a link _expecting_ something to happen and if we [confound a user's expectations ](http://en.wikipedia.org/wiki/Principle_of_least_astonishment)then we get to do the same job at least one more time... and I'm lazy - so that isn't a solution for me
 
 But what is the solution since people are not going to want to spend time reading the page. How do I make what someone sees work well?
 
 I'm a google fanboy so [what do they say](https://mail.google.com/support/bin/answer.py?answer=81126#unsub)
 
 > Unsubscribing</span><br />A user must be able to unsubscribe from your mailing list through one of the following means:
-> 
-> 1) A prominent link in the body of an email leading users to a page confirming his or her unsubscription (no input from the user, other than confirmation, should be required).<br />2) By replying to your email with an unsubscribe request.
+>
+> 1. A prominent link in the body of an email leading users to a page confirming his or her unsubscription (no input from the user, other than confirmation, should be required).<br />2) By replying to your email with an unsubscribe request.
 
 So I think that we're going to shufty this all-around a bit.
 
@@ -66,4 +67,4 @@ unsubscribe.somewhere.co.uk/areas/email@person.com<br />unsubscribe.somewhere.co
 
 When you hit the page you can click a big button to confirm the action (which ajax-ily updates your displayed state and we can track how many people hit the page without doing anything).
 
-![mockup of UI](http://4.bp.blogspot.com/-olQbQBRHcak/Tju4pxILv1I/AAAAAAAAAVs/jizlCCsfz1M/s1600/mockup.png){:loading="lazy"}
+![mockup of UI](http://4.bp.blogspot.com/-olQbQBRHcak/Tju4pxILv1I/AAAAAAAAAVs/jizlCCsfz1M/s1600/mockup.png){: loading="lazy"}{:loading="lazy"}

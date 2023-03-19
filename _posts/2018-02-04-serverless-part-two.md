@@ -24,7 +24,7 @@ That feels like a meaningful slice.
 
 # The moving pieces
 
-![the second level of a c4 diagram](/images/first-slice-2.jpg){:loading="lazy"}
+![the second level of a c4 diagram](/images/first-slice-2.jpg){: loading="lazy"}{:loading="lazy"}
 
 ## Infrastructure as Code
 
@@ -57,12 +57,11 @@ It can read and write JSON, and allows you to subscribe to the stream of changes
 A header describing this template and the versions of the language used:
 
 ```yaml
-AWSTemplateFormatVersion : '2010-09-09'
+AWSTemplateFormatVersion: "2010-09-09"
 Transform: AWS::Serverless-2016-10-31
 
 Description: |
   A location and weather aware day-trip planner for parents
-
 ```
 
 a list of the resources to be created:
@@ -75,21 +74,21 @@ Resources:
 
 ```yaml
 EventsTable:
-    Type: "AWS::DynamoDB::Table"
-    Properties:
-      AttributeDefinitions:
-        - AttributeName: StreamName
-          AttributeType: S
-        - AttributeName: EventId
-          AttributeType: S
-      KeySchema:
-        - AttributeName: StreamName
-          KeyType: HASH
-        - AttributeName: EventId
-          KeyType: RANGE
-      ProvisionedThroughput:
-        ReadCapacityUnits: 5
-        WriteCapacityUnits: 5
+  Type: "AWS::DynamoDB::Table"
+  Properties:
+    AttributeDefinitions:
+      - AttributeName: StreamName
+        AttributeType: S
+      - AttributeName: EventId
+        AttributeType: S
+    KeySchema:
+      - AttributeName: StreamName
+        KeyType: HASH
+      - AttributeName: EventId
+        KeyType: RANGE
+    ProvisionedThroughput:
+      ReadCapacityUnits: 5
+      WriteCapacityUnits: 5
 ```
 
 "[In DynamoDB, tables, items, and attributes are the core components that you work with. A table is a collection of items, and each item is a collection of attributes. DynamoDB uses primary keys to uniquely identify each item in a table and secondary indexes to provide more querying flexibility.](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html)"
@@ -123,23 +122,22 @@ And worth saying that on Prime Day 2017 [Amazon's own use of DynamoDB peaked at 
 ## The lambda _and_ API gateway definition:
 
 ```yaml
-  ProposeDestinationFunction:
-    Type: AWS::Serverless::Function
-    Properties:
-      Runtime: nodejs6.10
-      Handler: proposeDestination.handler
-      Timeout: 10
-      Policies: AmazonDynamoDBFullAccess
-      Environment:
-        Variables:
-          EVENTS_TABLE: !Ref EventsTable
-      Events:
-        ProposeDestination:
-          Type: Api
-          Properties:
-            Path: /destination
-            Method: POST
-
+ProposeDestinationFunction:
+  Type: AWS::Serverless::Function
+  Properties:
+    Runtime: nodejs6.10
+    Handler: proposeDestination.handler
+    Timeout: 10
+    Policies: AmazonDynamoDBFullAccess
+    Environment:
+      Variables:
+        EVENTS_TABLE: !Ref EventsTable
+    Events:
+      ProposeDestination:
+        Type: Api
+        Properties:
+          Path: /destination
+          Method: POST
 ```
 
 This sets a lambda function with a given handler, and runtime. The handler is the code that will run when the event is received. And sets an environment variable to reference the created dynamodb table.
@@ -151,21 +149,19 @@ With 39 lines of YAML SAM will provision an API gateway, a lambda function, and 
 # The handler code
 
 ```js
-
 exports.handler = (event, context, callback) => {
-  console.log(`received event: ${JSON.stringify(event)}`)
+  console.log(`received event: ${JSON.stringify(event)}`);
   callback(null, {
     statusCode: 200,
-    body: 'OK'
-  })
-}
-
+    body: "OK",
+  });
+};
 ```
 
 First things first:
 
- * No semi-colons. Live with it. It's great.
- * [standardjs](https://standardjs.com/) - I don't agree with all of standardjs' decisions but I do recognise that since they're largely arbitrary I shouldn't care.
+- No semi-colons. Live with it. It's great.
+- [standardjs](https://standardjs.com/) - I don't agree with all of standardjs' decisions but I do recognise that since they're largely arbitrary I shouldn't care.
 
 This is a [lambda function](https://docs.aws.amazon.com/lambda/latest/dg/nodejs-prog-model-handler.html). It's about as small a function as you can write to respond to an event from API gateway. First it logs the received event. Then it tells API gateway to return a http status 200 with the body 'OK' to the client.
 
@@ -198,15 +194,15 @@ sam deploy --template-file ./packaged.yaml \
 
 ```
 
- * remove node_modules directory
- * npm install all of the non-dev dependencies (there aren't actually any yet!)
- * make sure there's an s3 bucket to upload the code into
- * run `sam package` which translates to CloudFormation and uploads the code to s3
- * run `sam deploy` which launches the application stack
+- remove node_modules directory
+- npm install all of the non-dev dependencies (there aren't actually any yet!)
+- make sure there's an s3 bucket to upload the code into
+- run `sam package` which translates to CloudFormation and uploads the code to s3
+- run `sam deploy` which launches the application stack
 
 Running that creates everything necessary in AWS. Looking at the created stack there are more pieces created than needed to be specified.
 
-![the created resources](/images/stack.png){:loading="lazy"}
+![the created resources](/images/stack.png){: loading="lazy"}{:loading="lazy"}
 
 This includes the IAM roles to allow these resources to talk to each other. These at least in part result from the config line: `Policies: AmazonDynamoDBFullAccess` applied to the lambda function.
 
@@ -214,28 +210,26 @@ This is _much more_ access than we need. But in the interest of not getting dive
 
 The wider than necessary access can be seen in the lambda console which lists out the resources the function can access and the policy that makes that access possible.
 
-![the lambda console and its permissions](/images/lambda-console.png){:loading="lazy"}
+![the lambda console and its permissions](/images/lambda-console.png){: loading="lazy"}{:loading="lazy"}
 
 The API Gateway console shows the new endpoint
 
-![the api gateway console](/images/api-gateway.png){:loading="lazy"}
+![the api gateway console](/images/api-gateway.png){: loading="lazy"}{:loading="lazy"}
 
 The endpoint can be tested right in the console:
 
-![testing the api](/images/testing-api-1.png){:loading="lazy"}
+![testing the api](/images/testing-api-1.png){: loading="lazy"}{:loading="lazy"}
 
 and the results are logged in the page
 
-![the api test results](/images/testing-api-result-2.png){:loading="lazy"}
+![the api test results](/images/testing-api-result-2.png){: loading="lazy"}{:loading="lazy"}
 
 And finally, the cloudwatch logs show the output from running the lambda.
 
 That
 
 ```js
-
-console.log(`received event: ${JSON.stringify(event)}`)
-
+console.log(`received event: ${JSON.stringify(event)}`);
 ```
 
 results in logging:
@@ -286,7 +280,7 @@ In fact, increasing the RAM actually increases the underlying compute, network, 
 
 # DynamoDB
 
-![The table viewed in the AWS console](/images/dynamo-console.png){:loading="lazy"}
+![The table viewed in the AWS console](/images/dynamo-console.png){: loading="lazy"}{:loading="lazy"}
 
 The table has been created and is ready to be used. The config we've used doesn't actually setup the table for autoscaling. But we'll loop back around and tidy that up later. It's another detail that doesn't need nailing right now.
 
