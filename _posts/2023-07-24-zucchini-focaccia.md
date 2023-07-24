@@ -33,12 +33,12 @@ permalink: "/recipes/2023/07/zucchini-focaccia.html"
 description: "Zucchini focaccia"
 category: "cooking"
 tags: ["recipe", "zucchini", "focaccia", "glut"]
-opengraphImage: "/images/zucchini-focaccia-og.jpg"
+opengraphImage: "/images/2023/07/zucchini-focaccia-og.jpg"
 ---
 
 This year we've grown way too many zucchinis.
 
-![the plants](/images/07/the plants.jpg)
+![the plants](/images/2023/07/the plants.jpg)
 
 One way I've been trying to use them up is putting them in dough.
 
@@ -46,10 +46,10 @@ The kids love it!
 
 <!--alex disable he-her dad-mom-->
 
-![chopped garlic and zucchini](/images/07/chopped.jpg){: loading="lazy"}
-![blitzed cooked zucchini](/images/07/blitzed.jpg){: loading="lazy"}
-![dough](/images/07/dough.jpg){: loading="lazy"}
-![ready for the oven](/images/07/ready for the oven.jpg){: loading="lazy"}
-![ready for the oven two](/images/07/ready for the oven two.jpg){: loading="lazy"}
-![cooked-one](/images/07/cooked-one.jpg){: loading="lazy"}
-![cooked-two](/images/07/ready for the oven.gif){: loading="lazy"}
+![chopped garlic and zucchini](/images/2023/07/chopped.jpg){: loading="lazy"}
+![blitzed cooked zucchini](/images/2023/07/blitzed.jpg){: loading="lazy"}
+![dough](/images/2023/07/dough.jpg){: loading="lazy"}
+![ready for the oven](/images/2023/07/ready for the oven.jpg){: loading="lazy"}
+![ready for the oven two](/images/2023/07/ready for the oven two.jpg){: loading="lazy"}
+![cooked-one](/images/2023/07/cooked-one.jpg){: loading="lazy"}
+![cooked-two](/images/2023/07/ready for the oven.gif){: loading="lazy"}
