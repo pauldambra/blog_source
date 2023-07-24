@@ -52,4 +52,4 @@ The kids love it!
 ![ready for the oven](/images/2023/07/ready for the oven.jpg){: loading="lazy"}
 ![ready for the oven two](/images/2023/07/ready for the oven two.jpg){: loading="lazy"}
 ![cooked-one](/images/2023/07/cooked-one.jpg){: loading="lazy"}
-![cooked-two](/images/2023/07/ready for the oven.gif){: loading="lazy"}
+![cooked-two](/images/2023/07/cooked-two.jpg){: loading="lazy"}
