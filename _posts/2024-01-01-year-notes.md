@@ -95,7 +95,7 @@ At our whole company off-site we have a hackathon. And so, we were all working i
 
 A couple of times I'd said "We need to understand Kafka and ClickHouse better".
 
-![a monkey's paw](/images/2024/01/monkeys-paw.jpg){: loading="lazy"}
+![a monkey's paw](/images/2024/01/monkeys-paw.gif){: loading="lazy"}
 
 A monkey's paw somewhere kicked in, and I spent a lot of time this year working with the sharper edges of Kafka and ClickHouse. We saved money, made things faster, and made things more reliable. Which let us improve the product.
 
