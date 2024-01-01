@@ -68,7 +68,7 @@ It's a good tension... I want to bring confidence in my work, but I want to temp
 
 It would be weirdly coy to write this and not say that 2023 was defined by grief. The realisation that grief would be coming, the lost months waiting, and then the grief itself. I've lost people before but nobody so close. Some combination of circumstances has meant it has cut so much deeper this time.
 
-2023 very much felt like two years. The year before we knew grief was coming, and the year after. Despite that I really enojoyed the journey this year. I feel happier in myself.
+2023 very much felt like two years. The year before we knew grief was coming, and the year after. Despite that I really enjoyed the journey this year. I feel happier in myself.
 
 #4 daughter still says "stankyou" instead of "thank you" and I'm going to be horribly sad when she stops.
 
@@ -87,21 +87,25 @@ In 2023 I visited 2 countries (I'm not counting the UK, and I'm not counting the
 - Bologna, Italy
   - for a team off-site
 
+Aruba was amazing, astounding, and awesome (all the As). For weeks beforehand I couldn't help crow-barring that we were going into every conversation. It was beautiful.
+
+At our whole company off-site we have a hackathon. And so, we were all working in the bar at an all-inclusive resort. A woman from a recently arrived cruise ship came over: "I have to ask... what kind of job do you all have that you're working in a bar in Aruba?".
+
 ## Work
 
 A couple of times I'd said "We need to understand Kafka and ClickHouse better".
 
-![a monkey's paw](/images/2024/01/monkey-paw.jpg){: loading="lazy"}
+![a monkey's paw](/images/2024/01/monkeys-paw.jpg){: loading="lazy"}
 
-A monkey's paw somewhere kicked in, and I spent a lot of time this year working with the sharper edges of Kafka and ClickHouse. We saved money, made things faster, and made things more reliable. WHich let us improve the product.
+A monkey's paw somewhere kicked in, and I spent a lot of time this year working with the sharper edges of Kafka and ClickHouse. We saved money, made things faster, and made things more reliable. Which let us improve the product.
 
 I now understand Kafka and ClickHouse well enough to be truly afraid of how little I know about them 🤣
 
 In Rome in 2022 I got the feedback (roughly) "you spend a lot of time spinning plates, and worrying about it, but you're pretty good at it, maybe you should stop worrying about it, and get better at it"... That really resonated with me, and I've been trying to do that.
 
-In Bologna in 2023 I got the feedback "you're the king of distractions". And I agree - I've done some good things in side quests and distractions.
+In Bologna in 2023 I got the feedback "you're the king of distractions". There is still always the risk of having too much work-in-progress and not finishing things but letting myself admit that my mind works better with a higher personal WIP limit has been great.
 
-I also got the feedback that I'd done somethings because we _could_ without stopping to think enough about whether we _should_. Particularly since I'm stepping into the team lead role I need to think deeply about this feedback.
+I also got the feedback that I'd done some things because we _could_ without stopping to think enough about whether we _should_. Particularly since I'm stepping into the team lead role I need to think deeply about this feedback.
 
 Again this year I've spent time talking to customers. And, as always, it's been absolutely essential to how I've been able to do my job. I've not purposefully focussed on this - other than knowing I want to be doing it. I'm going to be more purposeful here...
 
@@ -111,7 +115,7 @@ I've been enjoying cooking. Food has always been an expression of love in my lif
 
 ![a gif of meals I've cooked in 2023](/images/2024/01/cooking.gif){: loading="lazy"}
 
-My favourite moment of 2023?
+## My favourite moment of 2023?
 
 It has to be flushing this toilet in the modern art museum in Bologna to try and figure out if I was about to relieve myself in a piece of art or a toilet.
 
@@ -125,7 +129,7 @@ Looking back through photos and thinking over the year made me realise that ever
 
 - continue becoming a better engineer and team-mate
 - take more time to lift my head up and look at the horizon
-- get (even?) better at digging into tricky problems
+- get better at digging into tricky problems
 - get better at not being distracted by tricky problems if there is some higher value work I should be doing
 - speak to customers for at least 5 hours over the year
 
@@ -133,5 +137,5 @@ Looking back through photos and thinking over the year made me realise that ever
 
 - more time with my family (screens off, not watching telly)
 - solidify my transactional Italian, figure out how to head towards conversational Italian
-- train at the gym at least twice a week every week
+- train at the gym at least twice a week every week (and lose weight)
 - visit Italy at least twice
