@@ -7,9 +7,9 @@
 
       ph.onSessionId((sessionId) => {
         clearInterval(checkInterval)
-        
+
         checkInterval = setInterval(() => {
-          const sessionData = ph.persistence?.props[SESSION_ID]
+          const sessionData = ph.persistence?.props['$sesid']
           if (Array.isArray(sessionData) && sessionData.length > 0) {
             const lastActivityTimestamp = sessionData[0]
             const sinceLastActivity = Math.abs(new Date().getTime() - lastActivityTimestamp)
