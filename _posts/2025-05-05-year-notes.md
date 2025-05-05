@@ -75,7 +75,7 @@ it is wild to me to consider that much travel in a year that felt so small
 
 At one point I was outside The Christie in Manchester (a specialist cancer treatment hospital we are so lucky to have). I overheard a man on the phone, anxious, agitated, almost shouting: "they've said they can't see me! i can't come back another day. if i have to take more time off work i'll lose my job".
 
-I am uncountably greatful to have a job where I was told to take whatever time I needed. Where colleagues picked up the slack. And that I enjoy so much.
+I am uncountably grateful to have a job where I was told to take whatever time I needed. Where colleagues picked up the slack. And that I enjoy so much.
 
 # Me
 
