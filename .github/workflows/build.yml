@@ -11,16 +11,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
           fetch-depth: 0
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-      - uses: actions/setup-node@v2-beta
+      - uses: actions/setup-node@v4
         with:
-          node-version: "16"
+          node-version: "lts/*"
       - uses: dorny/paths-filter@v2
         id: text-changes
         with:
@@ -35,14 +35,16 @@ jobs:
             src:
               - 'images/**/*.*'
       - name: setup dependencies
-        run: sudo apt-get install libjpeg-progs optipng fonts-noto-color-emoji imagemagick
+        run: | 
+          sudo apt-get update
+          sudo apt-get install libjpeg-progs optipng fonts-noto-color-emoji imagemagick
       - name: pre build
         run: npm ci
       - name: image optimisation
         if: steps.image-changes.outputs.src == 'true'
         run: ./imageOptimisation.sh
       - name: get the current state of the site
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           repository: pauldambra/pauldambra.github.io
           token: ${{ secrets.blog_repo_access }}
@@ -67,7 +69,7 @@ jobs:
       - name: build site
         run: JEKYLL_ENV=production NODE_ENV=production bundle exec jekyll build --trace
       - name: deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.blog_repo_access }}
           external_repository: pauldambra/pauldambra.github.io
@@ -80,7 +82,7 @@ jobs:
       - name: test html # has to come after deploy so new links are valid
         run: bundle exec ruby ./htmltest.rb
       - name: Audit URLs using Lighthouse
-        uses: treosh/lighthouse-ci-action@v8
+        uses: treosh/lighthouse-ci-action@v12
         with:
           urls: |
             https://pauldambra.dev
