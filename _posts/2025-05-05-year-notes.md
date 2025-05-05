@@ -16,7 +16,8 @@ I remain super un-inspired to write over the last few years. Which is a shame - 
 
 <ul class="list-none">
   {% for post in site.posts %}
-    {% if post.tags contains "year-notes" %}
+    {% assign tags = post.tags | join: ',' | append: ',' %}
+    {% if tags contains 'year-notes,' %}
       <li class="m-1">
         <h3>
           <a class="no-underline hover:underline text-black" href="{{ post.url }}">
@@ -33,11 +34,9 @@ I remain super un-inspired to write over the last few years. Which is a shame - 
 
 2024 was in some ways great, genuinely so, life is good...
 
-But it was over-shadowed by grief and the preparation for grief. You can find out about that in this post https://pauldambra.dev/2024/09/wwmd.html (unless you'd like to avoid grief)
+But it was over-shadowed by grief and the preparation for grief. You can find out about that in this post [https://pauldambra.dev/2024/09/wwmd.html](https://pauldambra.dev/2024/09/wwmd.html) (unless you'd like to avoid grief)
 
 # Goals I chose for 2024
-
-_and whether I achieved them or not_
 
 ### work
 
@@ -57,6 +56,7 @@ _and whether I achieved them or not_
 ## Travel
 
 Google doesn't support timeline in the web view anymore... 🤷
+So, no image of my travel
 
 I visited 
 
@@ -81,9 +81,14 @@ I am uncountably greatful to have a job where I was told to take whatever time I
 
 I lost 12kg in 2024. The unrelenting drudgery of not eating is so dull.
 
-I've continued enjoying cooking. Food has always been an expression of love in my life. I've got pretty good at pizza and pasta this year. Although I'm still pretty terrible at focaccia.
+I've continued enjoying cooking. Food has always been an expression of love in my life.
+
+## first pasta of 2024
 
 ![the first pasta I cooked in 2024](/images/2025/05/first-pasta-2024.jpg){: loading="lazy"}
+
+## last pasta of 2024
+
 ![the last pasta I cooked in 2024](/images/2025/05/last-pasta-2024.jpg){: loading="lazy"}
 
 ## My favourite moment of 2024?
