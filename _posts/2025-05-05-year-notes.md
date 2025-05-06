@@ -12,24 +12,6 @@ I remain super un-inspired to write over the last few years. Which is a shame - 
 
 <!--more-->
 
-## previous year notes
-
-<ul class="list-none">
-  {% for post in site.posts %}
-    {% assign tags = post.tags | join: ',' | append: ',' %}
-    {% if tags contains 'year-notes,' %}
-      <li class="m-1">
-        <h3>
-          <a class="no-underline hover:underline text-black" href="{{ post.url }}">
-            {{ post.title }} - ({{ post.date | date_to_string }})
-          </a>
-        </h3>
-        <div>{% include tags.html tags=post.tags %}</div>
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
-
 # Why don't I want to write about 2024...
 
 2024 was in some ways great, genuinely so, life is good...
