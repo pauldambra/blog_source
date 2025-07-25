@@ -94,6 +94,10 @@ I enjoy when I'm making software and I'm not a massive fan of rounds of reviewin
 
 While I'm typing this Claude is doing the work to duplicate a data management section of the application. I wouldn't have to think to do this, so giving it to a machine that isn't thinking _should_ be OK.
 
+And since writing that...
+
+I pasted in the error message after the changes it made, it did some stuff with `touch` and `echo` because typescript was confused. So I checked and it was using packages without installing them. This over-confident thing is amazing and horrifying at the same time.
+
 ## Reviewing your PRs
 
 Machines don't get bored or distracted (yet). So having a PR reviewer that can look at 78 changes in a rename or move refactor that won't get blind to the one difference where there's a mistake or a typo is pretty powerful. I've tried three reviewer tools. They're all about as good and bad as each other.
