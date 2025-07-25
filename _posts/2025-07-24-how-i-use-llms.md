@@ -74,19 +74,25 @@ I often work with open source tools that do complicated things I don't fully und
 
 ### Warning?
 
-It will also sometimes confidently explain absolute nonsense. And when you say "but the nodejs consumer doesn't have that method". It will reply "Thanks! You're absolutely right. And explain something else just as confidently". I got my kids to ask ChatGPT to list landlocked countries in Europe and then check the list. It was not right and they learned just how fast they can get information and how much they should check it.
+It will also sometimes confidently explain absolute nonsense. And when you say "but the nodejs consumer doesn't have that method". It will reply "Thanks! You're absolutely right."" And explain something else just as confidently. 
+
+I got my kids to ask ChatGPT to list landlocked countries in Europe and then check the list. It was not right and they learned just how fast they can get information and how much they should check it.
 
 ## Being your army of interns
 
 You can run more than one instance of a tool. And give each of them a different task. In theory that's a multiplier since you can have more than one "intern" doing work for you at the same time.
 
+I've now got two copies of our main repo on disk so that I can happily have two totally separate streams of work.
+
 ### Warning?
 
-I purposefully don't have a job as a tech lead at a company that employs inexperienced folk and then expects the tech lead to make sure things stay on track. I've had that job, it's a valid company strategy, it's not my jam.
+Starting lots of things is not as powerful as finishing lots of things!
 
-I like making software, but I'm not a massive fan of rounds of reviewing PRs with a "colleague" that I can't simply trust. And you can't simply trust these machines. So, there's a worfklow here that is a multiplier which I haven't quite figured out... but the risk is that I end up squashing the fun bits of my job, and accidentally shipping a bunch of rubbish
+Also, personally, I purposefully don't have a job as a tech lead at a company that employs inexperienced folk and then expects the tech lead to make sure things stay on track. I've had that job, it's a valid company strategy, it's not my jam.
 
-While I'm typing this Claude is doing the work to duplicate a data management section of the application. I wouldn't have to think to do this, so giving it to a machine that isn't think _should_ be OK.
+I enjoy when I'm making software and I'm not a massive fan of rounds of reviewing PRs with a "colleague" that I can't simply trust. And you can't simply trust these machines. So, there's a worfklow here that is a multiplier which I haven't quite figured out... but the risk is that I end up squashing the fun bits of my job, and accidentally shipping a bunch of rubbish (as opposed to my current approach of enjoying the process of shipping artisanal hand-crafted rubbish)
+
+While I'm typing this Claude is doing the work to duplicate a data management section of the application. I wouldn't have to think to do this, so giving it to a machine that isn't thinking _should_ be OK.
 
 ## Reviewing your PRs
 
