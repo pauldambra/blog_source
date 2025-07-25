@@ -46,7 +46,7 @@ Now, I can delegate that to the LLM. It does that groundwork, responds to follow
 
 ### Warning?
 
-You have to remember that confabulation exists. I ask it for sources and go check for myself but I'm confirming and critqiquing it's quicker and easier. Also.... OMG if it does maths for you, make sure to double check the numbers. It can quickly go off the rails.
+You have to remember that confabulation exists. I ask it for sources and go check for myself. Because I'm confirming and critiquing it's quicker and easier work. Also.... OMG if it does maths for you, make sure to double check the numbers. It can quickly go off the rails.
 
 # Simple tasks
 
