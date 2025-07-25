@@ -96,9 +96,9 @@ While I'm typing this Claude is doing the work to duplicate a data management se
 
 ## Reviewing your PRs
 
-Machines don't get bored or distracted (yet). So having a PR reviewer that can look at 78 changes in a rename or move refactor that won't get blind to the one difference where there's a mistake or a typo if pretty powerful. I've tried three reviewer tools. They're all about as good and bad as each other.
+Machines don't get bored or distracted (yet). So having a PR reviewer that can look at 78 changes in a rename or move refactor that won't get blind to the one difference where there's a mistake or a typo is pretty powerful. I've tried three reviewer tools. They're all about as good and bad as each other.
 
-Personally, I really hate the summary of the PR they all do. But then I've got colleagues that hate writing PR descriptions...
+Personally, I really hate the summary of the PR they all do. But then I've got colleagues that hate writing PR descriptions I bet the summary is useful for them.
 
 ### Warning?
 
