@@ -8,9 +8,9 @@ category: "self-reflection"
 tags: ["self-reflection", "working-out-loud"]
 ---
 
-I remain very cynical about the high-water mark for LLMs and augmented coding... but at the same time I use them every day and I don't think they're finished improving.
+I remain very cynical about the current high-water mark for LLMs and augmented coding... but at the same time I use them every day and I don't think they're finished improving.
 
-Let's ~~growth hack visitor numbers~~ record how I use them today as a little reflection on where I think they work and where they don't
+Let's ~~growth hack blog visitor numbers~~ record how I use them today as a little reflection on where I think they work and where they don't
 
 <!--more-->
 
