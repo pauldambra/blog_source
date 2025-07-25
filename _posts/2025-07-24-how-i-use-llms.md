@@ -32,7 +32,7 @@ And just like the work of any colleague where you bear more responsibility. It i
 
 And just like the work any any colleague... you can do more than before once you know how to work together
 
-As an example, while I'm writing this Claude Code is writing some tests for me. I just did a "mean colleague" trick. I went in a commented out the implementation - and the tests carried on passing. It's on me to make sure the over-confident colleague is doing work.
+As an example, while I'm writing this Claude Code is writing some tests for me. I just did a "mean colleague" trick. I went in a commented out the implementation - and the tests carried on passing. The LLM fixed that and we shipped the PR. I find faking timers in Jest super confusing and couldn't figure it out... the LLM could 🤝.
 
 ![the over confident colleague](/images/2025/07/over-confident-1.png){: loading="lazy"}{:loading="lazy"}
 
