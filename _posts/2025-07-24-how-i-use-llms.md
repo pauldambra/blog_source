@@ -112,7 +112,7 @@ It is not thinking, just pretending to. So when you get "nit pick: the blah shou
 
 # Things I'm not sold on
 
-## Writing tests first with an LLM
+## Writing tests with an LLM
 
 I don't do TDD any more. Often I write tests after the implementation... shhh don't tell anyone. But for some types of tasks I do like to write a test or two first. Particularly "someone says this is broken and needs fixing, is it?"
 
