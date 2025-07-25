@@ -96,6 +96,8 @@ While I'm typing this Claude is doing the work to duplicate a data management se
 
 And since writing that...
 
+![the over confident colleague 2](/images/2025/07/mistake.png){: loading="lazy"}{:loading="lazy"}
+
 I pasted in the error message after the changes it made, it did some stuff with `touch` and `echo` because typescript was confused. So I checked and it was using packages without installing them. This over-confident thing is amazing and horrifying at the same time.
 
 ## Reviewing your PRs
