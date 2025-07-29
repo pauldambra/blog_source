@@ -92,9 +92,24 @@ Also, personally, I purposefully don't have a job as a tech lead at a company th
 
 I enjoy when I'm making software and I'm not a massive fan of rounds of reviewing PRs with a "colleague" that I can't simply trust. And you can't simply trust these machines. So, there's a worfklow here that is a multiplier which I haven't quite figured out... but the risk is that I end up squashing the fun bits of my job, and accidentally shipping a bunch of rubbish (as opposed to my current approach of enjoying the process of shipping artisanal hand-crafted rubbish)
 
-While I'm typing this Claude is doing the work to duplicate a data management section of the application. I wouldn't have to think to do this, so giving it to a machine that isn't thinking _should_ be OK.
+#### Warning 2?
 
-And since writing that...
+They're not actually very good software engineer... particularly since most of the data they've ingested about software engineering is "blogs on how to start something". So, if that's not the task. Then I find it often harder to prompt an LLM to do than to do it myself
+
+Case in point...
+
+While I was typing this post Claude was doing the work to duplicate a data management section of the application. I wouldn't have to think to do this, so giving it to a machine that isn't thinking _should_ be OK.
+
+But in the end I did the job myself...
+
+There was just enough nuance that Claude was making an umaintainable mess.
+
+Maybe I'm not good enough at prompting.
+
+Maybe I'm giving it a job it's not ready for.
+
+But there'a a lot of snake oil to be sold in the gaps there...
+
 
 ![the over confident colleague 2](/images/2025/07/mistake.png){: loading="lazy"}{:loading="lazy"}
 
