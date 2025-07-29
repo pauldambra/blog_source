@@ -116,7 +116,7 @@ For example...
 
 I pasted in the error message after the first set of changes it made. It decided that the problem was TypeScript was out of synch. So, it did some stuff with `touch` and `echo` insisting all along that typescript was confused. 
 
-So I checked and, actually, it was using NPM packages without installing them. This over-confident thing is amazing and horrifying at the same time.
+So I checked and, actually, it was using packages without installing them. This over-confident thing is amazing and horrifying at the same time.
 
 ## Reviewing your PRs
 
