@@ -1,4 +1,4 @@
-require 'webdrivers/chromedriver'
+require 'selenium-webdriver'
 
 def launch_chrome
   options = Selenium::WebDriver::Chrome::Options.new

@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 gem 'jekyll'
 
-gem 'webdrivers'
+gem 'selenium-webdriver'
 gem 'nokogiri'
 gem 'fastimage'
 gem 'html-proofer'
