@@ -24,15 +24,15 @@ So, I _like_ having tools directly involved in my workflow. I learned LINQ more 
 
 # Do I think LLMs do good work?
 
-It's like having a startlingly talented, but very overconfident inexperienced colleague.
+It's like having a startlingly talented, but very overconfident, inexperienced colleague.
 
 They will swing from correcting you on the intricacies of some detail of technology to doing blindingly stupid things like naming variables with one of your competitors company names in them.
 
-And just like the work of any colleague where you bear more responsibility. It is on you to own making sure the work is good. If you're helping some with less experience than you the mistakes are yours, don't blame the colleague / LLM.
+And just like the work of any colleague where you bear more responsibility. It is on you to own making sure the work is good. If you're helping someone with less experience than you the mistakes are yours, don't blame the colleague / LLM.
 
-And just like the work any any colleague... you can do more than before once you know how to work together
+And just like working with any colleague... you can do more together than you could before - **once you know how to work together**
 
-As an example, while I'm writing this Claude Code is writing some tests for me. I just did a "mean colleague" trick. I went in a commented out the implementation - and the tests carried on passing. The LLM fixed that and we shipped the PR. I find faking timers in Jest super confusing and couldn't figure it out... the LLM could 🤝.
+As an example, while I'm writing this Claude Code is writing some tests for me. I just did a "mean colleague" trick. I went in and commented out the implementation - and the tests carried on passing. The LLM fixed that and we shipped the PR. I find faking timers in Jest super confusing and couldn't figure it out... the LLM could 🤝.
 
 ![the over confident colleague](/images/2025/07/over-confident-1.png){: loading="lazy"}{:loading="lazy"}
 
@@ -40,9 +40,23 @@ As an example, while I'm writing this Claude Code is writing some tests for me. 
 
 ## Research for me
 
-I tend to use ChatGPT for this but only habit not proclaiming some accuracy. I not-very-fondly remember days sweating over the docs or blog posts trying to figure out some strange behaviour. Or, even worse, searching your problem and finding a single hit... a stack overflow question... with no answers... that you asked and have no memory of.
+I tend to use ChatGPT for this but only out of habit. I not-very-fondly remember days of sweating over documentation and blog posts while trying to figure out something. 
 
-Now, I can delegate that to the LLM. It does that groundwork, responds to follow-ups. ~~Can't~~ Doesn't care when I ask silly questions. I can do something else with my time while the legwork is being done.
+Or, even worse, searching for your problem and finding a single hit... 
+
+a stack overflow question... 
+
+with no answers... 
+
+from years ago...
+
+that you asked and have no memory of
+
+🫠
+
+Now, I can delegate that to the LLM. It does that groundwork, responds to follow-ups. ~~Can't~~ Doesn't care when I ask silly questions. 
+
+I can do something else with my time while the legwork is being done.
 
 ### Warning?
 
