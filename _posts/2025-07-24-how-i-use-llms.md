@@ -20,7 +20,7 @@ I was largely self-taught as a developer and (after vbscript 😱) I started wit
 
 Because of that entry to the industry I'm also not super keen on VSCode (you love it? great, see above, you do you, go make cool things). I'm too used to clever interventions helping me and VSCode is too barebones (and so much slower than SublimeText)
 
-So, I _like_ having tools directly involved in my workflow. I learned LINQ more quickly and more throughly because I had resharper prompting me inline, at write-time: "hey, why not like this?"
+So, I _like_ having tools directly involved in my workflow. I learned LINQ more quickly and more thoroughly because I had resharper prompting me inline, at write-time: "hey, why not like this?"
 
 # Do I think LLMs do good work?
 
