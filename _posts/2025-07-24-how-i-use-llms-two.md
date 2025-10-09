@@ -25,7 +25,6 @@ This is update number one, or entry number two, depending on how you want to cou
 
 <!--more-->
 
-
 # First, a necessary but brief diversion into how I use tools generally
 
 REMINDER: I don't begruge anybody any tool they want to use to level-up. Wanna use a graphical git client, or emacs, or anything else... go for it, go make cool things.
