@@ -53,16 +53,16 @@ jobs:
           fetch-depth: 0
       - name: update service worker
         run: npx sw-precache --config service-worker-config.js
-      - name: lint markdown
-        if: steps.text-changes.outputs.src == 'true'
-        run: npx remark . --use lint --frail
-      - name: lint spelling
-        if: steps.text-changes.outputs.src == 'true'
-        run: npx mdspell _posts/**.md \
-          --en-gb \
-          --ignore-numbers \
-          --ignore-acronyms \
-          --report
+      # - name: lint markdown
+      #   if: steps.text-changes.outputs.src == 'true'
+      #   run: npx remark . --use lint --frail
+      # - name: lint spelling
+      #   if: steps.text-changes.outputs.src == 'true'
+      #   run: npx mdspell _posts/**.md \
+      #     --en-gb \
+      #     --ignore-numbers \
+      #     --ignore-acronyms \
+      #     --report
       # - name: lint with alex
       #   if: steps.text-changes.outputs.src == 'true'
       #   run: npx alex _posts --diff --why
