@@ -35,7 +35,7 @@ jobs:
             src:
               - 'images/**/*.*'
       - name: setup dependencies
-        run: | 
+        run: |
           sudo apt-get update
           sudo apt-get install libjpeg-progs optipng fonts-noto-color-emoji imagemagick
       - name: pre build
@@ -51,8 +51,6 @@ jobs:
           path: _site
           persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
           fetch-depth: 0
-      - name: update service worker
-        run: npx sw-precache --config service-worker-config.js
       # - name: lint markdown
       #   if: steps.text-changes.outputs.src == 'true'
       #   run: npx remark . --use lint --frail
@@ -91,4 +89,3 @@ jobs:
           budgetPath: ./lighthouse-budget.json # test performance budgets
           uploadArtifacts: true # save results as an action artifacts
           temporaryPublicStorage: true # upload lighthouse report to the temporary
-
