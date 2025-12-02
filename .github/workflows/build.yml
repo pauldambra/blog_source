@@ -24,7 +24,10 @@ jobs:
       - uses: dorny/paths-filter@v2
         id: text-changes
         with:
+          list-files: shell
           filters: |
+            posts:
+              - '_posts/**/*.md'
             src:
               - '**/*.md'
               - '**/*.html'
@@ -51,19 +54,9 @@ jobs:
           path: _site
           persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
           fetch-depth: 0
-      # - name: lint markdown
-      #   if: steps.text-changes.outputs.src == 'true'
-      #   run: npx remark . --use lint --frail
-      # - name: lint spelling
-      #   if: steps.text-changes.outputs.src == 'true'
-      #   run: npx mdspell _posts/**.md \
-      #     --en-gb \
-      #     --ignore-numbers \
-      #     --ignore-acronyms \
-      #     --report
-      # - name: lint with alex
-      #   if: steps.text-changes.outputs.src == 'true'
-      #   run: npx alex _posts --diff --why
+      - name: lint spelling
+        if: steps.text-changes.outputs.posts == 'true'
+        run: npx spellchecker --files ${{ steps.text-changes.outputs.posts_files }} --language en-GB --dictionaries .dictionary --plugins spell frontmatter
       - name: build site
         run: JEKYLL_ENV=production NODE_ENV=production bundle exec jekyll build --trace
       - name: deploy

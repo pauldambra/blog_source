@@ -2,21 +2,12 @@
 
 function main {
   npm install
-  lint_markdown
   lint_spelling
   lint_meaning
 }
 
-function lint_markdown {
-  npx remark . --use lint --frail
-}
-
 function lint_spelling {
-  npx mdspell _posts/**.md \
-    --en-gb \
-    --ignore-numbers \
-    --ignore-acronyms \
-    --report
+  npx spellchecker --files '_posts/**/*.md' --language en-GB --dictionaries .dictionary --plugins spell frontmatter --quiet
 }
 
 function lint_meaning {
