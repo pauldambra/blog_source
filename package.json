@@ -10,13 +10,16 @@
   "author": "pauldambra <pauldambra@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "npm install && bundle install && bundle exec jekyll serve --livereload"
+    "dev": "npm install && bundle install && bundle exec jekyll serve --livereload",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.19",
     "alex": "^11.0.1",
     "autoprefixer": "^10.4.22",
     "cssnano": "^7.1.2",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
     "postcss": "^8.5.6",
     "postcss-import": "^16.1.1",
     "remark": "^15.0.1",
@@ -27,5 +30,8 @@
   },
   "alex": {
     "noBinary": true
+  },
+  "lint-staged": {
+    "_posts/**/*.md": "spellchecker --language en-GB --dictionaries .dictionary --plugins spell frontmatter --files"
   }
 }
