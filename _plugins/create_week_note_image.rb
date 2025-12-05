@@ -2,6 +2,19 @@ require 'selenium-webdriver'
 
 module WeekNoteImageGenerator
   class << self
+    def enabled?
+      return @enabled unless @enabled.nil?
+      @enabled = chrome_available?
+    end
+
+    def chrome_available?
+      launch_chrome
+      true
+    rescue StandardError => e
+      Jekyll.logger.warn "WeekNoteImageGenerator:", "Chrome not available, skipping image generation: #{e.message}"
+      false
+    end
+
     def browser
       @browser ||= launch_chrome
     end
@@ -26,6 +39,8 @@ module WeekNoteImageGenerator
     end
 
     def render_note_image(html_path, image_path, retries: 3)
+      return unless enabled?
+
       attempts = 0
       begin
         attempts += 1
@@ -37,7 +52,7 @@ module WeekNoteImageGenerator
           reset_browser
           retry
         else
-          raise e
+          Jekyll.logger.warn "WeekNoteImageGenerator:", "Failed to generate image after #{retries} attempts: #{e.message}"
         end
       end
     end
