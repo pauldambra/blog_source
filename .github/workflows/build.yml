@@ -33,6 +33,8 @@ jobs:
 
   image-optimize:
     runs-on: ubuntu-latest
+    outputs:
+      has-changes: ${{ steps.image-changes.outputs.src }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -61,6 +63,7 @@ jobs:
 
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     needs: [lint, image-optimize]
     steps:
       - uses: actions/checkout@v4
@@ -80,11 +83,11 @@ jobs:
       - name: pre build
         run: npm ci
       - name: download optimized images
+        if: needs.image-optimize.outputs.has-changes == 'true'
         uses: actions/download-artifact@v4
         with:
           name: optimized-images
           path: images/
-        continue-on-error: true
       - name: get the current state of the site
         uses: actions/checkout@v4
         with:

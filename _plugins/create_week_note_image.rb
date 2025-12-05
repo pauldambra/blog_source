@@ -2,17 +2,17 @@ require 'selenium-webdriver'
 
 module WeekNoteImageGenerator
   class << self
-    def enabled?
-      return @enabled unless @enabled.nil?
-      @enabled = chrome_available?
+    def changed_weeknotes
+      @changed_weeknotes ||= begin
+        git_diff = `git diff --name-only HEAD~1 HEAD 2>/dev/null`.split("\n")
+        git_diff.select { |f| f.start_with?('_weeknotes/') }.to_set
+      rescue
+        Set.new
+      end
     end
 
-    def chrome_available?
-      launch_chrome
-      true
-    rescue StandardError => e
-      Jekyll.logger.warn "WeekNoteImageGenerator:", "Chrome not available, skipping image generation: #{e.message}"
-      false
+    def note_changed?(note)
+      changed_weeknotes.include?(note.relative_path)
     end
 
     def browser
@@ -38,8 +38,13 @@ module WeekNoteImageGenerator
       "#{root_dir}_site#{note_path}#{file_extension}"
     end
 
-    def render_note_image(html_path, image_path, retries: 3)
-      return unless enabled?
+    def render_note_image(note, retries: 3)
+      return unless note_changed?(note)
+
+      html_path = path_for(note, "html")
+      image_path = path_for(note, "png")
+
+      Jekyll.logger.info "WeekNoteImageGenerator:", "Generating image for #{note.relative_path}"
 
       attempts = 0
       begin
@@ -60,7 +65,5 @@ module WeekNoteImageGenerator
 end
 
 Jekyll::Hooks.register :weeknotes, :post_write do |note|
-  html_path = WeekNoteImageGenerator.path_for(note, "html")
-  image_path = WeekNoteImageGenerator.path_for(note, "png")
-  WeekNoteImageGenerator.render_note_image(html_path, image_path)
+  WeekNoteImageGenerator.render_note_image(note)
 end
