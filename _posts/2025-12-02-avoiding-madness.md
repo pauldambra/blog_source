@@ -6,7 +6,10 @@ date: "2025-12-03 08:00:00"
 description: "Things that a different me would have been tipped into psychosis by"
 category: "self-reflection"
 tags: ["self-reflection"]
+opengraphImage: "/images/prawn_face.png"
 ---
+
+![prawn face](/images/prawn_face.png){: loading="lazy"}{:loading="lazy"}
 
 There are a few memes (in the original sense) that have got stuck in my head. They feel like the beginning of madness. I'm going to track them, to see how many I accumulate
 
