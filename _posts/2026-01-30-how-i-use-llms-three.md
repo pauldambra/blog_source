@@ -17,6 +17,7 @@ This is update number three, or entry number three, depending on how you want to
 [the first entry is here](/2025/07/how-i-use-llms.html)
 [the second entry is here](/2026/01/how-i-use-llms-2.html)
 
+* XP pedant agent
 * primarily using LLMs
 * manage context
 * throw away way more work
@@ -32,6 +33,21 @@ I was largely self-taught as a developer and (after vbscript 😱) I started wit
 Because of that entry to the industry I'm also not super keen on VSCode (you love it? great, see above, you do you, go make cool things). I'm too used to clever interventions helping me and VSCode is too barebones (and so much slower than SublimeText)
 
 So, I _like_ having tools directly involved in my workflow. I learned LINQ more quickly and more thoroughly because I had resharper prompting me inline, at write-time: "hey, why not like this?"
+
+# XP pedant agent
+
+I love the [XP simplicity rules](https://wiki.c2.com/?XpSimplicityRules) for guiding decision making... 
+
+* Passes all the tests.
+* Expresses every idea that we need to express.
+* Says everything OnceAndOnlyOnce.
+* Has no superfluous parts.
+
+I like that they're in tension with each other. 
+
+I've added them to my [AGENTS.md](https://github.com/pauldambra/dotfiles/blob/main/ai/CLAUDE.md) and if it forgets I can prompt it "hey, apply the simplicity rules".
+
+Often the change it makes is the one I would have manually made.
 
 # Primarily using LLMs
 
