@@ -21,6 +21,7 @@ This is update number three, or entry number three, depending on how you want to
 * manage context
 * throw away way more work
 * be very strict with what i _do_ type
+* i approach understanding code differently
 
 <!--more-->
 
@@ -62,6 +63,36 @@ It's cheap to do many things at once and keep the useful things.
 
 This is an addition to "manage context".
 
-Sometimes I find myself writing a huge prompt. I have low tolerance for this. So, instead, when I recognize that I stop, I clear the prompt, and I spike the work. Then when I have a good enough sketch I point the robot at the changes and say "hey, like this". I believe we do understand some problems better through trying to solve them.
+Sometimes I find myself writing a huge prompt. I have low tolerance for this. Or I find the task is spinning and churning and going nowhere. So, instead, when I recognize that I stop, I clear the prompt, and I spike the work. Then when I have a good enough sketch I point the robot at the changes and say "hey, like this". I believe we do understand some problems better through trying to solve them.
 
 The robot is still more stupid than it is clever. So, giving it code is a good way to clever it up.
+
+It is still valuable to be a decent software engineer. But it might be more valuable to be a decent software engineer who dumps a sketch into an LLM. (if it isn't now, and they can keep improving, then it will be soon)
+
+# I approach understanding code differently
+
+This one is difficult for me to accept, but it's snuck up on me and over the last few months changed how I work.
+
+The cost of writing code is falling *and* the cost of understanding code is falling.
+
+"Hey robot, write a script to validate the blah does thingy (or not) when the wotsit is twanged"
+
+"Hey robot, why does the clinkexpander accept a boolean?"
+
+"Hey robot, how does the clinkexpander work?"
+
+"Hey robot, what does the clinkexpander actually do?"
+
+Tasks that would have taken me hours or days or weeks in the past are genuinely done in minutes now.
+
+I've spent a big chunk of time recently feeding heap snapshots to the robot. I can only give huge thanks I've not had to manually grok this myself.
+
+Is the robot perfect? No. not even.
+
+Is the robot a good software engineer? No. not even.
+
+Is it silly to ignore the fact that the robot does not need to be perfect or good for it to be a fantastic tool?
+
+yes, veryeven.
+
+the game has changed. pandora's box is open. the robot is here to stay.
