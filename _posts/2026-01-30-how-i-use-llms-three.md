@@ -28,7 +28,7 @@ This is update number three, or entry number three, depending on how you want to
 
 # First, a necessary but brief diversion into how I use tools generally
 
-I was largely self-taught as a developer and (after vbscript 😱) I started with DotNet. I found JetBrains Resharper early on and never looked back. The assistance in the IDE to write, refactor, and improve code was game-changing. I don't begruge anybody any tool they want to use to level-up. Wanna use a graphical git client, or emacs, or anything else... go for it, go make cool things
+I was largely self-taught as a developer and (after vbscript 😱) I started with DotNet. I found JetBrains Resharper early on and never looked back. The assistance in the IDE to write, refactor, and improve code was game-changing. I don't begrudge anybody any tool they want to use to level-up. Wanna use a graphical git client, or emacs, or anything else... go for it, go make cool things
 
 Because of that entry to the industry I'm also not super keen on VSCode (you love it? great, see above, you do you, go make cool things). I'm too used to clever interventions helping me and VSCode is too barebones (and so much slower than SublimeText)
 
@@ -79,7 +79,7 @@ It's cheap to do many things at once and keep the useful things.
 
 This is an addition to "manage context".
 
-Sometimes I find myself writing a huge prompt. I have low tolerance for this. Or I find the task is spinning and churning and going nowhere. So, instead, when I recognize that I stop, I clear the prompt, and I spike the work. Then when I have a good enough sketch I point the robot at the changes and say "hey, like this". I believe we do understand some problems better through trying to solve them.
+Sometimes I find myself writing a huge prompt. I have low tolerance for this. Or I find the task is spinning and churning and going nowhere. So, instead, when I recognise that I stop, I clear the prompt, and I spike the work. Then when I have a good enough sketch I point the robot at the changes and say "hey, like this". I believe we do understand some problems better through trying to solve them.
 
 The robot is still more stupid than it is clever. So, giving it code is a good way to clever it up.
 

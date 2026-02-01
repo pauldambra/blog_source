@@ -1,7 +1,7 @@
 name: Mindless Rambling Nonsense
 markdown: kramdown
 kramdown:
-    smart_quotes: ["apos", "apos", "quot", "quot"]
+  smart_quotes: ["apos", "apos", "quot", "quot"]
 description: My thoughts are mindless and rambling so the best place for them is the internet
 encoding: UTF-8
 url: https://pauldambra.dev
@@ -15,7 +15,6 @@ plugins:
 keep_files: [images]
 exclude:
   - "*.sh"
-  - .alexrc
   - .github
   - .gitignore
   - .idea
