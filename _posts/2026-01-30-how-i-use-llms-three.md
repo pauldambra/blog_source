@@ -96,3 +96,10 @@ Is it silly to ignore the fact that the robot does not need to be perfect or goo
 yes, veryeven.
 
 the game has changed. pandora's box is open. the robot is here to stay.
+
+It reminds me of once... I used to work with someone who had worked mostly with signal processing baked into hardware. Very painful to discover a bug after release. We were sat together and I changed a field in a JSON response. He asked in a mid-panic: "but how many bytes will that add to the payload?". Genuinely confused, I said: "I've barely ever had to care... I don't think it matters"
+
+We're on the verge of that kind of change. We're not there ffs but some point down the road someone is going to ask "but isn't that AI slop" and their colleague will answer, genuinely confused: "yes, why?"
+
+Will some of that software be bad? yes
+always-has-been-dot-meme
