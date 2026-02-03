@@ -12,14 +12,13 @@ I remain very cynical about the current high-water mark for LLMs and augmented c
 
 Let's ~~growth hack blog visitor numbers~~ record how I use them today as a little reflection on where I think they work and where they don't. Something I can revisit as the tech (and my skill with it) improves
 
-This is update number three, or entry number three, depending on how you want to count it. So, here are the changes in how I'm using LLMs
+This is update number two, or entry number three, depending on how you want to count it.
 
 [the first entry is here](/2025/07/how-i-use-llms.html)
 [the second entry is here](/2026/01/how-i-use-llms-2.html)
 
 * XP pedant agent
 * primarily using LLMs
-* manage context
 * throw away way more work
 * be very strict with what i _do_ type
 * i approach understanding code differently
@@ -51,21 +50,22 @@ Often the change it makes is the one I would have manually made.
 
 # Primarily using LLMs
 
-Over the last three months particularly the capability of LLMs has transformed. I can now go whole days only prompting an LLM and not writing any of the code myself. This is... fine.
+Over the last three months particularly the capability of LLMs has transformed. I can now go whole days mostly prompting an LLM and writing only a fraction of the code myself. This is... fine.
 
 I've been working on super complex, tricky to find memory leak problems. I would not have had the patience to notice some of the things that the robot can when i provide it with context from my investigations.
 
 And while it's working on the next step I can be improving my investigation, or catching up on Slack, or taking my kids to school. 
 
-I don't feel like I've lost anything by not typing out the code directly. And since [I taught the robot some extreme programming techniques](https://github.com/pauldambra/dotfiles/blob/main/ai/CLAUDE.md), i find i don't need to re-work much at all.
+I don't feel like I've lost anything by not (always) typing out the code directly. And since [I taught the robot some extreme programming techniques](https://github.com/pauldambra/dotfiles/blob/main/ai/CLAUDE.md), i find i don't need to re-work much at all.
 
 I genuinely didn't think I'd switch this much... and like all sticky tools I didn't have to think about it. The tool hooked me.
 
-# Manage context
+That said... i don't like vibe coding... I'm not asleep at the wheel and do care about the diff that's being generated. So I feel slightly vindicated by this research from Anthropic https://www.anthropic.com/research/AI-assistance-coding-skills
 
-I don't think I'm saying anything new. You have to pay attention to whether the robot is losing it's "mind". When it does, ask it for a summary. Copy that. Clear its context. Paste in the summary and carry on.
-
-Just like any colleague if you distract it with a long story it won't be doing work, it'll be processing your noise. So, I find I stop and think more often. And then decide what to do next. That's an unexpected habit to be being pushed back on to me.
+> In a randomized controlled trial, we examined 1) how quickly software developers picked up a new skill (in this case, a Python library) with and without AI assistance; and 2) whether using AI made them less likely to understand the code they’d just written. 
+> We found that using AI assistance led to a statistically significant decrease in mastery.
+> ...
+> Importantly, using AI assistance didn’t guarantee a lower score. How someone used AI influenced how much information they retained.
 
 # throw away way more work
 
@@ -90,6 +90,8 @@ It is still valuable to be a decent software engineer. But it might be more valu
 This one is difficult for me to accept, but it's snuck up on me and over the last few months changed how I work.
 
 The cost of writing code is falling *and* the cost of understanding code is falling.
+
+When the cost of a thing fundamentally changes, you have to change your approach.
 
 "Hey robot, write a script to validate the blah does thingy (or not) when the wotsit is twanged"
 
