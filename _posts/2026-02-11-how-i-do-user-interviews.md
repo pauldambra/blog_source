@@ -42,7 +42,9 @@ The benefit of having the quote is that you don't have to remember what they sai
 
 This is also a great way to introduce colleagues to the process. They can shadow your user interviews and capture quotes as they listen.
 
-Of course, if you're doing these remotely it's trivial to record or transcribe the interview. But I still think there's value in going through and pulling out the quotes to capture them.
+Of course, if you're doing these remotely it's trivial to record or transcribe the interview. But I still think there's value in going through and pulling out the quotes to capture them. I love to talk to a team and find that they know their users by name and can refer back to specific quotes.
+
+You might worry about acting on anecdotal evidence, and you should test and measure your changes, but that kind of human understanding will guide you to better decisions. 
 
 # show > tell
 
