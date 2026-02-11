@@ -15,10 +15,10 @@ And had the opportunity at PostHog to practice that skill. I've explained all th
 * set expectations
 * write down quotes
 * show > tell
-* this is the redesign that will kill the the Facebook
 * compound interest
 * sometimes stop
 * be a Labrador
+* this is the redesign that will kill the the Facebook
 
 <!--more-->
 
@@ -56,18 +56,6 @@ Or a user will say something like "competitor X does this better." the important
 
 The insight isn't that you should copy what the competitor does. You should try to understand why they prefer it, across multiple users this will help you understand how to position that feature or introduce that user flow.
 
-# this is the redesign that will kill the Facebook
-
-Related to "competitor X does it better" i remember at least three occasions where Facebook changed their UI and everyone was wild in the comments talking about how it would kill Facebook. 
-
-Twitter changing the star to a heart [made the national news](https://www.bbc.co.uk/news/newsbeat-34713811).
-
-With enough users you'll discover that you will get negative feedback no matter what you do. And if you chase every user, you'll end up with a product that no one wants. 
-
-![Homer's car](/images/homers-car.jpg){: loading="lazy"}
-
-Even though, if you don't listen to the users, you'll end up with a product that no one wants.
-
 # compound interest
 
 Setting up and running user interviews can take a lot of time. And so people often skip them. But 1 interview is better than none. 2 is better than 1. And so on.
@@ -86,7 +74,7 @@ Then I observed [Annika Schmid](https://x.com/annikaze_) on one call recognise i
 
 # be a Labrador
 
-Most importantly, you are there to learn. So, you need to be as interested in their opinions as a Labrador is in cheese.
+Importantly, you are there to learn. So, you need to be as interested in their opinions as a Labrador is in cheese.
 
 "I'd love to know more about..."
 "Can you show me..."
@@ -99,3 +87,17 @@ Not just in user interviews but in every customer interaction. You can drop it i
 I love that framing. "Out of interest what does it unlock for you if we support this?"
 
 That user might not commit to 30 minutes for a user interview. But I bet they'll spend 30 seconds replying to a slack message. And since these things compound over time, you'll learn a lot from accruing all these tiny insights.
+
+# this is the redesign that will kill the Facebook
+
+Related to "competitor X does it better" i remember at least three occasions where Facebook changed their UI and everyone was wild in the comments talking about how it would kill Facebook. 
+
+Twitter changing the star to a heart [made the national news](https://www.bbc.co.uk/news/newsbeat-34713811).
+
+With enough users you'll discover that you will get negative feedback no matter what you do. And if you chase every user, you'll end up with a product that no one wants. 
+
+![Homer's car](/images/homers-car.webp){: loading="lazy"}
+
+Even though, if you don't listen to the users, you'll end up with a product that no one wants. 
+
+Gathering all this feedback isn't so that you can just make all the changes people tell you they want. It's to get an instinct for how and why they use your product. You will be asked for conflicting things and without the gut-feeling for what users want, you'll end up with Homer's car.
