@@ -36,7 +36,7 @@ I'm not telling you to count PRs. Or to worship the github tile graph.
 
 But....
 
-Yes, weighing yourself is a bad way of checking if your last mean was healthy. 
+Yes, weighing yourself is a bad way of checking if your last meal was healthy. 
 Yes, merging a PR is a bad way of checking if you just provided any value.
 
 But _not weighing yourself_ is a great way to put on weight without noticing.
