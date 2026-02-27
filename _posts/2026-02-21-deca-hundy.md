@@ -157,7 +157,7 @@ How do _I_ know if I'm really finished?
 * do they like it?
 * did it move the needle the way I expected?
 * would I know if it was broken?
-* now it's functional does it need to also be delightful?
+* now it is functional does it need to also be delightful?
 * does it help me see what should come next?
 
 I think this sits really wonderfully with "small steps ftw". Iteration of large blocks of work is inherently slower than iteration of small steps.
@@ -168,11 +168,9 @@ Worse... Something that takes a month to put together will build up a lot of wei
 
 ### A concrete example of what small steps and iteration can achieve...
 
-A customer reported they were unhappy with filtering in our tool. They have a mobile app and send "screen events" and each event has a "screen name" property.
+A customer reported they were unhappy with filtering in our tool. It was multiple clicks to get to the point where they had type-ahead search. And that was frustrating for them. 
 
-It was multiple clicks to get to the point where they had type-ahead search. And that was frustrating for them. 
-
-I mocked up a solution for them very quickly and shared a video.
+Frustration is no bueno, so I started spinning a new plate. I mocked up a solution for them very quickly and shared a video.
 
 They loved it. 
 
