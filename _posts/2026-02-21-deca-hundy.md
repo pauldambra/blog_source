@@ -83,7 +83,7 @@ I will dress in a robe, walk down from the holy mountain of the github tile grap
 
 # it is running not cycling
 
-I used to cycle a lot and having struggled up a big hill it was super cool to stop peddling and coast down the other side. Then I started running, and having struggled up the big hill I discovered I still had to put in effort to run downhill. Even if gravity was helping me if I stopped moving my legs I stopped moving.
+I used to cycle a lot and having struggled up a big hill it was super cool to stop pedalling and coast down the other side. Then I started running, and having struggled up the big hill I discovered I still had to put in effort to run downhill. Even if gravity was helping me if I stopped moving my legs I stopped moving.
 
 Delivering valuable software to users is running, not cycling. If you stop shipping your momentum is quickly lost.
 
