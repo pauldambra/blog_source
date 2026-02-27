@@ -34,10 +34,6 @@ Counting PRs is a very poor metric for measuring progress. Someone who ships 10 
 
 I'm not telling you to count PRs. Or to worship the github tile graph. 
 
-![github tile graph](/images/tile-graph-2025.png){:loading="lazy"}
-
-Aside, what I'm proud of here is that the inverse of that graph is when i'm spending time with my family. Work hard, Dad hard 🚢👨‍🍼
-
 But....
 
 Yes, weighing yourself is a bad way of checking if your last mean was healthy. 
