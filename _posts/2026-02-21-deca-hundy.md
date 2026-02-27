@@ -166,7 +166,7 @@ The benefit of small steps is you can be nimble in response to what you learn.
 
 Worse... Something that takes a month to put together will build up a lot of weight in your subconscious. It's hard to throw it away or change it because of the time you have sunk into it. Not only are you less nimble, you're less likely to correct your course.
 
-### A concrete example of what small steps and iteration can achieve...
+### A concrete example of how i do small steps and iteration...
 
 A customer reported they were unhappy with filtering in our tool. It was multiple clicks to get to the point where they had type-ahead search. And that was frustrating for them. 
 
