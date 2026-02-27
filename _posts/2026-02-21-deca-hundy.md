@@ -178,18 +178,18 @@ BUT I OPTIMISE FOR ITERATION AND SO I DID NOT SIMPLY SHIP IT
 
 I wrapped it in a flag and released it just for our team and that specific user that I was talking to 
 
-I got fast feedback that the did not like it. They liked the description, they liked the demo, sure.
+I got fast feedback that they did not like it. They liked the description, and they liked the demo. But what people think they will like and use is not always what they will actually like and use.
 
-But, in practice by optimising for one journey through the filters we had made other journeys harder. I wouldn't have known that if I didn't think about how to release this in a way that meant I could check if it was any good.
+In practice by optimising for one journey through the filtering UX I had made other journeys harder. I wouldn't have known that if I didn't think about how to release this in a way that meant I could check if it was any good.
 
 In the end, this took four attempts to get right.
 
-Yesterday I rolled out the flag to all users. After an AB test over those multiple iterations showed folk came back and searched more using the new versions of this change.
+And now I have rolled out the flag to all users. After an experiment over those multiple iterations showed folk came back and searched more using the new versions of this change.
 
-But rolling out the flag isn't the end of the work. I'm now working on tidying up the code that was there so I could dual run and measure the change. I've got to finish updating the documentation. I need to check that users behaviour really does change over coming weeks and react to that. So there are still more PRs to come from this work.
+But rolling out the flag isn't the end of the work. I'm now working on tidying up the code that was there so that I could dual run and measure the change. I've got to finish updating the documentation. I need to check that users behaviour really does change over coming weeks and react to that. So there are still more PRs to come from this work.
 
 # An inspirational sign-off?
 
 The value here isn't that I shipped lots of PRs. The value is that I work in small steps, and I check direction in between them. That I can loop between what I learn and what I can do next to learn more. 
 
-How you do that might be different, perfect! But do that.
+How you do that might be different, perfect! But my advice: do that.
