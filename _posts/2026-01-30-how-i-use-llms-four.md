@@ -16,7 +16,7 @@ This is update number three, or entry number four, depending on how you want to 
 
 * [the first entry is here](/2025/07/how-i-use-llms.html)
 * [the second entry is here](/2026/01/how-i-use-llms-2.html)
-* [the third entry is here](/2026/01/how-i-use-llms-3.html)
+*[the third entry is here](/2026/01/how-i-use-llms-3.html)
 
 * basically never braincode
 * it's still about your brain
