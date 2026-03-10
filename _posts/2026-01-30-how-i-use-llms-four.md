@@ -1,8 +1,8 @@
 ---
 title: "How I use LLMs? - four"
 layout: "post"
-permalink: "/2026/01/how-i-use-llms-4.html"
-date: "2026-01-30 08:00:00"
+permalink: "/2026/03/how-i-use-llms-4.html"
+date: "2026-10-03 08:00:00"
 description: "How I use LLMs - four"
 category: "self-reflection"
 tags: ["self-reflection", "working-out-loud"]
