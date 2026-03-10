@@ -16,7 +16,9 @@ This is update number three, or entry number four, depending on how you want to 
 
 * [the first entry is here](/2025/07/how-i-use-llms.html)
 * [the second entry is here](/2026/01/how-i-use-llms-2.html)
-*[the third entry is here](/2026/01/how-i-use-llms-3.html)
+* [the third entry is here](/2026/01/how-i-use-llms-3.html)
+
+## in today's edition of AI hot takes
 
 * basically never braincode
 * it's still about your brain
@@ -34,9 +36,11 @@ So, I _like_ having tools directly involved in my workflow. I learned LINQ more 
 
 # basically never braincode
 
-Over recent weeks agents and their UX has meant I only have to actively write code when I choose to. It would be possible to completely work via agents.
+Recent improvements to agents and their UX has meant I only have to actively write code when I choose to. It would be possible to completely work via agents.
 
 It really is only necessary to "braincode" when it is easier for me to sketch a solution than to prompt an LLM to write it. Even then I would quickly fall back to "hey agent, here's what i mean. finish this off"
+
+Having the agent in slack is chef's-kiss-dot-reacji. Someone says "hey, should the foo be wider" and you reply "@agent, make the foo wider" Like having a super eager and precocious intern sat waiting for the next task.
 
 # it's still about your brain
 
