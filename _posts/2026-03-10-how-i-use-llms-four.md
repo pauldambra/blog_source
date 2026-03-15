@@ -15,7 +15,7 @@ Let's ~~growth hack blog visitor numbers~~ record how I use them today as a litt
 This is update number three, or entry number four, depending on how you want to count it.
 
 * [the first entry is here](/2025/07/how-i-use-llms.html)
-* [the second entry is here](/2026/01/how-i-use-llms-2.html)
+* [the second entry is here](/2025/10/how-i-use-llms-2.html)
 * [the third entry is here](/2026/01/how-i-use-llms-3.html)
 
 ## in today's edition of AI hot takes
