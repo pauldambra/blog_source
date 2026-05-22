@@ -35,7 +35,7 @@ At a recent company offsite a bunch of people asked me how many of the off-sites
 
 | Place | Type | Note | Hackathon |
 | --- | --- | --- | --- |
-| Aruba | all company offsite | the one where we celebrated turning into a juggernaut | |
+| Aruba | all company offsite | the one where we celebrated turning into a juggernaut | bug reporting tool in PostHog |
 | cambridge | onboarding | the one where i made pizza with bread flour, no bueno | |
 | peak district | onboarding | the one where i couldn't travel and so the team braved Glossop, i made some pretty good pizza | |
 | bologna | small team offsite | the one where posthog 3000 was born, we presented each other's ideas. It was silly, laughed so much | Sampling for session replay |
@@ -44,7 +44,7 @@ At a recent company offsite a bunch of people asked me how many of the off-sites
 
 | Place | Type | Note | Hackathon |
 | --- | --- | --- | --- |
-| trapani | work blast | Ben and I wanted to prove Heatmaps was quick to ship, it was | |
+| trapani | work blast | Ben and I wanted to prove Heatmaps was quick to ship, it was | Heatmaps |
 | vienna | onboarding | the best beetroot i've had to date, my favourite part of italy | |
 | cambridge | onboarding | manoel did amazing bbq steak | |
 | valencia | small team offsite | the one where i realised i could push people more | AI summarisation of survey responses |
