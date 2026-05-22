@@ -111,3 +111,35 @@ article > header {
 a {
   @apply underline;
 }
+
+article .post {
+  overflow-x: auto;
+}
+
+article .post table {
+  @apply w-full border-collapse text-[0.9375rem] leading-snug;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgb(229 231 235);
+}
+
+article .post thead {
+  @apply bg-gray-100;
+}
+
+article .post th,
+article .post td {
+  @apply border border-gray-200 px-3 py-2 align-top text-left;
+}
+
+article .post th {
+  @apply font-semibold text-gray-800;
+}
+
+article .post td {
+  @apply text-gray-900;
+}
+
+article .post tbody tr:hover {
+  @apply bg-gray-50;
+}
