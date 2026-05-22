@@ -17,7 +17,7 @@ At a recent company offsite a bunch of people asked me how many of the off-sites
 | Place | Type | Note | Hackathon |
 | --- | --- | --- | --- |
 | London | Onboarding (_my_) | Jams said "just do the right thing" which was a good signal this company was cool | |
-| Milan | Working (not PostHog) | Not a company offsite; Italy for my soul after covid | |
+| Milan | Working (not PostHog) | Not a company offsite; Italy for my soul after COVID | |
 
 ## 2022
 
@@ -35,7 +35,7 @@ At a recent company offsite a bunch of people asked me how many of the off-sites
 
 | Place | Type | Note | Hackathon |
 | --- | --- | --- | --- |
-| Aruba | All-company offsite | Celebrated turning into a juggernaut | bug reporting in posthog |
+| Aruba | All-company offsite | Celebrated turning into a juggernaut | Bug reporting in PostHog |
 | Cambridge | Onboarding | Made pizza with bread flour, no bueno | |
 | Peak District | Onboarding | Couldn't travel; team braved Glossop; decent pizza | |
 | Bologna | Small-team offsite | PostHog 3000 born; presented each other's ideas; silly, laughed a lot | Sampling for session replay |
@@ -55,7 +55,7 @@ At a recent company offsite a bunch of people asked me how many of the off-sites
 
 | Place | Type | Note | Hackathon |
 | --- | --- | --- | --- |
-| Cambridge | Onboarding | Very cold; saw a fox; Ben improv'd the largest architecture diagram in the universe | |
+| Cambridge | Onboarding | Very cold; saw a fox; Ben improvised the largest architecture diagram in the universe | |
 | Budapest | Onboarding | Great coffee; so many Irish bars | |
 | Mexico | All-company offsite | Realised how much we'd grown | CSP violation reporting (makes bank for real now) |
 | Munich | Onboarding | First ever visit to Germany | |
@@ -67,6 +67,6 @@ At a recent company offsite a bunch of people asked me how many of the off-sites
 | Place | Type | Note | Hackathon |
 | --- | --- | --- | --- |
 | Lisbon | Analytics platform small-team offsite | Figured out how to make a query performance team | AI summary on insight subscriptions |
-| Barbados | All-company offsite | First all-team offsite as an exec; great feedback and pina coladas | AI user researcher |
+| Barbados | All-company offsite | First all-team offsite as an exec; great feedback and piña coladas | AI user researcher |
 
 It turns out I've been away from home 26 weeks in the time I've been at PostHog. Or roughly 10% of the weeks I've worked here. Wouldn't change it for the world.
