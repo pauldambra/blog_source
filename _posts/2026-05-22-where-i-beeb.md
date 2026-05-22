@@ -16,8 +16,8 @@ At a recent company offsite a bunch of people asked me how many of the off-sites
 
 | Place | Type | Note | Hackathon |
 | --- | --- | --- | --- |
-| london | _my_ onboarding | Jams said "just do the right thing" which was a good signal this company was cool | |
-| working in Milan | working, not a company trip | i just had to go to Italy for my soul after covid | |
+| London | _my_ onboarding | Jams said "just do the right thing" which was a good signal this company was cool | |
+| Milan | working, not a company trip | i just had to go to Italy for my soul after covid | |
 
 ## 2022
 
@@ -36,35 +36,35 @@ At a recent company offsite a bunch of people asked me how many of the off-sites
 | Place | Type | Note | Hackathon |
 | --- | --- | --- | --- |
 | Aruba | all company offsite | the one where we celebrated turning into a juggernaut | bug reporting tool in PostHog |
-| cambridge | onboarding | the one where i made pizza with bread flour, no bueno | |
-| peak district | onboarding | the one where i couldn't travel and so the team braved Glossop, i made some pretty good pizza | |
-| bologna | small team offsite | the one where posthog 3000 was born, we presented each other's ideas. It was silly, laughed so much | Sampling for session replay |
+| Cambridge | onboarding | the one where i made pizza with bread flour, no bueno | |
+| Glossop, UK | onboarding | the one where i couldn't travel and so the team braved Glossop, i made some pretty good pizza | |
+| Bologna | small team offsite | the one where posthog 3000 was born, we presented each other's ideas. It was silly, laughed so much | Sampling for session replay |
 
 ## 2024
 
 | Place | Type | Note | Hackathon |
 | --- | --- | --- | --- |
-| trapani | work blast | Ben and I wanted to prove Heatmaps was quick to ship, it was | Heatmaps |
-| vienna | onboarding | the best beetroot i've had to date, my favourite part of italy | |
-| cambridge | onboarding | manoel did amazing bbq steak | |
-| valencia | small team offsite | the one where i realised i could push people more | AI summarisation of survey responses |
+| Trapani | work blast | Ben and I wanted to prove Heatmaps was quick to ship, it was | Heatmaps |
+| Vienna | onboarding | the best beetroot i've had to date, my favourite part of italy | |
+| Cambridge | onboarding | manoel did amazing bbq steak | |
+| Valencia | small team offsite | the one where i realised i could push people more | AI summarisation of survey responses |
 
 ## 2025
 
 | Place | Type | Note | Hackathon |
 | --- | --- | --- | --- |
-| cambridge | onboarding | very cold, we saw a fox, Ben improv'd the architecture diagram | |
-| budapest | onboarding | great coffee, so many irish bars | |
-| mexico | all company offsite 2025 | the one where i realised just how much we'd grown | CSP violation reporting... that has started to make bank now |
-| munich | onboarding | my first ever visit to germany, how?! | |
-| palermo | small team offsite | the one where we experimented with combining small team offsites (and it changed things a lot) | letting people add screenshots to action and event definitions |
-| london | xmas hackathon and onboarding | the one where Tue got very excited about a smash burger | tooling to make session replay support easier |
+| Cambridge | onboarding | very cold, we saw a fox, Ben improv'd the architecture diagram | |
+| Budapest | onboarding | great coffee, so many irish bars | |
+| Tulum, Mexico | all company offsite 2025 | the one where i realised just how much we'd grown | CSP violation reporting... that has started to make bank now |
+| Munich | onboarding | my first ever visit to germany, how?! | |
+| Palermo | small team offsite | the one where we experimented with combining small team offsites (and it changed things a lot) | letting people add screenshots to action and event definitions |
+| London | xmas hackathon and onboarding | the one where Tue got very excited about a smash burger | tooling to make session replay support easier |
 
 ## 2026
 
 | Place | Type | Note | Hackathon |
 | --- | --- | --- | --- |
-| lisbon | analytics platform small team offsite | the one where we figured out how to make a query performance team | adding AI summary to insight subscriptions |
-| barbados | all company offsite | my first all team offsite as an exec. lots of great feedback and pina coladas | creating an AI user researcher |
+| Lisbon | analytics platform small team offsite | the one where we figured out how to make a query performance team | adding AI summary to insight subscriptions |
+| Barbados | all company offsite | my first all team offsite as an exec. lots of great feedback and pina coladas | creating an AI user researcher |
 
 It turns out I've been away from home for roughly 26 weeks in the time I've been at PostHog. Or roughly 10% of the weeks I've worked here. Wouldn't change it for the world.
