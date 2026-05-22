@@ -17,7 +17,7 @@ At a recent company offsite a bunch of people asked me how many of the off-sites
 | Place | Type | Note | Hackathon |
 | --- | --- | --- | --- |
 | london | _my_ onboarding | Jams said "just do the right thing" which was a good signal this company was cool | |
-| working in Milan | not a company offsite | i just had to go to Italy for my soul after covid | |
+| working in Milan | working, not a company trip | i just had to go to Italy for my soul after covid | |
 
 ## 2022
 
@@ -26,7 +26,7 @@ At a recent company offsite a bunch of people asked me how many of the off-sites
 | Barcelona | all engineering offsite | got hard feedback, realised I had to up my game | |
 | Iceland | all company offsite | my first posthog hackathon, realised just how talented everyone was | writing session replay ingestion to s3. it was a bad implementation. |
 | Cambridge | onboarding | the one where i felt i could talk about posthog well | |
-| working in Montesilvano | not a company offsite | I just needed time alone | |
+| Montesilvano | working, not a company trip | I just needed time alone | |
 | Rome | small team offsite | this was the turning point for me being successful and feeling at home at PostHog. I got amazing, direct, constructive feedback. life-changing, no cap | in-app notifications on top of the activity log |
 | Cambridge | onboarding | the one where we got locked in one of the Cambridge colleges after maybe breaking in | |
 | Lisbon | work-blast | the one where Ben and I wanted to prove network logging was quick to build - it was. Kaarl told me my schema design was good, I was so in awe of his clickhouse brain i thought i'd faint | network request logging in replay |
@@ -67,4 +67,4 @@ At a recent company offsite a bunch of people asked me how many of the off-sites
 | lisbon | analytics platform small team offsite | the one where we figured out how to make a query performance team | adding AI summary to insight subscriptions |
 | barbados | all company offsite | my first all team offsite as an exec. lots of great feedback and pina coladas | creating an AI user researcher |
 
-It turns out I've been away from home 26 weeks in the time I've been at PostHog. Or roughly 10% of the weeks I've worked here. Wouldn't change it for the world.
+It turns out I've been away from home for roughly 26 weeks in the time I've been at PostHog. Or roughly 10% of the weeks I've worked here. Wouldn't change it for the world.
