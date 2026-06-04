@@ -81,7 +81,7 @@ But over the last months since part 4 I've noticed a new expectation from me... 
 
 By comparison, I have a "PR Shepherd" skill. I've had Claude do research about XP on the C2 wiki. I've had it interview me about software engineering to see what I care about in how work is done. And I've had it review the public history of my PR reviews to see what I care about in reviewing.
 
-And when I run that skill it does a bunch of reviews in parallel, and anything that has a single solution, it just does. You can see an example here https://github.com/PostHog/posthog/pull/61611 - I have it run and publicly comment on all of my PRs. It now feels rude to have a human review before I've had the robot find things. In the same way that for the longest time it's been rude to make a human lint your code when a tool could do it.
+And when I run that skill it does a bunch of reviews in parallel, and anything that has a single solution, it just does. You can see [an example here](https://github.com/PostHog/posthog/pull/61611) - I have it run and publicly comment on all of my PRs. It now feels rude to have a human review before I've had the robot find things. In the same way that for the longest time it's been rude to make a human lint your code when a tool could do it.
 
 So, increasingly, the word machine can no longer earn its keep by only turning one set of words into another. It needs to turn that set of words into action. Just like if I hire a junior engineer and they asked me "should i fix this obvious bug" i would be frustrated.
 
@@ -107,7 +107,7 @@ If you have never done it then stop what you're doing. Open a new session with y
 
 Then sit back and prepare to have your mind blown.
 
-Here are mine https://github.com/pauldambra/dotfiles/tree/main/ai/skills
+[Here are all my public skills](https://github.com/pauldambra/dotfiles/tree/main/ai/skills) 
 
 # paul, you sound irredeemably AI pilled
 
