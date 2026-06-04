@@ -16,10 +16,10 @@ Let's ~~growth hack blog visitor numbers~~ record how I use them today as a litt
 
 This is update number three, or entry number four, depending on how you want to count it.
 
-* [part 1 - structured tone of fascination + skepticism](/2025/07/how-i-use-llms.html)
+* [part 1 - structured tone of fascination + scepticism](/2025/07/how-i-use-llms.html)
 * [part 2 - learning how to manage and control them](/2025/10/how-i-use-llms-2.html)
 * [part 3 - reluctant acceptance but also thankfulness (?) of what they do for you when you let go of control](/2026/01/how-i-use-llms-3.html)
-* [part 4 - realizing even though it's no longer "braincode" + no longer for humans, it still comes from human brains](/2026/03/how-i-use-llms-4.html)
+* [part 4 - realising even though it's no longer "braincode" + no longer for humans, it still comes from human brains](/2026/03/how-i-use-llms-4.html)
 
 someone at work named the episodes for me, i love it
 
@@ -27,7 +27,7 @@ so now... part 5 - yee haw, paul is AI pilled
 
 ## in today's edition of AI hot takes
 
-* no longer focussed on the code, 5% focus down from 95%
+* no longer focused on the code, 5% focus down from 95%
 * i don't use these tools, i hire them into my team
 * genuine frustration when they lack autonomy
 * stop making me tell you when to run
@@ -43,7 +43,7 @@ Because of that entry to the industry I'm also not super keen on VSCode (you lov
 
 So, I _like_ having tools directly involved in my workflow. I learned LINQ more quickly and more thoroughly because I had resharper prompting me inline, at write-time: "hey, why not like this?"
 
-# no longer focussed on the code, 5% focus down from 95%
+# no longer focused on the code, 5% focus down from 95%
 
 Last time I said:
 
