@@ -53,9 +53,9 @@ I can literally never write a line of code manually anymore and it is so ok.
 
 Because the cost of understanding the code is basically zero now. The importance of the code being understandable is dropping.
 
-It still has to be correct and fast but if I can't quickly grok it. I can just ask an LLM to explain it, or write some tests to exercise it. What might have taken hours in the past - I've worked on code that took me days to understand - will now take seconds.
+It still has to be correct and fast but if I can't quickly grok it. I can just ask an LLM to explain it, or write some tests to exercise it. What might have taken hours in the past, I've worked on code that took me days to understand, will now take seconds.
 
-So why should I care about it?! It is now far from the highest leverage thing I could do with my time
+Writing code is now far from the highest leverage thing I could do with my time
 
 "Oh but Paul some code is very important!"
 
@@ -95,7 +95,7 @@ i think the next great frontier is long-running and trigger-driven agents. and i
 
 # skills skills skill skills
 
-I mention "PR shepherd" above. It does all the mechanical work of getting a PR through review. It checks if a PR is open, opens it if not. marks it ready for review, runs a swarm of parallel reviewers and responds to them, checks external reviews and responds to them. It defers to me when it has to, otherwise it checks CI until it's green. It took me about an hour in total so far
+I mention "PR shepherd" above. It does all the mechanical work of getting a PR through review. It checks if a PR is open, opens it if not. marks it ready for review, runs a swarm of parallel reviewers and responds to them, checks external reviews and responds to them. It defers to me when it has to, otherwise it checks CI until it's green. It took me about an hour in total so far prompting to create it. And has saved me multiples of that.
 
 Soooo much time back.
 
