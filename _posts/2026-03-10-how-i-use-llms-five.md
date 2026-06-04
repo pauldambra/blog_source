@@ -14,7 +14,7 @@ Oh no, I'm AI pilled
 
 Let's ~~growth hack blog visitor numbers~~ record how I use them today as a little reflection on where I think they work and where they don't. Something I can revisit as the tech (and my skill with it) improves
 
-This is update number three, or entry number four, depending on how you want to count it.
+This is update number four, or entry number five, depending on how you want to count it.
 
 * [part 1 - structured tone of fascination + scepticism](/2025/07/how-i-use-llms.html)
 * [part 2 - learning how to manage and control them](/2025/10/how-i-use-llms-2.html)
