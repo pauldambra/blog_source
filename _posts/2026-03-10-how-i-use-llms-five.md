@@ -27,6 +27,7 @@ so now... part 5 - yee haw, paul is AI pilled
 
 ## in today's edition of AI hot takes
 
+* the agent is my to-do list
 * no longer focused on the code, 5% focus down from 95%
 * i don't use these tools, i hire them into my team
 * genuine frustration when they lack autonomy
@@ -42,6 +43,14 @@ I was largely self-taught as a developer and (after vbscript 😱) I started wit
 Because of that entry to the industry I'm also not super keen on VSCode (you love it? great, see above, you do you, go make cool things). I'm too used to clever interventions helping me and VSCode is too barebones (and so much slower than SublimeText)
 
 So, I _like_ having tools directly involved in my workflow. I learned LINQ more quickly and more thoroughly because I had resharper prompting me inline, at write-time: "hey, why not like this?"
+
+# the agent is my to-do list
+
+why write something down in a to-do list when i can open a new conversation and write exactly the same text as a prompt?! i immediately switch away and carry on with my day, like with a to-do list. 
+
+but my agent is connected to our code and to all of our analytics, so almost every time when I switch back it has context and challenge. or a PR
+
+to-do list on steroids
 
 # no longer focused on the code, 5% focus down from 95%
 
