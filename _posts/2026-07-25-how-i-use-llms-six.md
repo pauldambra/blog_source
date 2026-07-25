@@ -76,7 +76,7 @@ if software is for agents not humans, then one change (whether you like or not) 
 
 # don't read code
 
-to quote a (frankly fantastic colleague):
+to quote a (frankly fantastic) colleague:
 
 > I'm sure when the first FORTRAN compiler was released, for a time, engineers still read the machine code output that it produced to make sure it was up to scratch.
 
