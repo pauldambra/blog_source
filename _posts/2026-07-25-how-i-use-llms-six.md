@@ -8,7 +8,7 @@ category: "self-reflection"
 tags: ["self-reflection", "working-out-loud"]
 ---
 
-Let's ~~growth hack blog visitor numbers~~ and keep on recording how I use agents/llms today as a little reflection on where I think they work and where they don't. Something I can revisit as the tech (and my skill with it) improves
+Let's ~~growth hack blog visitor numbers~~ and keep on recording how I use agents/LLMs today as a little reflection on where I think they work and where they don't. Something I can revisit as the tech (and my skill with it) improves
 
 This is update number five, or entry number six, depending on how you want to count it.
 
@@ -48,17 +48,19 @@ my friends, if you think there were no bugs prior to December 2025 then you were
 
 through most of 2025 if you were just shipping AI generated code without thorough checking then you were going to be in for a bad time... but the world changed in Dec 2025 and several times again through 2026.
 
-the code written by LLMs is now at least as good as that written by the average junior dev i've worked with over ~20 years. they all managed to ship value despite being inexperienced.
+the code written by LLMs is now at least as good as that written by the worst junior developers i've worked with over ~20 years. and sometimes much better. 
+
+those junior developers all managed to ship value despite being inexperienced.
 
 and the goal is shipping value
 
 # ship value, not craft
 
-i have long considered myself a software craftsperson. attended user group meetups; run brownbags at work; practiced deliberatley and consistently; learned about XP, agile, tdd, and more.
+i have long considered myself a software crafts person. attended user group meetups; run brownbags at work; practised deliberately and consistently; learned about XP, agile, tdd, and more.
 
 why... because i believe that software gets harder to change and extend over time otherwise
 
-and that's important because i have always been focussed on shipping value to people
+and that's important because i have always been focused on shipping value to people
 
 a problem has a solution in a context
 
@@ -76,7 +78,7 @@ if software is for agents not humans, then one change (whether you like or not) 
 
 to quote a (frankly fantastic colleague):
 
-> I'm sure when the first Fortran compiler was released, for a time, engineers still read the machine code output that it produced to make sure it was up to scratch.
+> I'm sure when the first FORTRAN compiler was released, for a time, engineers still read the machine code output that it produced to make sure it was up to scratch.
 
 > Who does that still? Compiler developers and nobody else.
 
