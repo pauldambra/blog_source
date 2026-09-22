@@ -28,7 +28,7 @@ And, well, it does have a definition... and it's fucking glorious.
 
 ## Ok, i'll bite... what's the definition?
 
-using this [version of the wikipedia page](https://en.wikipedia.org/w/index.php?title=Slop_(clothing)&oldid=1373259449)
+using this [version of the Wikipedia page](https://en.wikipedia.org/w/index.php?title=Slop_(clothing)&oldid=1373259449)
 
 If you go back far enough it's just "various types of loose clothing". 19th century British naval ships even had a "slop chest"
 
@@ -38,7 +38,7 @@ But in the 19th century as the industrial revolution bit and we could make thing
 
 Machine-made clothes won out, right? In the UK at least it is rare to wear bespoke tailor-made clothes. But nobody calls it slop. Industrial clothes production was cheaper and closed the quality gap enough that most people don't care.
 
-![the title of the wikipedia page](/images/2026/09/slop-confuse.png){: loading="lazy"}{:loading="lazy"}
+![the title of the Wikipedia page](/images/2026/09/slop-confuse.png){: loading="lazy"}{:loading="lazy"}
 
 ## Well, I am wilfully going to confuse it with AI slop.
 
