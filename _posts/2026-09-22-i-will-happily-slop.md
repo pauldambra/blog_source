@@ -42,16 +42,16 @@ Machine-made clothes won out, right? In the UK at least it is rare to wear bespo
 
 ## Well, I am wilfully going to confuse it with AI slop.
 
-Even during the short-lived tab completion phrase. AI made software badly. Claude's Opus, fable and Jippity's astra, and sol circle around making software passably. Sometimes they are amazing and sometimes not.
+During the short-lived tab completion phrase AI made software badly. Claude's Opus, fable and Jippity's astra, and sol circle around making software passably. Sometimes they are amazing and sometimes not. You can meaningfully write software without every actually writing the software.
 
-Right now your bespoke tailor-made software beats the cheap ready-made stuff. 
+Arguably, right now your bespoke tailor-made software beats the cheap ready-made stuff. Engineers still worry about the code being slop.
 
 But...
 
-It keeps getting better. And it only has to become cheap enough or good enough and that will flip.
+It keeps getting better. And the slop only has to become cheap enough or good enough and that will flip. We won't call it slop any more, it'll just be code.
 
-You and I as software engineers just need to decide when we switch and become software machinists or software therapists
+You and I as software engineers just need to decide when we switch and become software machinists or software therapists.
 
-I don't really care if it is desirable since I think it is inevitable
+Personally, I don't really care if it is desirable since I think it is inevitable.
 
-And to paraphrase my wonderful colleague Jon McCallum: I'd rather rise to the occasion that complain about it
+And to paraphrase my wonderful colleague Jon McCallum: I'd rather rise to the occasion that complain about it.
