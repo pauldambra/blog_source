@@ -10,7 +10,7 @@ tags: ["self-reflection", "AI", "working-out-loud", "words"]
 
 I've long avoiding saying "legacy". I think it's lazy to use it. It's always seemed to be a term to group together "a bunch of stuff i don't like". 
 
-Same with technical debt. 
+Same with technical debt. Which [I wrote about at length](https://pauldambra.dev/2021/07/tech-debts.html) a few years ago.
 
 They're words that mean "i don't like that" or "i wouldn't do that"
 
