@@ -42,7 +42,7 @@ Machine-made clothes won out, right? In the UK at least it is rare to wear bespo
 
 ## Well, I am wilfully going to confuse it with AI slop.
 
-During the short-lived tab completion phrase AI made software badly. Claude's Opus, fable and Jippity's astra, and sol circle around making software passably. Sometimes they are amazing and sometimes not. You can meaningfully write software without every actually writing the software.
+During the short-lived tab completion phrase AI made software badly. Claude's Opus, fable and Jippity's astra, and sol circle around making software passably. Sometimes they are amazing and sometimes not. You can meaningfully write software without ever actually writing the software.
 
 Arguably, right now your bespoke tailor-made software beats the cheap ready-made stuff. Engineers still worry about the code being slop.
 
