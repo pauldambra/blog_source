@@ -54,4 +54,4 @@ You and I as software engineers just need to decide when we switch and become so
 
 Personally, I don't really care if it is desirable since I think it is inevitable.
 
-And to paraphrase my wonderful colleague Jon McCallum: I'd rather rise to the occasion that complain about it.
+And to paraphrase my wonderful colleague Jon McCallum: I'd rather rise to the occasion than complain about it.
