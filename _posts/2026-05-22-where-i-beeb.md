@@ -66,5 +66,12 @@ At a recent company offsite a bunch of people asked me how many of the off-sites
 | --- | --- | --- | --- |
 | Lisbon | analytics platform small team offsite | the one where we figured out how to make a query performance team | adding AI summary to insight subscriptions |
 | Barbados | all company offsite | my first all team offsite as an exec. lots of great feedback and pina coladas | creating an AI user researcher |
+| London | watching someone give a talk | just bcos | no hackathon just being supportive |
+| London | onboarding | just bcos | no hackathon watching the world cup |
+| London | summer bbq | just bcos | no hackathon just (literal) cooking |
+| Amsterdam & London | devex team offsite, feature flags onboarding, and hanging with the APM team | no hackathon |
+| London | some of the AI forwards teams offsites | flying visit to meet people and chat | no hackathon for me |
+| Barcelona | Error tracking small team offsite | meet them properly and welcome a new team member | linking exceptions and trace spans |
+| London | Sev0 conference | working the booth | no hackathon |
 
-It turns out I've been away from home for roughly 26 weeks in the time I've been at PostHog. Or roughly 10% of the weeks I've worked here. Wouldn't change it for the world.
+It turns out I've been away from home for roughly 28 weeks in the time I've been at PostHog. Or roughly 10% of the weeks I've worked here. Wouldn't change it for the world.
